@@ -1,0 +1,658 @@
+{
+  "15.2.0-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v15.2.0-1/xpack-gcc-15.2.0-1-linux-x64.tar.gz",
+        "checksum": "sha256:f6dcc3815299a23b2b4372223c4ca5f1b5a0543ed097d57eb67e0753b7c484e0",
+        "size": 172164154,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v15.2.0-1/xpack-gcc-15.2.0-1-linux-arm64.tar.gz",
+        "checksum": "sha256:8d6e78782994ffdfdabbc8f485bc98d817d17b1f9c12e4163c7d6c50d4a16912",
+        "size": 146924577,
+        "strip": 2
+      }
+    }
+  },
+  "14.3.0-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v14.3.0-1/xpack-gcc-14.3.0-1-linux-x64.tar.gz",
+        "checksum": "sha256:93bc0add266a50626861d571cce92667b8d42e2770f3f321b3c8df096cee5bf1",
+        "size": 159234280,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v14.3.0-1/xpack-gcc-14.3.0-1-linux-arm64.tar.gz",
+        "checksum": "sha256:de00a69baa695c8e9eaec0ac84a07e77378e6a982bf31c0add08f9f8edecc998",
+        "size": 135930234,
+        "strip": 2
+      }
+    }
+  },
+  "13.4.0-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v13.4.0-1/xpack-gcc-13.4.0-1-linux-x64.tar.gz",
+        "checksum": "sha256:6d2795abc171108797b24319405ac3331f3a3c1c700f7181bb5542a67782f8e4",
+        "size": 145352720,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v13.4.0-1/xpack-gcc-13.4.0-1-linux-arm64.tar.gz",
+        "checksum": "sha256:e57454d834a754d5e92a58d1eb1f18da972fcafcee197bcc9ee09b2726369594",
+        "size": 122655233,
+        "strip": 2
+      }
+    }
+  },
+  "12.5.0-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v12.5.0-1/xpack-gcc-12.5.0-1-linux-x64.tar.gz",
+        "checksum": "sha256:b6d99fc0c66261cfca90d8b765c6cdbe11f358fb28fd503672d1d2b324424872",
+        "size": 138740274,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v12.5.0-1/xpack-gcc-12.5.0-1-linux-arm64.tar.gz",
+        "checksum": "sha256:053c2bf39df5fa49646d5e83b52cda06b5a16b63da22d518092dd2b9f9291760",
+        "size": 112170313,
+        "strip": 2
+      }
+    }
+  },
+  "12.4.0-2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v12.4.0-2/xpack-gcc-12.4.0-2-linux-x64.tar.gz",
+        "checksum": "sha256:58a53270c2150e42c45ecd758c74a29d4a5f01c40861b1988309adcd5a45e069",
+        "size": 140306580,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v12.4.0-2/xpack-gcc-12.4.0-2-linux-arm64.tar.gz",
+        "checksum": "sha256:fbdaf070259111ecff164f892d5bc642c02947017105f7590972e2c9093032cd",
+        "size": 114010028,
+        "strip": 2
+      }
+    }
+  },
+  "11.5.0-2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v11.5.0-2/xpack-gcc-11.5.0-2-linux-x64.tar.gz",
+        "checksum": "sha256:853067193ac7f22ada75038e13a40bad01874625248edaaf11c32135eba7da8b",
+        "size": 128224850,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v11.5.0-2/xpack-gcc-11.5.0-2-linux-arm64.tar.gz",
+        "checksum": "sha256:68c8717f2595ef5cf5d1fc2ea352321bcc74fc4e4c682bebba6deb627ece97b5",
+        "size": 107833103,
+        "strip": 2
+      }
+    }
+  },
+  "13.3.0-2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v13.3.0-2/xpack-gcc-13.3.0-2-linux-x64.tar.gz",
+        "checksum": "sha256:a3bf33a3299b17730ce7a24912729830219e0a8db1e8170e6931e0ff46ec3bce",
+        "size": 146797764,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v13.3.0-2/xpack-gcc-13.3.0-2-linux-arm64.tar.gz",
+        "checksum": "sha256:6016b12bfb5345be3f997e1ad313c49e9c9e8feab1722dbb96d34b6f513dcc8d",
+        "size": 124398779,
+        "strip": 2
+      }
+    }
+  },
+  "14.2.0-2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v14.2.0-2/xpack-gcc-14.2.0-2-linux-x64.tar.gz",
+        "checksum": "sha256:d27b09c677cefde24bdaacdde045d35ea1a391fbb5b4525d057e1974af912c4d",
+        "size": 160079152,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v14.2.0-2/xpack-gcc-14.2.0-2-linux-arm64.tar.gz",
+        "checksum": "sha256:9ab5fd1708a1a7b2c99f4220c225996338841c0935367bf4a2b9a7339e6415d2",
+        "size": 136814226,
+        "strip": 2
+      }
+    }
+  },
+  "14.2.0-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v14.2.0-1/xpack-gcc-14.2.0-1-linux-x64.tar.gz",
+        "checksum": "sha256:f1a5db554874b27812e6286d242200430d9c5fb62bc04f4e59d6fe47d498af5a",
+        "size": 159330162,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v14.2.0-1/xpack-gcc-14.2.0-1-linux-arm64.tar.gz",
+        "checksum": "sha256:4c3b546a98293c09b16762a8c55e040e6d0198b5ced1cc0c5c60c22758da6e88",
+        "size": 136083091,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v14.2.0-1/xpack-gcc-14.2.0-1-darwin-x64.tar.gz",
+        "checksum": "sha256:d2beeb05bda256e9afef8436e72b68dc5cf42e570195957a1e45e013f2c3decf",
+        "size": 121388831,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v14.2.0-1/xpack-gcc-14.2.0-1-darwin-arm64.tar.gz",
+        "checksum": "sha256:4b2493421ae45fd346396568ebad8de22edc45316d3ccce76ae1dfb09f7eafb5",
+        "size": 111519972,
+        "strip": 2
+      }
+    }
+  },
+  "11.5.0-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v11.5.0-1/xpack-gcc-11.5.0-1-linux-x64.tar.gz",
+        "checksum": "sha256:9c0c2c7d6c046dba991440b33bb07697a7cdc4a8d72aa5efb55d0906f8dba995",
+        "size": 126548149,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v11.5.0-1/xpack-gcc-11.5.0-1-linux-arm64.tar.gz",
+        "checksum": "sha256:f872e1f9741c93c1fbe86a38caeb192c8d80e6bbf4a3558554c66134b86d9a3b",
+        "size": 106169940,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v11.5.0-1/xpack-gcc-11.5.0-1-darwin-x64.tar.gz",
+        "checksum": "sha256:9c8695f6cf257932ea87fa9b395ea31d87088664a258500dc496f359e7ae8eaf",
+        "size": 95481899,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v11.5.0-1/xpack-gcc-11.5.0-1-darwin-arm64.tar.gz",
+        "checksum": "sha256:61e745bc2d25c6e7695aff2052d00913977c1bfca737b8c08f62a8ddf574a434",
+        "size": 86135810,
+        "strip": 2
+      }
+    }
+  },
+  "12.4.0-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v12.4.0-1/xpack-gcc-12.4.0-1-linux-x64.tar.gz",
+        "checksum": "sha256:4dcb6b82d5c00e6aa4f9c72c8457e657cfdf19fd753c33f261aa5e91d8d73aa9",
+        "size": 138630839,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v12.4.0-1/xpack-gcc-12.4.0-1-linux-arm64.tar.gz",
+        "checksum": "sha256:ce069a42a2b52f5548f6ffaaa7d216d998ea7a4e6f97ab079719d29e790531bd",
+        "size": 112337927,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v12.4.0-1/xpack-gcc-12.4.0-1-darwin-x64.tar.gz",
+        "checksum": "sha256:f194b0fc72c7d6563694707794e350e73f807635c8bdb05168924a56126d871c",
+        "size": 106346281,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v12.4.0-1/xpack-gcc-12.4.0-1-darwin-arm64.tar.gz",
+        "checksum": "sha256:17c8ae83b3dca4133761f4ba422254ff329721e958b5bd2f5835a7f5197eb062",
+        "size": 91292573,
+        "strip": 2
+      }
+    }
+  },
+  "13.3.0-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v13.3.0-1/xpack-gcc-13.3.0-1-linux-x64.tar.gz",
+        "checksum": "sha256:deeb1e7eb96e7d633d6af3a09f89f9953d9cc562c3aed7e836a7a81c5e184a85",
+        "size": 145117172,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v13.3.0-1/xpack-gcc-13.3.0-1-linux-arm64.tar.gz",
+        "checksum": "sha256:13fd51c70cbaf9109cd758817b93e4db3fbd4b8b543975453701c10ee077fd75",
+        "size": 122730602,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v13.3.0-1/xpack-gcc-13.3.0-1-darwin-x64.tar.gz",
+        "checksum": "sha256:83ddd9eb62e25d959beed9739284fbe60e0071946081affa2f9cc6f6b6ac6f63",
+        "size": 108995161,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v13.3.0-1/xpack-gcc-13.3.0-1-darwin-arm64.tar.gz",
+        "checksum": "sha256:05a48fb89e0564b5c1fc35a98ff13cf5bd24161c6713dca1812d61153c810804",
+        "size": 99087721,
+        "strip": 2
+      }
+    }
+  },
+  "14.1.0-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v14.1.0-1/xpack-gcc-14.1.0-1-linux-x64.tar.gz",
+        "checksum": "sha256:de4ccdbe8691fb661c8f231a75a28796720a5ce95ee0fbaf63f7883eec7c42fe",
+        "size": 159039686,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v14.1.0-1/xpack-gcc-14.1.0-1-linux-arm64.tar.gz",
+        "checksum": "sha256:4eb1c214fa0f90a29fe0e65b5db35118a2a303f31b634a6d903d2d08dcb22dec",
+        "size": 136034616,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v14.1.0-1/xpack-gcc-14.1.0-1-darwin-x64.tar.gz",
+        "checksum": "sha256:b30ab4a0a2bdeeebc7fbcc0244cefb4080e47e66eb223216fdeb97b5b557d877",
+        "size": 121150342,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v14.1.0-1/xpack-gcc-14.1.0-1-darwin-arm64.tar.gz",
+        "checksum": "sha256:63865671a58862defc10e0f435b91245f4b30ca2f2553397a987c894c400b493",
+        "size": 111474152,
+        "strip": 2
+      }
+    }
+  },
+  "13.2.0-2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v13.2.0-2/xpack-gcc-13.2.0-2-linux-x64.tar.gz",
+        "checksum": "sha256:026fd0cddf66bec8f83f7231204ac0642727cb1bc0cfc6ea44acac01e1639e88",
+        "size": 138429584,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v13.2.0-2/xpack-gcc-13.2.0-2-linux-arm64.tar.gz",
+        "checksum": "sha256:621ea366680d17d278f7a1f0041765672ca5b72c6a5446cff6d6c242d1eb6da8",
+        "size": 117256549,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v13.2.0-2/xpack-gcc-13.2.0-2-darwin-x64.tar.gz",
+        "checksum": "sha256:d2c183ce8157772d459400680955b972cd1d0d70f3971f59f07bf60634565920",
+        "size": 96284531,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v13.2.0-2/xpack-gcc-13.2.0-2-darwin-arm64.tar.gz",
+        "checksum": "sha256:93c12d96c3a0884328b47a36082510a6dc8d0e5a31c2e6a68d92d6f49119b929",
+        "size": 85357067,
+        "strip": 2
+      }
+    }
+  },
+  "12.3.0-2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v12.3.0-2/xpack-gcc-12.3.0-2-linux-x64.tar.gz",
+        "checksum": "sha256:9d6460a0042bddd824afd05ace7190f6ed057972111efe5dacfa6435fc85e9ff",
+        "size": 134071121,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v12.3.0-2/xpack-gcc-12.3.0-2-linux-arm64.tar.gz",
+        "checksum": "sha256:e777bdc463a6c9d27bc6707ba1a3b163d8315bd1a54f584bd971adfd2298c2a4",
+        "size": 109026415,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v12.3.0-2/xpack-gcc-12.3.0-2-darwin-x64.tar.gz",
+        "checksum": "sha256:0ce3d00612a5edb5e6c83c0495503d56ab07555be86ef1acb840fc010b461920",
+        "size": 94321316,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v12.3.0-2/xpack-gcc-12.3.0-2-darwin-arm64.tar.gz",
+        "checksum": "sha256:61fb5203d1af988e7b49063c15e177fa0f1dfab1dcb3c50a3c1fe05aee501638",
+        "size": 78892360,
+        "strip": 2
+      }
+    }
+  },
+  "11.4.0-2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v11.4.0-2/xpack-gcc-11.4.0-2-linux-x64.tar.gz",
+        "checksum": "sha256:986e55f5558f12d3e6584ff44c24f14c982aa259086c71ef35a0fed4d98d364b",
+        "size": 122536284,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v11.4.0-2/xpack-gcc-11.4.0-2-linux-arm64.tar.gz",
+        "checksum": "sha256:76d05b9ac580b65f469c9af7ff2d0aad690e469ab808fd6ae6c7183c32bb6984",
+        "size": 103650407,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v11.4.0-2/xpack-gcc-11.4.0-2-darwin-x64.tar.gz",
+        "checksum": "sha256:efc31c2dc3187074ca8336efdc2a72d02b4b94b8f83551483207759df3221b45",
+        "size": 85159734,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v11.4.0-2/xpack-gcc-11.4.0-2-darwin-arm64.tar.gz",
+        "checksum": "sha256:925ec71f50b7c7de93ac5da411c4682f66a2e1a1d4e0f0915215c4a6c7480c2f",
+        "size": 74763487,
+        "strip": 2
+      }
+    }
+  },
+  "11.4.0-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v11.4.0-1/xpack-gcc-11.4.0-1-linux-x64.tar.gz",
+        "checksum": "sha256:cd65a65f65e10f7a890a889768984be8af96c699b73a32eca2c7cdba6b4b73a5",
+        "size": 122532854,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v11.4.0-1/xpack-gcc-11.4.0-1-linux-arm64.tar.gz",
+        "checksum": "sha256:242946bdbf6953823529bd2e11c9f795ad3d4447345b324f8e11e01ab9271210",
+        "size": 103651509,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v11.4.0-1/xpack-gcc-11.4.0-1-darwin-x64.tar.gz",
+        "checksum": "sha256:93cf667c5d2f3928267ef8fadda1c5e71a93dacffeb2edcb7c4f66452eb67464",
+        "size": 85159707,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v11.4.0-1/xpack-gcc-11.4.0-1-darwin-arm64.tar.gz",
+        "checksum": "sha256:d85d93b78872f2cc6d3b6e0d88dfe01bf6dc2b32887a82307c5e88daba847b95",
+        "size": 74763559,
+        "strip": 2
+      }
+    }
+  },
+  "13.2.0-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v13.2.0-1/xpack-gcc-13.2.0-1-linux-x64.tar.gz",
+        "checksum": "sha256:54c37d730baf27678bd1b4dae23ab7962b1bc6cf2d73a588deb69003c61dd289",
+        "size": 139705120,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v13.2.0-1/xpack-gcc-13.2.0-1-linux-arm64.tar.gz",
+        "checksum": "sha256:366ef6acf1a0531a1daba4ff86d986bf1bdd994c88183991eaebf1315600c3a7",
+        "size": 118189990,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v13.2.0-1/xpack-gcc-13.2.0-1-darwin-x64.tar.gz",
+        "checksum": "sha256:1080c6e226dccc348ed350037ea54b70583cb20409bd828ecf5a7006fb2cace3",
+        "size": 97071571,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v13.2.0-1/xpack-gcc-13.2.0-1-darwin-arm64.tar.gz",
+        "checksum": "sha256:2d127ccf07cf7c838544b0189eb72d662b4b1ab043ef13e304c740208c6964ef",
+        "size": 86137857,
+        "strip": 2
+      }
+    }
+  },
+  "12.3.0-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v12.3.0-1/xpack-gcc-12.3.0-1-linux-x64.tar.gz",
+        "checksum": "sha256:fdb682ab7a53fcdcef7cdb55e45a90acfbb65373f976898e4f2af2f57f58b0c0",
+        "size": 135224725,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v12.3.0-1/xpack-gcc-12.3.0-1-linux-arm64.tar.gz",
+        "checksum": "sha256:34c38bd82e3e4edffe0d1f89768af0964167a92d167d0bffb0464d64da66f94d",
+        "size": 109904910,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v12.3.0-1/xpack-gcc-12.3.0-1-darwin-x64.tar.gz",
+        "checksum": "sha256:45d89ef57bf9dd40d87a779ed36edd5a7606cf2e62522df2695cb6582107e962",
+        "size": 95111585,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v12.3.0-1/xpack-gcc-12.3.0-1-darwin-arm64.tar.gz",
+        "checksum": "sha256:bf8ec47e8c739be62d7ed900f018b3a2c1dbabac402c4fa4dd82a14ba08183bb",
+        "size": 79678304,
+        "strip": 2
+      }
+    }
+  },
+  "12.2.0-2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v12.2.0-2/xpack-gcc-12.2.0-2-linux-x64.tar.gz",
+        "checksum": "sha256:d5ad6d979f6d8e5a00a786c58a60a27473e5ac8996e09efb8195cdaf2bc20123",
+        "size": 137017840,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v12.2.0-2/xpack-gcc-12.2.0-2-linux-arm64.tar.gz",
+        "checksum": "sha256:955f574980618e3f9fbe9d252f582e7fb09529c30428d96d9d2fc5e1b2233e26",
+        "size": 110534429,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v12.2.0-2/xpack-gcc-12.2.0-2-darwin-x64.tar.gz",
+        "checksum": "sha256:699a570b7d4bfdb027805f80ec8145d2c1f0b8e04950f31aa152697d878c0357",
+        "size": 94746863,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v12.2.0-2/xpack-gcc-12.2.0-2-darwin-arm64.tar.gz",
+        "checksum": "sha256:17426e558ce6ceec1c66b96423f7aa907b20ff42da72d866abb501a718164d69",
+        "size": 75655811,
+        "strip": 2
+      }
+    }
+  },
+  "12.2.0-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v12.2.0-1/xpack-gcc-12.2.0-1-linux-x64.tar.gz",
+        "checksum": "sha256:771441aceb6d782f7cad7070f9ec1243cfa6c592a5cb1b269022d6828b2a8558",
+        "size": 130684097,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v12.2.0-1/xpack-gcc-12.2.0-1-linux-arm64.tar.gz",
+        "checksum": "sha256:2c5c77ca2c58f81d1931e4a481a19b40c3854055abe4d243383936dbfc7937b5",
+        "size": 117878117,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v12.2.0-1/xpack-gcc-12.2.0-1-darwin-x64.tar.gz",
+        "checksum": "sha256:d5a5d205feff1652451e9353a5e390fc4080272a1e26c52a8ed74b0271c962f1",
+        "size": 95495259,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v12.2.0-1/xpack-gcc-12.2.0-1-darwin-arm64.tar.gz",
+        "checksum": "sha256:cd0776c68c36fd06da1cf9905ae79d42ae7889af910dc6b537838656fa34d378",
+        "size": 85321376,
+        "strip": 2
+      }
+    }
+  },
+  "12.1.0-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v12.1.0-1/xpack-gcc-12.1.0-1-linux-x64.tar.gz",
+        "checksum": "sha256:62c132ab22f0b558864f6d2b1642742330637f21821c4f91c3721a8958baac5e",
+        "size": 130536278,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v12.1.0-1/xpack-gcc-12.1.0-1-linux-arm64.tar.gz",
+        "checksum": "sha256:bc221ad983fe16a5c53e7dd47228596ee0d7dfeed8fdd8223a15b1ebfac9e50f",
+        "size": 117725251,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v12.1.0-1/xpack-gcc-12.1.0-1-darwin-x64.tar.gz",
+        "checksum": "sha256:1bd74f189e6b404403d5cb98cd9f52026996c0ee5abfc6a9939bda6d0f98e641",
+        "size": 98564664,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v12.1.0-1/xpack-gcc-12.1.0-1-darwin-arm64.tar.gz",
+        "checksum": "sha256:63488f7e3fc55c8d18fcc59204b45f852f272e132e2b1503fab0155696ebea45",
+        "size": 85157582,
+        "strip": 2
+      }
+    }
+  },
+  "11.3.0-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v11.3.0-1/xpack-gcc-11.3.0-1-linux-x64.tar.gz",
+        "checksum": "sha256:b2763af8550341fbeb63f822793d5458f7b5135fbbe1860e017d8bac465f4188",
+        "size": 120490321,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v11.3.0-1/xpack-gcc-11.3.0-1-linux-arm64.tar.gz",
+        "checksum": "sha256:43fe5555161e7f620ab10cb67f1f4e7b03f18ef96caac8d7387ba5933ae63d8c",
+        "size": 112078101,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v11.3.0-1/xpack-gcc-11.3.0-1-darwin-x64.tar.gz",
+        "checksum": "sha256:3bd0feeb33a974892de72b7d0ed8f17b181dbfeb1a5400c04f15d46832434773",
+        "size": 88960827,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v11.3.0-1/xpack-gcc-11.3.0-1-darwin-arm64.tar.gz",
+        "checksum": "sha256:1f3ab345ff77792b4460124beaf2ab65d4d68fef0036117d0f8746d7800d75c5",
+        "size": 80350884,
+        "strip": 2
+      }
+    }
+  },
+  "11.2.0-3": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v11.2.0-3/xpack-gcc-11.2.0-3-linux-x64.tar.gz",
+        "checksum": "sha256:3f6b532904367a8c9f41dd926e620a83fc81fc4246c48e24c8a49223fe6c6e63",
+        "size": 119457695,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v11.2.0-3/xpack-gcc-11.2.0-3-linux-arm64.tar.gz",
+        "checksum": "sha256:08e47cd4632acdb1faf2dae7433afb7bf8d11d1c1e7ef39e06f78be7985be8b5",
+        "size": 110042806,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v11.2.0-3/xpack-gcc-11.2.0-3-darwin-x64.tar.gz",
+        "checksum": "sha256:5815b980496118694ae59e79f90a879d3da2937a820398c3f53f48999e550416",
+        "size": 88281150,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v11.2.0-3/xpack-gcc-11.2.0-3-darwin-arm64.tar.gz",
+        "checksum": "sha256:5300517c4d95ae89ec16c8dcdd34df9e4d8af2ba8b3e4e834431d5112d9e7e5c",
+        "size": 79663451,
+        "strip": 2
+      }
+    }
+  },
+  "11.2.0-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v11.2.0-1/xpack-gcc-11.2.0-1-linux-x64.tar.gz",
+        "checksum": "sha256:09bc1a8d8d887062a1d1d4668cc21ffa9f5f839a1fff5b29afe40a67bbfb0c5f",
+        "size": 138161048,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v11.2.0-1/xpack-gcc-11.2.0-1-linux-arm64.tar.gz",
+        "checksum": "sha256:a4209553517c458178502d4ce17552b7d20e1b289f1cfd65d8e0d6315fe50621",
+        "size": 130717504,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v11.2.0-1/xpack-gcc-11.2.0-1-darwin-x64.tar.gz",
+        "checksum": "sha256:cdabe99bb9e279da9d1408e2d241ca06e45ff1885f0dd926908288936627d76a",
+        "size": 105711954,
+        "strip": 2
+      }
+    }
+  },
+  "8.5.0-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v8.5.0-1/xpack-gcc-8.5.0-1-linux-x64.tar.gz",
+        "checksum": "sha256:ef74a7b554e586f84ce5d17bb6d2074f4ab59e07da3038029f04f8a2fa657cc5",
+        "size": 115457493,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v8.5.0-1/xpack-gcc-8.5.0-1-linux-arm64.tar.gz",
+        "checksum": "sha256:efda34b8865198853edac865737824dfa76d24480f4a057c22fa4d6bef81dee6",
+        "size": 102530271,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/gcc-xpack/releases/download/v8.5.0-1/xpack-gcc-8.5.0-1-darwin-x64.tar.gz",
+        "checksum": "sha256:5ca5abb0e6d7a3048d47bd46f0278c7534b7f817ac2cbc4b54cea646373e8b89",
+        "size": 115717048,
+        "strip": 2
+      }
+    }
+  }
+}

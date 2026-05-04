@@ -1,0 +1,50 @@
+Prompt:
+I need to add clang-tools packaging to my package_tools.py script in my compendium-registry repo. The script already packages vcpkg. Now I need to add clang-tools that extracts a slim package from the full LLVM release.
+Goal: Users who only need clang-tidy and clang-format shouldn't have to download the full 1.5GB LLVM tarball. The slim package should be ~50-100MB.
+What to extract from the LLVM tarball:
+Binaries:
+
+bin/clang-tidy
+bin/clang-format
+bin/clang-apply-replacements
+
+Shared libraries (if needed — check with ldd on Linux / otool -L on macOS):
+
+Any libs from lib/ that these binaries depend on
+On macOS, these may be statically linked already
+
+Platform matrix:
+
+linux-amd64: LLVM-{version}-Linux-X64.tar.xz
+linux-arm64: LLVM-{version}-Linux-ARM64.tar.xz
+darwin-arm64: LLVM-{version}-macOS-ARM64.tar.xz
+
+Source: https://github.com/llvm/llvm-project/releases
+Output per platform:
+
+clang-tools-{version}-{os}-{arch}.tar.gz
+Extracts as clang-tools/bin/clang-tidy, clang-tools/bin/clang-format, etc.
+SHA256 checksum
+
+Important notes:
+
+This can run from one machine for all platforms — download, extract specific files, repackage
+On Linux, the binaries may need lib/libclang-cpp.so and lib/libLLVM.so — check dependencies
+On macOS, binaries may be self-contained — verify with otool -L
+The full LLVM tarball is ~1.5GB per platform, so download once per platform, extract what we need, delete the rest
+Follow the same pattern as the vcpkg packager in package_tools.py
+
+Registry manifest entry should look like:
+json"clang-tools": {
+  "22.1.2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/v0.1.0/clang-tools-22.1.2-linux-amd64.tar.gz",
+        "checksum": "sha256:...",
+        "size": ...,
+        "strip": 1
+      }
+    }
+  }
+}
+The existing package_tools.py is attached. Add the package_clang_tools() function following the same pattern as package_vcpkg().

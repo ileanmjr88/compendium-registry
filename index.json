@@ -1,0 +1,88 @@
+{
+  "version": "2",
+  "updated_at": "2026-04-11",
+  "languages": {
+    "clang": {
+      "latest": "22.1.3",
+      "versions": 22,
+      "file": "languages/clang.json"
+    },
+    "gcc": {
+      "latest": "15.2.0-1",
+      "versions": 26,
+      "file": "languages/gcc.json"
+    },
+    "go": {
+      "latest": "1.26.2",
+      "versions": 267,
+      "file": "languages/go.json"
+    },
+    "node": {
+      "latest": "24.14.1",
+      "versions": 96,
+      "file": "languages/node.json"
+    },
+    "python": {
+      "latest": "3.14.4",
+      "versions": 10,
+      "file": "languages/python.json"
+    }
+  },
+  "tools": {
+    "arm-none-eabi-gcc": {
+      "latest": "15.2.1-1.1",
+      "versions": 20,
+      "file": "tools/arm-none-eabi-gcc.json"
+    },
+    "ccache": {
+      "latest": "4.13.2",
+      "versions": 29,
+      "file": "tools/ccache.json"
+    },
+    "cmake": {
+      "latest": "4.3.1",
+      "versions": 19,
+      "file": "tools/cmake.json"
+    },
+    "golangci-lint": {
+      "latest": "2.11.4",
+      "versions": 30,
+      "file": "tools/golangci-lint.json"
+    },
+    "ninja": {
+      "latest": "1.13.2",
+      "versions": 18,
+      "file": "tools/ninja.json"
+    },
+    "openocd": {
+      "latest": "0.12.0-7",
+      "versions": 14,
+      "file": "tools/openocd.json"
+    },
+    "pnpm": {
+      "latest": "10.33.0",
+      "versions": 11,
+      "file": "tools/pnpm.json"
+    },
+    "riscv-none-elf-gcc": {
+      "latest": "15.2.0-1",
+      "versions": 23,
+      "file": "tools/riscv-none-elf-gcc.json"
+    },
+    "ruff": {
+      "latest": "0.15.10",
+      "versions": 30,
+      "file": "tools/ruff.json"
+    },
+    "uv": {
+      "latest": "0.11.6",
+      "versions": 30,
+      "file": "tools/uv.json"
+    },
+    "vcpkg": {
+      "latest": "2026-04-08",
+      "versions": 25,
+      "file": "tools/vcpkg.json"
+    }
+  }
+}

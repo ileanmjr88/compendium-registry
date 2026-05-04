@@ -1,0 +1,536 @@
+{
+  "15.2.1-1.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v15.2.1-1.1/xpack-arm-none-eabi-gcc-15.2.1-1.1-linux-x64.tar.gz",
+        "checksum": "sha256:da6a49ad4003944b823c6c93702a8787c922ab34bd7e918ec0eaf6933a9b1ff6",
+        "size": 307090703,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v15.2.1-1.1/xpack-arm-none-eabi-gcc-15.2.1-1.1-linux-arm64.tar.gz",
+        "checksum": "sha256:67980c7990eba7bb7ffdf39699102effd70889f5ac427be19a8c8a6c5fab2972",
+        "size": 302624714,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v15.2.1-1.1/xpack-arm-none-eabi-gcc-15.2.1-1.1-darwin-x64.tar.gz",
+        "checksum": "sha256:5be906a5194c3173e145a58048e5607ffff947773237802b93e55e23c415f1b6",
+        "size": 298312329,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v15.2.1-1.1/xpack-arm-none-eabi-gcc-15.2.1-1.1-darwin-arm64.tar.gz",
+        "checksum": "sha256:574082d35e49a2bcbdc355836b2a3ae5e5bb3b9456c9f5e37177db2ab4aad870",
+        "size": 293820200,
+        "strip": 2
+      }
+    }
+  },
+  "14.2.1-1.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v14.2.1-1.1/xpack-arm-none-eabi-gcc-14.2.1-1.1-linux-x64.tar.gz",
+        "checksum": "sha256:ed8c7d207a85d00da22b90cf80ab3b0b2c7600509afadf6b7149644e9d4790a6",
+        "size": 283880244,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v14.2.1-1.1/xpack-arm-none-eabi-gcc-14.2.1-1.1-linux-arm64.tar.gz",
+        "checksum": "sha256:a1ac95c8d9347020d61e387e644a2c1806556b77162958a494d2f5f3d5fe7053",
+        "size": 280440646,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v14.2.1-1.1/xpack-arm-none-eabi-gcc-14.2.1-1.1-darwin-x64.tar.gz",
+        "checksum": "sha256:b5bf8d5af099fd464d1543e5b8901308fb64116fa7a244426cacf4ff1b882fc7",
+        "size": 277780822,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v14.2.1-1.1/xpack-arm-none-eabi-gcc-14.2.1-1.1-darwin-arm64.tar.gz",
+        "checksum": "sha256:f52ea3760c53b25d726a7345be60a210736293db85f92daa39d1d22d34e2c995",
+        "size": 273237409,
+        "strip": 2
+      }
+    }
+  },
+  "13.3.1-1.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v13.3.1-1.1/xpack-arm-none-eabi-gcc-13.3.1-1.1-linux-x64.tar.gz",
+        "checksum": "sha256:006c89337eced277fdf4c1c3bf3aebe55c85e8d52cba8d412009717fb781b959",
+        "size": 240386667,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v13.3.1-1.1/xpack-arm-none-eabi-gcc-13.3.1-1.1-linux-arm64.tar.gz",
+        "checksum": "sha256:34fa25d7dcd57bfdd3aeff5c595eac20dbf21a2d84b72e6c2db3bc67d556a1af",
+        "size": 237557810,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v13.3.1-1.1/xpack-arm-none-eabi-gcc-13.3.1-1.1-darwin-x64.tar.gz",
+        "checksum": "sha256:afd69764478275ee3e5b9a12d61250ae348a79a4d1fa767e5fa2762ae8b77b2a",
+        "size": 236453796,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v13.3.1-1.1/xpack-arm-none-eabi-gcc-13.3.1-1.1-darwin-arm64.tar.gz",
+        "checksum": "sha256:e37c379cbc423353902aada84b2b4d5a9316c2c8746c9608e69c8ac23e654aa3",
+        "size": 232517341,
+        "strip": 2
+      }
+    }
+  },
+  "13.2.1-1.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v13.2.1-1.1/xpack-arm-none-eabi-gcc-13.2.1-1.1-linux-x64.tar.gz",
+        "checksum": "sha256:1252a8cafe9237de27a765376697230368eec21db44dc3f1edeb8d838dabd530",
+        "size": 268158135,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v13.2.1-1.1/xpack-arm-none-eabi-gcc-13.2.1-1.1-linux-arm64.tar.gz",
+        "checksum": "sha256:ab7f75d95ead0b1efb7432e7f034f9575cc3d23dc1b03d41af1ec253486d19de",
+        "size": 265190134,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v13.2.1-1.1/xpack-arm-none-eabi-gcc-13.2.1-1.1-darwin-x64.tar.gz",
+        "checksum": "sha256:1ecc0fd6c31020aff702204f51459b4b00ff0d12b9cd95e832399881d819aa57",
+        "size": 262217286,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v13.2.1-1.1/xpack-arm-none-eabi-gcc-13.2.1-1.1-darwin-arm64.tar.gz",
+        "checksum": "sha256:d4ce0de062420daab140161086ba017642365977e148d20f55a8807b1eacd703",
+        "size": 258277148,
+        "strip": 2
+      }
+    }
+  },
+  "12.3.1-1.2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v12.3.1-1.2/xpack-arm-none-eabi-gcc-12.3.1-1.2-linux-x64.tar.gz",
+        "checksum": "sha256:771dfb9d10e7339ac40f3a32be9cd287405c537ca0bf16e1dbf6fa6f1fc1dd2a",
+        "size": 233454813,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v12.3.1-1.2/xpack-arm-none-eabi-gcc-12.3.1-1.2-linux-arm64.tar.gz",
+        "checksum": "sha256:35fadc858f3551f789d87760eb40ad04f893a23936f5090a138e7de6cd04d939",
+        "size": 230516076,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v12.3.1-1.2/xpack-arm-none-eabi-gcc-12.3.1-1.2-darwin-x64.tar.gz",
+        "checksum": "sha256:a90e6d0cb74c61e8d06e586f32bcd1983789da15808a8aa64658c1f5e892d2dc",
+        "size": 227834210,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v12.3.1-1.2/xpack-arm-none-eabi-gcc-12.3.1-1.2-darwin-arm64.tar.gz",
+        "checksum": "sha256:507926ba1e37e6fcae2a7499559cffd6da015b93145ff7657aafca9ef097d683",
+        "size": 223982419,
+        "strip": 2
+      }
+    }
+  },
+  "12.3.1-1.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v12.3.1-1.1/xpack-arm-none-eabi-gcc-12.3.1-1.1-linux-x64.tar.gz",
+        "checksum": "sha256:83b869765862bcf029966c82a258d9b330878e2570a277d82fc90af5e88077a4",
+        "size": 233531882,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v12.3.1-1.1/xpack-arm-none-eabi-gcc-12.3.1-1.1-linux-arm64.tar.gz",
+        "checksum": "sha256:f833298bda3545e9303198463839bc156b6aef3d340ca55c109666e3f6a1f3a0",
+        "size": 230555684,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v12.3.1-1.1/xpack-arm-none-eabi-gcc-12.3.1-1.1-darwin-x64.tar.gz",
+        "checksum": "sha256:62e6146ec1bbd86ee92df97f74075c895ebf4ad36b0a05e3d38ae662c9e7a2ab",
+        "size": 227854153,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v12.3.1-1.1/xpack-arm-none-eabi-gcc-12.3.1-1.1-darwin-arm64.tar.gz",
+        "checksum": "sha256:fc943971a9c52fe67992b9bcde618df96f08c2cf7ab75b1c487dcfa5e0ef34d1",
+        "size": 223996741,
+        "strip": 2
+      }
+    }
+  },
+  "12.2.1-1.2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v12.2.1-1.2/xpack-arm-none-eabi-gcc-12.2.1-1.2-linux-x64.tar.gz",
+        "checksum": "sha256:65b52009ff1b7f22f5e030cc04e17e5e7d7f2436a62488aca905062a71d3944c",
+        "size": 232443193,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v12.2.1-1.2/xpack-arm-none-eabi-gcc-12.2.1-1.2-linux-arm64.tar.gz",
+        "checksum": "sha256:dbf5e36b20f236ead98c6c24daaeafb5ed8b9a7be76895f5e0c7b79cb2b90073",
+        "size": 229675672,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v12.2.1-1.2/xpack-arm-none-eabi-gcc-12.2.1-1.2-darwin-x64.tar.gz",
+        "checksum": "sha256:5b4d2d3c6b258b275eee06a3437b9f04480957e8415c6c9f00b56a7cc5f2c01f",
+        "size": 227358409,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v12.2.1-1.2/xpack-arm-none-eabi-gcc-12.2.1-1.2-darwin-arm64.tar.gz",
+        "checksum": "sha256:15047b5ee4ab6e739401ffcf1238003f67d83129919d81c0c61989be09d95e62",
+        "size": 224102499,
+        "strip": 2
+      }
+    }
+  },
+  "11.3.1-1.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v11.3.1-1.1/xpack-arm-none-eabi-gcc-11.3.1-1.1-linux-x64.tar.gz",
+        "checksum": "sha256:df515ea5b2efb625f1cf1e11c3d096c4ddf800408ee2bd061a67b7739a5febff",
+        "size": 227846583,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v11.3.1-1.1/xpack-arm-none-eabi-gcc-11.3.1-1.1-linux-arm64.tar.gz",
+        "checksum": "sha256:393baf6c478fd65ebb826b0f21a40f168d32600e16a2cb926c1fb288e8de3958",
+        "size": 226274386,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v11.3.1-1.1/xpack-arm-none-eabi-gcc-11.3.1-1.1-darwin-x64.tar.gz",
+        "checksum": "sha256:16dd4af277c488eae8a1f7bc8348f772fb0442946d767ea1ee77485ffe2ff848",
+        "size": 224800358,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v11.3.1-1.1/xpack-arm-none-eabi-gcc-11.3.1-1.1-darwin-arm64.tar.gz",
+        "checksum": "sha256:99de78184f5548c65b980130c9438a31a602ddbbe9515f3d82bf000b67f8c835",
+        "size": 224476384,
+        "strip": 2
+      }
+    }
+  },
+  "11.2.1-1.2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v11.2.1-1.2/xpack-arm-none-eabi-gcc-11.2.1-1.2-linux-x64.tar.gz",
+        "checksum": "sha256:7479becc1ea98fbceecadf1f036ddaba8dc39c9cce5cb45f0a7a36e923d33c9a",
+        "size": 235243515,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v11.2.1-1.2/xpack-arm-none-eabi-gcc-11.2.1-1.2-linux-arm64.tar.gz",
+        "checksum": "sha256:e5bd60f5aaaf498e01d7fa4e2d2bd64671330217f8c6b0437208be42eac4c837",
+        "size": 233645479,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v11.2.1-1.2/xpack-arm-none-eabi-gcc-11.2.1-1.2-darwin-x64.tar.gz",
+        "checksum": "sha256:f2910d5ec4971baee9cd9cd3efe13fc8573b2f1c8185a6f18a7bb7fb3787a60d",
+        "size": 232524897,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v11.2.1-1.2/xpack-arm-none-eabi-gcc-11.2.1-1.2-darwin-arm64.tar.gz",
+        "checksum": "sha256:85afae936d84b5ed94ad15300d2333d4b0af34b53bbf92283e558a96209d0dd7",
+        "size": 231851100,
+        "strip": 2
+      }
+    }
+  },
+  "11.2.1-1.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v11.2.1-1.1/xpack-arm-none-eabi-gcc-11.2.1-1.1-linux-x64.tar.gz",
+        "checksum": "sha256:898649436d523b4dc552fb5602a9511089bb30e7df1cba3db401e895c04f12b9",
+        "size": 234639449,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v11.2.1-1.1/xpack-arm-none-eabi-gcc-11.2.1-1.1-linux-arm64.tar.gz",
+        "checksum": "sha256:c1a5fd91bbbb3bf258a96439f13e9baa01c3dc368d406ad68acab3c089f2007f",
+        "size": 233025589,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v11.2.1-1.1/xpack-arm-none-eabi-gcc-11.2.1-1.1-darwin-x64.tar.gz",
+        "checksum": "sha256:1e7c0ef244b5a9eb304dda3b2c50668cae956bd33170fb324ccb850395fbbac5",
+        "size": 231906304,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v11.2.1-1.1/xpack-arm-none-eabi-gcc-11.2.1-1.1-darwin-arm64.tar.gz",
+        "checksum": "sha256:4253a3263108302efcaae03fc247d2826809e58eb02c6f55a59dc2553b19d810",
+        "size": 231236234,
+        "strip": 2
+      }
+    }
+  },
+  "10.3.1-2.3": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v10.3.1-2.3/xpack-arm-none-eabi-gcc-10.3.1-2.3-linux-x64.tar.gz",
+        "checksum": "sha256:559dcf1c2dfddac513110fe23da0ef254032c09967eaa901f075515d51818719",
+        "size": 175646740,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v10.3.1-2.3/xpack-arm-none-eabi-gcc-10.3.1-2.3-linux-arm64.tar.gz",
+        "checksum": "sha256:6e3ee605079ba084836cd057022e16c28605f4068042cd14397976b836ea1a21",
+        "size": 174454524,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v10.3.1-2.3/xpack-arm-none-eabi-gcc-10.3.1-2.3-darwin-x64.tar.gz",
+        "checksum": "sha256:eb9218eaafb74a05fab9cbbeb49fd4fe7b85c6ba411aefc66f681a5a862e8d8e",
+        "size": 173440158,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v10.3.1-2.3/xpack-arm-none-eabi-gcc-10.3.1-2.3-darwin-arm64.tar.gz",
+        "checksum": "sha256:a207301fb6c136f661a09024eb49424adf74cbc952a4cff150dfc7927206ab1a",
+        "size": 172640648,
+        "strip": 2
+      }
+    }
+  },
+  "10.3.1-2.2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v10.3.1-2.2/xpack-arm-none-eabi-gcc-10.3.1-2.2-linux-x64.tar.gz",
+        "checksum": "sha256:5ac203fdff965e77c07bb24509da740decb8da91f4d266414abe90401da3fd28",
+        "size": 175594171,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v10.3.1-2.2/xpack-arm-none-eabi-gcc-10.3.1-2.2-linux-arm64.tar.gz",
+        "checksum": "sha256:d9a000218e4a56812e82a245105f93e6b7211442903f4c69ba91609206d690e0",
+        "size": 174393445,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v10.3.1-2.2/xpack-arm-none-eabi-gcc-10.3.1-2.2-darwin-x64.tar.gz",
+        "checksum": "sha256:114dada87ac261243f38e66e27b3689f33c740b000b53e6581ef35664c1bdbd1",
+        "size": 173117394,
+        "strip": 2
+      }
+    }
+  },
+  "10.3.1-2.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v10.3.1-2.1/xpack-arm-none-eabi-gcc-10.3.1-2.1-linux-x64.tar.gz",
+        "checksum": "sha256:eb4c7cb16ac1ab7d629ce807847692d5add9f13f23a3196fc545acc6f410a8cf",
+        "size": 183653267,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v10.3.1-2.1/xpack-arm-none-eabi-gcc-10.3.1-2.1-linux-arm64.tar.gz",
+        "checksum": "sha256:f78c2ec2177d29a005e43eb05aa36f361428f0d607b80046b3e032a08ae8232c",
+        "size": 182469867,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v10.3.1-2.1/xpack-arm-none-eabi-gcc-10.3.1-2.1-darwin-x64.tar.gz",
+        "checksum": "sha256:703dcbbbeaf6f2577cb7b3677072fa176b9d7e55256735e0b770b90952c626d9",
+        "size": 181549022,
+        "strip": 2
+      }
+    }
+  },
+  "10.2.1-1.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v10.2.1-1.1/xpack-arm-none-eabi-gcc-10.2.1-1.1-linux-x64.tar.gz",
+        "checksum": "sha256:840e90b527d30143b8d8e5eb894218858ed14226bdc8664686f0848592b6e474",
+        "size": 188707051,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v10.2.1-1.1/xpack-arm-none-eabi-gcc-10.2.1-1.1-linux-arm64.tar.gz",
+        "checksum": "sha256:88b4f581a14b0dc2ee2313f4342f38996a4c8f3e4d09d9f70a6c4a4b9ea360e7",
+        "size": 187490794,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v10.2.1-1.1/xpack-arm-none-eabi-gcc-10.2.1-1.1-darwin-x64.tar.gz",
+        "checksum": "sha256:061615d3e35d026cfa3ef8999f2bdaef2181b56e61029f58c8e0f1054bba046b",
+        "size": 183654470,
+        "strip": 2
+      }
+    }
+  },
+  "9.3.1-1.4": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.4/xpack-arm-none-eabi-gcc-9.3.1-1.4-linux-x64.tar.gz",
+        "checksum": "sha256:720dd38a6abadc0286f2b3c8dbc7239c7dbfdd64bc052345d149657e5478b914",
+        "size": 169389142,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.4/xpack-arm-none-eabi-gcc-9.3.1-1.4-linux-arm64.tar.gz",
+        "checksum": "sha256:c75c5f0a2bd44cf5304762977d7057956ba5976be1cad73e7f218a55f6e06495",
+        "size": 168517506,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.4/xpack-arm-none-eabi-gcc-9.3.1-1.4-darwin-x64.tar.gz",
+        "checksum": "sha256:fa0882dca6eb28818896fcc892efe015a2e3aac06a9c183bb443223ac2a1512b",
+        "size": 164794316,
+        "strip": 2
+      }
+    }
+  },
+  "9.3.1-1.3": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.3/xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-x64.tar.gz",
+        "checksum": "sha256:9045d261b000d921887fc801427542eed2df1616f63a2969a2640f8be2593686",
+        "size": 151422620,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.3/xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-arm64.tar.gz",
+        "checksum": "sha256:9a9e96b9ac3634d7632d35aa0d8138f8468d4f3f4d752374a95420ff7c8e4476",
+        "size": 150584175,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.3/xpack-arm-none-eabi-gcc-9.3.1-1.3-darwin-x64.tar.gz",
+        "checksum": "sha256:f22f0d49c27f844dcfe629a6a33878d767b6945acd7508d9578b20b17b106f4c",
+        "size": 148641073,
+        "strip": 2
+      }
+    }
+  },
+  "9.3.1-1.2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.2/xpack-arm-none-eabi-gcc-9.3.1-1.2-linux-x64.tar.gz",
+        "checksum": "sha256:ada5b1e4d4fd6f6ffe80c398188eab5d2fc43639cb219fe212576f4bc2ebe35a",
+        "size": 150796175,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.2/xpack-arm-none-eabi-gcc-9.3.1-1.2-linux-arm64.tar.gz",
+        "checksum": "sha256:fb3258a52d09bae05f81e15c0fecde0d8930e14fda6b3dee89971b6a5c0d6f21",
+        "size": 149928203,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.2/xpack-arm-none-eabi-gcc-9.3.1-1.2-darwin-x64.tar.gz",
+        "checksum": "sha256:622a4d54cef4c88f3a2ba2fc312a9490f5c406feb2ab16e3eda3cb053c12a1bf",
+        "size": 147961639,
+        "strip": 2
+      }
+    }
+  },
+  "9.3.1-1.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.1/xpack-arm-none-eabi-gcc-9.3.1-1.1-linux-x64.tar.gz",
+        "checksum": "sha256:10b859d83c7a451add58eaf79afdb9a4a66fc38920884e8a54c809e0a1f4ed3e",
+        "size": 140245584,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.1/xpack-arm-none-eabi-gcc-9.3.1-1.1-linux-arm64.tar.gz",
+        "checksum": "sha256:8791f653f1fc15b004987a2b84a7c0aabd71bde11e0e68eb32846e9b1ad80986",
+        "size": 139392567,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.1/xpack-arm-none-eabi-gcc-9.3.1-1.1-darwin-x64.tar.gz",
+        "checksum": "sha256:6f5e5b94ecf2afece992b46a60465e3ed5aae172202c2a4e34f8e81e5b0da790",
+        "size": 137326762,
+        "strip": 2
+      }
+    }
+  },
+  "9.2.1-1.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.2.1-1.1/xpack-arm-none-eabi-gcc-9.2.1-1.1-linux-x64.tar.gz",
+        "checksum": "sha256:bbde117b97f229dfe63721c0323c3da6839e83cf302c8f4ff25e0f36ecf7a428",
+        "size": 135081450,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.2.1-1.1/xpack-arm-none-eabi-gcc-9.2.1-1.1-darwin-x64.tar.gz",
+        "checksum": "sha256:6ff68117083624273c56244cf4242989a65069b376a9727ec4a230be824340f3",
+        "size": 132371371,
+        "strip": 2
+      }
+    }
+  },
+  "8.3.1-1.4": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v8.3.1-1.4/xpack-arm-none-eabi-gcc-8.3.1-1.4-linux-x64.tar.gz",
+        "checksum": "sha256:31338c3b8bdb32d9082a857f6d65a57c033e7d6eba1662a30c7fb3e83ff46597",
+        "size": 123594584,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v8.3.1-1.4/xpack-arm-none-eabi-gcc-8.3.1-1.4-darwin-x64.tar.gz",
+        "checksum": "sha256:03ab76e2518748d12b491cb2ca8044633c56291db04933f0c3110637bfa22698",
+        "size": 119375917,
+        "strip": 2
+      }
+    }
+  }
+}

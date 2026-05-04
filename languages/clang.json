@@ -1,0 +1,524 @@
+{
+  "22.1.3": {
+    "depends": {
+      "python": "3.11"
+    },
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-22.1.3/LLVM-22.1.3-Linux-X64.tar.xz",
+        "checksum": "sha256:6e776c396895837a168a36d13e0b0e4552680eda58d8dab6aa5fb75e2c3d13ea",
+        "size": 1939973900,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-22.1.3/LLVM-22.1.3-Linux-ARM64.tar.xz",
+        "checksum": "sha256:4dc01fbb46084b3c3304a51e8412903da3735d5a276bcdd35333bc38bad8a8b6",
+        "size": 1770103808,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-22.1.3/LLVM-22.1.3-macOS-ARM64.tar.xz",
+        "checksum": "sha256:881e524d374cd2befd95888db1846e3150b0728fa842b90bb15bafc0b19c075c",
+        "size": 1479770052,
+        "strip": 1
+      }
+    }
+  },
+  "22.1.2": {
+    "depends": {
+      "python": "3.11"
+    },
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-22.1.2/LLVM-22.1.2-Linux-X64.tar.xz",
+        "checksum": "sha256:ff32497b6801267ee427bc69cdaeecfb2d19578af8c2a942e864c45215f9a2ac",
+        "size": 1939541864,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-22.1.2/LLVM-22.1.2-Linux-ARM64.tar.xz",
+        "checksum": "sha256:cf2e84d965a95954971cafc71d18c0eb38e723c3ac7276286fd5636df4374b3a",
+        "size": 1770442424,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-22.1.2/LLVM-22.1.2-macOS-ARM64.tar.xz",
+        "checksum": "sha256:7b290ec4529c309b6b952d64a3513595c816dff1c217d54466a586d6e35dcec9",
+        "size": 1479868856,
+        "strip": 1
+      }
+    }
+  },
+  "22.1.1": {
+    "depends": {
+      "python": "3.11"
+    },
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-22.1.1/LLVM-22.1.1-Linux-X64.tar.xz",
+        "checksum": "sha256:efc4d945744f951df00ec72c5b31da5d5a2eaf1d53cc7c9d0644f93f0f9e817d",
+        "size": 1939554732,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-22.1.1/LLVM-22.1.1-Linux-ARM64.tar.xz",
+        "checksum": "sha256:a807a16a4dd9a288b6ad3d507df4eae47dfdfbccab118170ebd216b85370a065",
+        "size": 1770397820,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-22.1.1/LLVM-22.1.1-macOS-ARM64.tar.xz",
+        "checksum": "sha256:3839802601439300fc8d1d378bc26732e879e1ca80a220f7d6764ed229053e92",
+        "size": 1479439200,
+        "strip": 1
+      }
+    }
+  },
+  "22.1.0": {
+    "depends": {
+      "python": "3.11"
+    },
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-22.1.0/LLVM-22.1.0-Linux-X64.tar.xz",
+        "checksum": "sha256:8d662e425e46c48b45f5f970770b5e37f323607c8c2cbc371593fc9c4ba1e7b3",
+        "size": 1940274536,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-22.1.0/LLVM-22.1.0-Linux-ARM64.tar.xz",
+        "checksum": "sha256:e3b4205fe45d5561dec9d46465873a79c26b25b028b310515b38c34f668c6aec",
+        "size": 1770379352,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-22.1.0/LLVM-22.1.0-macOS-ARM64.tar.xz",
+        "checksum": "sha256:cd5e615f4dab23d0239359cd343202c5f6ceeaf072c245a3c685d73afac09646",
+        "size": 1479868048,
+        "strip": 1
+      }
+    }
+  },
+  "21.1.8": {
+    "depends": {
+      "python": "3.10"
+    },
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.8/LLVM-21.1.8-Linux-X64.tar.xz",
+        "checksum": "sha256:b3b7f2801d15d50736acea3c73982994d025b01c2f035b91ae3b49d1b575732b",
+        "size": 2019005384,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.8/LLVM-21.1.8-Linux-ARM64.tar.xz",
+        "checksum": "sha256:65ce0b329514e5643407db2d02a5bd34bf33d159055dafa82825c8385bd01993",
+        "size": 1873847788,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.8/LLVM-21.1.8-macOS-ARM64.tar.xz",
+        "checksum": "sha256:b95bdd32a33a81ee4d40363aaeb26728a26783fcef26a4d80f65457433ea4669",
+        "size": 1503047352,
+        "strip": 1
+      }
+    }
+  },
+  "21.1.7": {
+    "depends": {
+      "python": "3.10"
+    },
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.7/LLVM-21.1.7-Linux-X64.tar.xz",
+        "checksum": "sha256:621ab8424178ffc28db0facc5aefd3fc11f5dea339aac171b36fa0b8d4b368cb",
+        "size": 2019078704,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.7/LLVM-21.1.7-Linux-ARM64.tar.xz",
+        "checksum": "sha256:aa85ddc8ba95ac5f2febddb51a6891ee0e57ac058c6455395d5a4bfa5650d44b",
+        "size": 1873933548,
+        "strip": 1
+      }
+    }
+  },
+  "21.1.6": {
+    "depends": {
+      "python": "3.10"
+    },
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.6/LLVM-21.1.6-Linux-X64.tar.xz",
+        "checksum": "sha256:8ac1aadfa96b87b8747f7383d06ed9579f9d5c32a1af7af947b0cfe29d88ac87",
+        "size": 2019275936,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.6/LLVM-21.1.6-Linux-ARM64.tar.xz",
+        "checksum": "sha256:1d8a9e05007b8b9005c63f90d7646b2b6263451d605cca070418d0a71e669377",
+        "size": 1873654724,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.6/LLVM-21.1.6-macOS-ARM64.tar.xz",
+        "checksum": "sha256:bdf036e9987b8706471b565f50178a34218909b1858a82c426269da49780b6ba",
+        "size": 1503083780,
+        "strip": 1
+      }
+    }
+  },
+  "21.1.5": {
+    "depends": {
+      "python": "3.10"
+    },
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.5/LLVM-21.1.5-Linux-X64.tar.xz",
+        "checksum": "sha256:6279d78feeeb8e839a397f0bca7b1c0594972224d59525496416653d9b9c077f",
+        "size": 1998745156,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.5/LLVM-21.1.5-Linux-ARM64.tar.xz",
+        "checksum": "sha256:c9a1ee5d1a1698a8eb0abda1c1e44c812378aec32f89cc4fbbb41865237359a9",
+        "size": 1857479224,
+        "strip": 1
+      }
+    }
+  },
+  "21.1.4": {
+    "depends": {
+      "python": "3.10"
+    },
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.4/LLVM-21.1.4-Linux-X64.tar.xz",
+        "checksum": "sha256:53c8d9a173c39c952ae367974b0b9c1dcfddeb81341c3d0553748e8407abe9f8",
+        "size": 1999459464,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.4/LLVM-21.1.4-Linux-ARM64.tar.xz",
+        "checksum": "sha256:b1cdf40de4dc53fc090684fb6a160c0c9348242d85d2321441a9873cb116ea18",
+        "size": 1857167760,
+        "strip": 1
+      }
+    }
+  },
+  "21.1.3": {
+    "depends": {
+      "python": "3.10"
+    },
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.3/LLVM-21.1.3-Linux-X64.tar.xz",
+        "checksum": "sha256:52866dc560a4c00c12fed63a006d629108117e2282fd37875887961dd7b5f6f8",
+        "size": 1998512496,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.3/LLVM-21.1.3-Linux-ARM64.tar.xz",
+        "checksum": "sha256:563be4f9f9186c909e5de937b2097338132422957c7919a29d8ff524a32213c0",
+        "size": 1857366532,
+        "strip": 1
+      }
+    }
+  },
+  "21.1.2": {
+    "depends": {
+      "python": "3.10"
+    },
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.2/LLVM-21.1.2-Linux-X64.tar.xz",
+        "checksum": "sha256:38dc1e278b8d688d9f4f1077da1dcda623d9e0dd89ffcf03bc18d3492bbd9cb6",
+        "size": 1998692144,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.2/LLVM-21.1.2-Linux-ARM64.tar.xz",
+        "checksum": "sha256:b16c36731eabdc3cbe7f265e241efdb9aa6ab7c4be4114763c356da1392aac73",
+        "size": 1856011124,
+        "strip": 1
+      }
+    }
+  },
+  "21.1.1": {
+    "depends": {
+      "python": "3.10"
+    },
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.1/LLVM-21.1.1-Linux-X64.tar.xz",
+        "checksum": "sha256:fe9886992273e469fbd664851cbee2f125b383664694684923a41af1c71b9632",
+        "size": 2000559996,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.1/LLVM-21.1.1-Linux-ARM64.tar.xz",
+        "checksum": "sha256:2764bb49ad4dab93226328d6374ca4466799bdc18372c544d8f6ebc1aa0c28a9",
+        "size": 1856625220,
+        "strip": 1
+      }
+    }
+  },
+  "21.1.0": {
+    "depends": {
+      "python": "3.10"
+    },
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.0/LLVM-21.1.0-Linux-X64.tar.xz",
+        "checksum": "sha256:4a8c4b07646a4a2eb76ccf1d73522c3e13519745b72ef09d631c09b7577b0ed2",
+        "size": 1998592920,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.0/LLVM-21.1.0-Linux-ARM64.tar.xz",
+        "checksum": "sha256:ffd51d9a583c1f662abc101f3a125d7303b21ad7d4e15773c8ad2c14cf621d5e",
+        "size": 1858046304,
+        "strip": 1
+      }
+    }
+  },
+  "20.1.8": {
+    "depends": {
+      "python": "3.10"
+    },
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.8/LLVM-20.1.8-Linux-X64.tar.xz",
+        "checksum": "sha256:1ead36b3dfcb774b57be530df42bec70ab2d239fbce9889447c7a29a4ddc1ae6",
+        "size": 2021269412,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.8/LLVM-20.1.8-Linux-ARM64.tar.xz",
+        "checksum": "sha256:b855cc17d935fdd83da82206b7a7cfc680095efd1e9e8182c4a05e761958bef8",
+        "size": 1859437192,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.8/LLVM-20.1.8-macOS-ARM64.tar.xz",
+        "checksum": "sha256:a9a22f450d35f1f73cd61ab6a17c6f27d8f6051d56197395c1eb397f0c9bbec4",
+        "size": 1450038240,
+        "strip": 1
+      }
+    }
+  },
+  "20.1.7": {
+    "depends": {
+      "python": "3.10"
+    },
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.7/LLVM-20.1.7-Linux-X64.tar.xz",
+        "checksum": "sha256:8494c98a774051a40bfe1187a2d6442f4bc107598998bbe1673d9bb1572cfd6f",
+        "size": 2022020036,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.7/LLVM-20.1.7-Linux-ARM64.tar.xz",
+        "checksum": "sha256:832f2802a29457dc758f56e26e98558c6cd0e45fcd07186f540cb6e7f4e59385",
+        "size": 1859713060,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.7/LLVM-20.1.7-macOS-ARM64.tar.xz",
+        "checksum": "sha256:6aa75de00575ad0663183b00f00f39992ded611b5136e57649ace1e6a53c0d16",
+        "size": 1449924896,
+        "strip": 1
+      }
+    }
+  },
+  "20.1.6": {
+    "depends": {
+      "python": "3.10"
+    },
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.6/LLVM-20.1.6-Linux-X64.tar.xz",
+        "checksum": "sha256:8ecc9878e3d99c8f1db25e5564d12900b4a1fc947f62b8cd01135fd0b15220e4",
+        "size": 2022436412,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.6/LLVM-20.1.6-Linux-ARM64.tar.xz",
+        "checksum": "sha256:f7c2851771cf26af3e2196e3be060cdafe7ea2e04db24bbd736aea0d2c95e3e9",
+        "size": 1860540860,
+        "strip": 1
+      }
+    }
+  },
+  "20.1.5": {
+    "depends": {
+      "python": "3.10"
+    },
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.5/LLVM-20.1.5-Linux-X64.tar.xz",
+        "checksum": "sha256:0a764a8ca521606532ca9ec4e5745c933b16b7d30f4701a47ee851d448fcdb74",
+        "size": 2020033120,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.5/LLVM-20.1.5-Linux-ARM64.tar.xz",
+        "checksum": "sha256:a6b8679be46bdaa383e0c7f13a473ca8f7a4f87233f2cc0e0a7ab19e1b6265e7",
+        "size": 1860257316,
+        "strip": 1
+      }
+    }
+  },
+  "20.1.4": {
+    "depends": {
+      "python": "3.10"
+    },
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.4/LLVM-20.1.4-Linux-X64.tar.xz",
+        "checksum": "sha256:113b54c397adb2039fa45e38dc8107b9ec5a0baead3a3bac8ccfbb65b2340caa",
+        "size": 2021200560,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.4/LLVM-20.1.4-Linux-ARM64.tar.xz",
+        "checksum": "sha256:4de80a332eecb06bf55097fd3280e1c69ed80f222e5bdd556221a6ceee02721a",
+        "size": 1861555784,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.4/LLVM-20.1.4-macOS-ARM64.tar.xz",
+        "checksum": "sha256:debb43b7b364c5cf864260d84ba1b201d49b6460fe84b76eaa65688dfadf19d2",
+        "size": 1450111696,
+        "strip": 1
+      }
+    }
+  },
+  "20.1.3": {
+    "depends": {
+      "python": "3.10"
+    },
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.3/LLVM-20.1.3-Linux-X64.tar.xz",
+        "checksum": "sha256:c75103f520626cd2137a7e907998f12fff64136514ade1bb0a259995ae2de80e",
+        "size": 2021228276,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.3/LLVM-20.1.3-Linux-ARM64.tar.xz",
+        "checksum": "sha256:a9030b70bd8e1d8fe1e48d7b32c8328f2861f00e8474b22105037235a5774bcf",
+        "size": 1861749572,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.3/LLVM-20.1.3-macOS-ARM64.tar.xz",
+        "checksum": "sha256:70cd48fcd6b838690149bd00a85270d054c1c410d430f7c51f6d6e9019790d62",
+        "size": 1449971968,
+        "strip": 1
+      }
+    }
+  },
+  "20.1.2": {
+    "depends": {
+      "python": "3.10"
+    },
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.2/LLVM-20.1.2-Linux-X64.tar.xz",
+        "checksum": "sha256:3a392f151375eeed4fd50c6b6f7c7203da37b373a57f220ae58ef62b8aade3cc",
+        "size": 2021628328,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.2/LLVM-20.1.2-Linux-ARM64.tar.xz",
+        "checksum": "sha256:41a6a2892cf66cd7c275753f2d1afe0e33b26c9674eff7d114fb36a52253436a",
+        "size": 1861582368,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.2/LLVM-20.1.2-macOS-ARM64.tar.xz",
+        "checksum": "sha256:e502de0ccaa12dec9b7499c9e15e896006feda438078aba8b97894ae3218d4e3",
+        "size": 1449938768,
+        "strip": 1
+      }
+    }
+  },
+  "20.1.1": {
+    "depends": {
+      "python": "3.10"
+    },
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.1/LLVM-20.1.1-Linux-X64.tar.xz",
+        "checksum": "sha256:b1f40360adbf31934d5d3d999c5f91f7e52e089ae984d237565cc4c23bbfa283",
+        "size": 2021187508,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.1/LLVM-20.1.1-Linux-ARM64.tar.xz",
+        "checksum": "sha256:09f5a08ef6c96a7c6c11258b3053ae5ed11a6717ffd9fd01bbebd75d8038a0fc",
+        "size": 1861931688,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.1/LLVM-20.1.1-macOS-ARM64.tar.xz",
+        "checksum": "sha256:ae52012b28bb43e1aa698aa347e37d06edb4643895b8bb189ed275025cd349ed",
+        "size": 1450003112,
+        "strip": 1
+      }
+    }
+  },
+  "20.1.0": {
+    "depends": {
+      "python": "3.10"
+    },
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.0/LLVM-20.1.0-Linux-X64.tar.xz",
+        "checksum": "sha256:954ac51498519f6ed9540714fb04bc401f70039b296a8160dd1559be380788d7",
+        "size": 2020952612,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.0/LLVM-20.1.0-Linux-ARM64.tar.xz",
+        "checksum": "sha256:9d1bbf3f6d4d011e3b8b4b585f686bc968474917f37d3b82b4a534f456168c67",
+        "size": 1862002784,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.0/LLVM-20.1.0-macOS-ARM64.tar.xz",
+        "checksum": "sha256:2c42ec26ec50c4bf8b95585f762b9d2f5b385d170dee772d9c1d6c9a7190dcef",
+        "size": 1449999292,
+        "strip": 1
+      }
+    }
+  }
+}

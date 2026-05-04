@@ -1,0 +1,2342 @@
+{
+  "24.14.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v24.14.1/node-v24.14.1-linux-x64.tar.gz",
+        "checksum": "sha256:ace9fa104992ed0829642629c46ca7bd7fd6e76278cb96c958c4b387d29658ea",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v24.14.1/node-v24.14.1-linux-arm64.tar.gz",
+        "checksum": "sha256:734ff04fa7f8ed2e8a78d40cacf5ac3fc4515dac2858757cbab313eb483ba8a2",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v24.14.1/node-v24.14.1-darwin-x64.tar.gz",
+        "checksum": "sha256:2526230ad7d922be82d4fdb1e7ee1e84303e133e3b4b0ec4c2897ab31de0253d",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v24.14.1/node-v24.14.1-darwin-arm64.tar.gz",
+        "checksum": "sha256:25495ff85bd89e2d8a24d88566d7e2f827c6b0d3d872b2cebf75371f93fcb1fe",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "24.14.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v24.14.0/node-v24.14.0-linux-x64.tar.gz",
+        "checksum": "sha256:dbf5b8665dec15e59e6359a517fefb47b23fdb9152d8def975b9bca3dfc6d355",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v24.14.0/node-v24.14.0-linux-arm64.tar.gz",
+        "checksum": "sha256:f44740cd218de8127f1c44c41510a3a740fa5c9c8d1cdce1c3bedada79f3cde7",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v24.14.0/node-v24.14.0-darwin-x64.tar.gz",
+        "checksum": "sha256:f2879eb810e25993a0578e5d878930266fd2eafcffe9f2839b3d8db354d4879e",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v24.14.0/node-v24.14.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:a1a54f46a750d2523d628d924aab61758a51c9dad3e0238beb14141be9615dd3",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "24.13.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v24.13.1/node-v24.13.1-linux-x64.tar.gz",
+        "checksum": "sha256:7ad28fb172a9ab0593f86c1a39e5c268d0d8fc3d6cb0167f455b5655a7a6e2fd",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v24.13.1/node-v24.13.1-linux-arm64.tar.gz",
+        "checksum": "sha256:4873459d7c9b28feaa1f0fade9bb9c81cb702670991ff80a51d805325c5e3456",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v24.13.1/node-v24.13.1-darwin-x64.tar.gz",
+        "checksum": "sha256:527f0578d9812e7dfa225121bda0b1546a6a0e4b5f556295fc8299c272de5fbf",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v24.13.1/node-v24.13.1-darwin-arm64.tar.gz",
+        "checksum": "sha256:8c039d59f2fec6195e4281ad5b0d02b9a940897b4df7b849c6fb48be6787bba6",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "24.13.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v24.13.0/node-v24.13.0-linux-x64.tar.gz",
+        "checksum": "sha256:6223aad1a81f9d1e7b682c59d12e2de233f7b4c37475cd40d1c89c42b737ffa8",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v24.13.0/node-v24.13.0-linux-arm64.tar.gz",
+        "checksum": "sha256:0f6d40b94c6a2eb6b4c240ffc8b9fd3ada7ab044c177dd413c06e1ef9a63f081",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v24.13.0/node-v24.13.0-darwin-x64.tar.gz",
+        "checksum": "sha256:6f03c1b48ddbe1b129a6f8038be08e0899f05f17185b4d3e4350180ab669a7f3",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v24.13.0/node-v24.13.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:d595961e563fcae057d4a0fb992f175a54d97fcc4a14dc2d474d92ddeea3b9f8",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "24.12.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v24.12.0/node-v24.12.0-linux-x64.tar.gz",
+        "checksum": "sha256:6159227e0af7d7c3c6bb2fa900452b04a6cb8841a702a79acc613209d70b04d0",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v24.12.0/node-v24.12.0-linux-arm64.tar.gz",
+        "checksum": "sha256:9b2a2eeb98a8eb37361224e2a1d060300ad2dd143af58dfdb16de785df0f1228",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v24.12.0/node-v24.12.0-darwin-x64.tar.gz",
+        "checksum": "sha256:b82ea4c62fd08e250cab59d625e75d77cc5b0a3d60c6698ebee4545c88a169c5",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v24.12.0/node-v24.12.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:319f221adc5e44ff0ed57e8a441b2284f02b8dc6fc87b8eb92a6a93643fd8080",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "24.11.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v24.11.1/node-v24.11.1-linux-x64.tar.gz",
+        "checksum": "sha256:58a5ff5cc8f2200e458bea22e329d5c1994aa1b111d499ca46ec2411d58239ca",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v24.11.1/node-v24.11.1-linux-arm64.tar.gz",
+        "checksum": "sha256:0dc93ec5c798b0d347f068db6d205d03dea9a71765e6a53922b682b91265d71f",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v24.11.1/node-v24.11.1-darwin-x64.tar.gz",
+        "checksum": "sha256:096081b6d6fcdd3f5ba0f5f1d44a47e83037ad2e78eada26671c252fe64dd111",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v24.11.1/node-v24.11.1-darwin-arm64.tar.gz",
+        "checksum": "sha256:b05aa3a66efe680023f930bd5af3fdbbd542794da5644ca2ad711d68cbd4dc35",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "24.11.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v24.11.0/node-v24.11.0-linux-x64.tar.gz",
+        "checksum": "sha256:b3c071cdf47aab867c3b2aa287257df12ec5d7c962bf922b32fd33226c4295fd",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v24.11.0/node-v24.11.0-linux-arm64.tar.gz",
+        "checksum": "sha256:4786d00c4d259d3ff0b2328307f764ef3ced65f2d6e9502d433e68d66238509d",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v24.11.0/node-v24.11.0-darwin-x64.tar.gz",
+        "checksum": "sha256:3884671e87f46f773832d98a0a6cabcc5ec4f637084f0f3515b69e66ea27f2f1",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v24.11.0/node-v24.11.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:0be2ab2816a4fa02d1acff014a434f29f56d8d956f5af6a98b70ced6c5f4d201",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "22.22.2": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.22.2/node-v22.22.2-linux-x64.tar.gz",
+        "checksum": "sha256:978978a635eef872fa68beae09f0aad0bbbae6757e444da80b570964a97e62a3",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.22.2/node-v22.22.2-linux-arm64.tar.gz",
+        "checksum": "sha256:b2f3a96f31486bfc365192ad65ced14833ad2a3c2e1bcefec4846902f264fa28",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.22.2/node-v22.22.2-darwin-x64.tar.gz",
+        "checksum": "sha256:12a6abb9c2902cf48a21120da13f87fde1ed1b71a13330712949e8db818708ba",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.22.2/node-v22.22.2-darwin-arm64.tar.gz",
+        "checksum": "sha256:db4b275b83736df67533529a18cc55de2549a8329ace6c7bcc68f8d22d3c9000",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "22.22.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.22.1/node-v22.22.1-linux-x64.tar.gz",
+        "checksum": "sha256:07c8aafa60644fb81adefa1ee7da860eb1920851ffdc9a37020ab0be47fbc10e",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.22.1/node-v22.22.1-linux-arm64.tar.gz",
+        "checksum": "sha256:1d1690e9aba47e887a275abc6d8f7317e571a0700deaef493f768377e99155f5",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.22.1/node-v22.22.1-darwin-x64.tar.gz",
+        "checksum": "sha256:07b13722d558790fca20bb1ecf61bde24b7a4863111f7be77fc57251a407359a",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.22.1/node-v22.22.1-darwin-arm64.tar.gz",
+        "checksum": "sha256:679ad4966339e4ef4900f57996714864e4211b898825bb840c3086c419fbcef2",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "22.22.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.22.0/node-v22.22.0-linux-x64.tar.gz",
+        "checksum": "sha256:c33c39ed9c80deddde77c960d00119918b9e352426fd604ba41638d6526a4744",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.22.0/node-v22.22.0-linux-arm64.tar.gz",
+        "checksum": "sha256:25ba95dfb96871fa2ef977f11f95ea90818c8fa15c0f2110771db08d4ba423be",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.22.0/node-v22.22.0-darwin-x64.tar.gz",
+        "checksum": "sha256:5ea50c9d6dea3dfa3abb66b2656f7a4e1c8cef23432b558d45fb538c7b5dedce",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.22.0/node-v22.22.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:5ed4db0fcf1eaf84d91ad12462631d73bf4576c1377e192d222e48026a902640",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "22.21.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.21.1/node-v22.21.1-linux-x64.tar.gz",
+        "checksum": "sha256:219a152ea859861d75adea578bdec3dce8143853c13c5187f40c40e77b0143b2",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.21.1/node-v22.21.1-linux-arm64.tar.gz",
+        "checksum": "sha256:c86830dedf77f8941faa6c5a9c863bdfdd1927a336a46943decc06a38f80bfb2",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.21.1/node-v22.21.1-darwin-x64.tar.gz",
+        "checksum": "sha256:8e3dc89614debe66c2a6ad2313a1adb06eb37db6cd6c40d7de6f7d987f7d1afd",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.21.1/node-v22.21.1-darwin-arm64.tar.gz",
+        "checksum": "sha256:c170d6554fba83d41d25a76cdbad85487c077e51fa73519e41ac885aa429d8af",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "22.21.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.21.0/node-v22.21.0-linux-x64.tar.gz",
+        "checksum": "sha256:262b84b02f7e2bc017d4bdb81fec85ca0d6190a5cd0781d2d6e84317c08871f8",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.21.0/node-v22.21.0-linux-arm64.tar.gz",
+        "checksum": "sha256:5180e74f2cdea6142548bd827249da32c0e86ba2581d6241e2f2761f957b9ed1",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.21.0/node-v22.21.0-darwin-x64.tar.gz",
+        "checksum": "sha256:756674542a28207515cdd22ca290e53a9c1fb7b903603047278d339164eb376f",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.21.0/node-v22.21.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:dbc1a17024a32827adb23b5b11ce98cefcd783145a30fe41bb2845be711e9742",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "22.20.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.20.0/node-v22.20.0-linux-x64.tar.gz",
+        "checksum": "sha256:eeaccb0378b79406f2208e8b37a62479c70595e20be6b659125eb77dd1ab2a29",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.20.0/node-v22.20.0-linux-arm64.tar.gz",
+        "checksum": "sha256:4181609e03dcb9880e7e5bf956061ecc0503c77a480c6631d868cb1f65a2c7dd",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.20.0/node-v22.20.0-darwin-x64.tar.gz",
+        "checksum": "sha256:00df9c5df3e4ec6848c26b70fb47bf96492f342f4bed6b17f12d99b3a45eeecc",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.20.0/node-v22.20.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:cc04a76a09f79290194c0646f48fec40354d88969bec467789a5d55dd097f949",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "22.19.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.19.0/node-v22.19.0-linux-x64.tar.gz",
+        "checksum": "sha256:d36e56998220085782c0ca965f9d51b7726335aed2f5fc7321c6c0ad233aa96d",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.19.0/node-v22.19.0-linux-arm64.tar.gz",
+        "checksum": "sha256:d32817b937219b8f131a28546035183d79e7fd17a86e38ccb8772901a7cd9009",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.19.0/node-v22.19.0-darwin-x64.tar.gz",
+        "checksum": "sha256:3cfed4795cd97277559763c5f56e711852d2cc2420bda1cea30c8aa9ac77ce0c",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.19.0/node-v22.19.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:c59006db713c770d6ec63ae16cb3edc11f49ee093b5c415d667bb4f436c6526d",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "22.18.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.18.0/node-v22.18.0-linux-x64.tar.gz",
+        "checksum": "sha256:a2e703725d8683be86bb5da967bf8272f4518bdaf10f21389e2b2c9eaeae8c8a",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.18.0/node-v22.18.0-linux-arm64.tar.gz",
+        "checksum": "sha256:d415eeea90a2fdb60c66dd386b258acbfc4d1fa4720a8df5dea7369fbdbcddee",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.18.0/node-v22.18.0-darwin-x64.tar.gz",
+        "checksum": "sha256:9c8aa1e5ff5780b38cc1134e2263d84e2f4308eb84c02515e3af33936ca02cdc",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.18.0/node-v22.18.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:2c12913cba67af77ded8a399df3fd91c2e7f8628c7079da40bb9ff33bf00dfc0",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "22.17.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.17.1/node-v22.17.1-linux-x64.tar.gz",
+        "checksum": "sha256:cfb6ac0cf339825fe36efd1f18a79016b02aca19fbfa6c9547c57e27dc09f6ea",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.17.1/node-v22.17.1-linux-arm64.tar.gz",
+        "checksum": "sha256:f53510706998cf044f634190416f0588e7e1937aecea938768952e0f0ac1f41b",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.17.1/node-v22.17.1-darwin-x64.tar.gz",
+        "checksum": "sha256:b925103150fac0d23a44a45b2d88a01b73e5fff101e5dcfbae98d32c08d4bee3",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.17.1/node-v22.17.1-darwin-arm64.tar.gz",
+        "checksum": "sha256:a983f4f2a7b71512b78d7935b9ccf6b72120a255810070afd635c4146bca7b31",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "22.17.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.17.0/node-v22.17.0-linux-x64.tar.gz",
+        "checksum": "sha256:0fa01328a0f3d10800623f7107fbcd654a60ec178fab1ef5b9779e94e0419e1a",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.17.0/node-v22.17.0-linux-arm64.tar.gz",
+        "checksum": "sha256:3e99df8b01b27dc8b334a2a30d1cd500442b3b0877d217b308fd61a9ccfc33d4",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.17.0/node-v22.17.0-darwin-x64.tar.gz",
+        "checksum": "sha256:c39c8ec3cdadedfcc75de0cb3305df95ae2aecebc5db8d68a9b67bd74616d2ad",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.17.0/node-v22.17.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:615dda58b5fb41fad2be43940b6398ca56554cbe05800953afadc724729cb09e",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "22.16.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.16.0/node-v22.16.0-linux-x64.tar.gz",
+        "checksum": "sha256:fb870226119d47378fa9c92c4535389c72dae14fcc7b47e6fdcc82c43de5a547",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.16.0/node-v22.16.0-linux-arm64.tar.gz",
+        "checksum": "sha256:1725602e9fb150eb8b8220a899085190e1c04d1a5f3862b01c3dc1dfce0157f9",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.16.0/node-v22.16.0-darwin-x64.tar.gz",
+        "checksum": "sha256:838d400f7e66c804e5d11e2ecb61d6e9e878611146baff69d6a2def3cc23f4ac",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.16.0/node-v22.16.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:1d7f34ec4c03e12d8b33481e5c4560432d7dc31a0ef3ff5a4d9a8ada7cf6ecc9",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "22.15.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.15.1/node-v22.15.1-linux-x64.tar.gz",
+        "checksum": "sha256:f4b8eec683708acb1a2a73c7182ba2de5466a5dd5f705934a0830903df28821c",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.15.1/node-v22.15.1-linux-arm64.tar.gz",
+        "checksum": "sha256:eb3f232b83dfe83397b98395ec77a973e888e8959c978b3e4eeb551b8845b74f",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.15.1/node-v22.15.1-darwin-x64.tar.gz",
+        "checksum": "sha256:1c722d0dd6d3f60e8b0be014ea01b8a59f5088f4419197a1b37544854d61cc6f",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.15.1/node-v22.15.1-darwin-arm64.tar.gz",
+        "checksum": "sha256:d2689b86b17e1b51e76f801ffe2d9acca4225e76eda4b843c3d8438d4a7cd6fe",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "22.15.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.15.0/node-v22.15.0-linux-x64.tar.gz",
+        "checksum": "sha256:29d1c60c5b64ccdb0bc4e5495135e68e08a872e0ae91f45d9ec34fc135a17981",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.15.0/node-v22.15.0-linux-arm64.tar.gz",
+        "checksum": "sha256:c3582722db988ed1eaefd590b877b86aaace65f68746726c1f8c79d26e5cc7de",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.15.0/node-v22.15.0-darwin-x64.tar.gz",
+        "checksum": "sha256:f7f42bee60d602783d3a842f0a02a2ecd9cb9d7f6f3088686c79295b0222facf",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.15.0/node-v22.15.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:92eb58f54d172ed9dee320b8450f1390db629d4262c936d5c074b25a110fed02",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "22.14.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.14.0/node-v22.14.0-linux-x64.tar.gz",
+        "checksum": "sha256:9d942932535988091034dc94cc5f42b6dc8784d6366df3a36c4c9ccb3996f0c2",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.14.0/node-v22.14.0-linux-arm64.tar.gz",
+        "checksum": "sha256:8cf30ff7250f9463b53c18f89c6c606dfda70378215b2c905d0a9a8b08bd45e0",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.14.0/node-v22.14.0-darwin-x64.tar.gz",
+        "checksum": "sha256:6698587713ab565a94a360e091df9f6d91c8fadda6d00f0cf6526e9b40bed250",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.14.0/node-v22.14.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:e9404633bc02a5162c5c573b1e2490f5fb44648345d64a958b17e325729a5e42",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "22.13.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.13.1/node-v22.13.1-linux-x64.tar.gz",
+        "checksum": "sha256:666148b9fe0c7e1301cc1b029e33a45e9e4a893f68d2d2bb1cc88a931a88a004",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.13.1/node-v22.13.1-linux-arm64.tar.gz",
+        "checksum": "sha256:911d9c07af38c82be22cd0a3db613aabc578ba940b35380aeedadd6d48070bc1",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.13.1/node-v22.13.1-darwin-x64.tar.gz",
+        "checksum": "sha256:6fdcc8412d434664238b0651ebd5ad55d15a08598ff42dcb6d9cf1d434a6c4be",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.13.1/node-v22.13.1-darwin-arm64.tar.gz",
+        "checksum": "sha256:97483ff4361d239a56d038c6335767a56a291e78c10f07446f463f05d9d19b89",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "22.13.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.13.0/node-v22.13.0-linux-x64.tar.gz",
+        "checksum": "sha256:9a33e89093a0d946c54781dcb3ccab4ccf7538a7135286528ca41ca055e9b38f",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.13.0/node-v22.13.0-linux-arm64.tar.gz",
+        "checksum": "sha256:e0cc088cb4fb2e945d3d5c416c601e1101a15f73e0f024c9529b964d9f6dce5b",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.13.0/node-v22.13.0-darwin-x64.tar.gz",
+        "checksum": "sha256:cfaaf5edde585a15547f858f5b3b62a292cf5929a23707b6f1e36c29a32487be",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.13.0/node-v22.13.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:bc1e374e7393e2f4b20e5bbc157d02e9b1fb2c634b2f992136b38fb8ca2023b7",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "22.12.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.12.0/node-v22.12.0-linux-x64.tar.gz",
+        "checksum": "sha256:e05a4d65232ae2b27b3d77da2e368522fb46b923335b8e0d5f77624c32484044",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.12.0/node-v22.12.0-linux-arm64.tar.gz",
+        "checksum": "sha256:9e7905fdee722f9650a03ae644b51c4c6effd3b98ac93c588700072ab35c9ddb",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.12.0/node-v22.12.0-darwin-x64.tar.gz",
+        "checksum": "sha256:52bc25dd026db7247c3c00439afdb83e95087248267f02d6c1a7250d1f896173",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.12.0/node-v22.12.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:293dcc6c2408da21562d135b0412525e381bb6fe150d688edb58fe850d0f3e13",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "22.11.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.11.0/node-v22.11.0-linux-x64.tar.gz",
+        "checksum": "sha256:4f862bab52039835efbe613b532238b6e4dde98d139a34e6923193e073438b13",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.11.0/node-v22.11.0-linux-arm64.tar.gz",
+        "checksum": "sha256:27453f7a0dd6b9e6738f1f6ea6a09b102ec7aa484de1e39d6a1c3608ad47aa6a",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.11.0/node-v22.11.0-darwin-x64.tar.gz",
+        "checksum": "sha256:668d30b9512137b5f5baeef6c1bb4c46efff9a761ba990a034fb6b28b9da2465",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.11.0/node-v22.11.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:2e89afe6f4e3aa6c7e21c560d8a0453d84807e97850bbb819b998531a22bdfde",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "20.20.2": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.20.2/node-v20.20.2-linux-x64.tar.gz",
+        "checksum": "sha256:19e56f0825510207dd904f087fe52faa0a4eb6b2aab5f0ea7a33830d04888b8b",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.20.2/node-v20.20.2-linux-arm64.tar.gz",
+        "checksum": "sha256:47ef73d543ecf6eb19435f6c03a0ac4809b3bf0dd6b26c7c571efc2a6572a74d",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.20.2/node-v20.20.2-darwin-x64.tar.gz",
+        "checksum": "sha256:8be6f5e4bb128c82774f8a0b8d7a1cc1365a7977d9657cece0ca647b3fe04e61",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.20.2/node-v20.20.2-darwin-arm64.tar.gz",
+        "checksum": "sha256:466e05f3477c20dfb723054dfebffe55bc74660ee77f612166fca121dacb65b6",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "20.20.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.20.1/node-v20.20.1-linux-x64.tar.gz",
+        "checksum": "sha256:6362e50804cdcc110592201f67beda93bcd702fdcbe1c42840a50d590e3af0ce",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.20.1/node-v20.20.1-linux-arm64.tar.gz",
+        "checksum": "sha256:d6947e10ddc124284aee92981cc739cd4581a6b4bf89520792f2b582600195fa",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.20.1/node-v20.20.1-darwin-x64.tar.gz",
+        "checksum": "sha256:ea8d2cd7280d935232bae5456704843aa50cf452e10b95abd92a721db6496965",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.20.1/node-v20.20.1-darwin-arm64.tar.gz",
+        "checksum": "sha256:36c5ef36d955995ea2dea700b16b8e79bedeb1ecb4569e77ddc8fc739aa56bac",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "20.20.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.20.0/node-v20.20.0-linux-x64.tar.gz",
+        "checksum": "sha256:92dfd59fb4837230abba5d6dd717b882ca897e22fde2f9268e1aac2c4bde0f5b",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.20.0/node-v20.20.0-linux-arm64.tar.gz",
+        "checksum": "sha256:2b640b7fc19a1d2f12a226d7dfba9baff2de87cc15db5a3e58bcdb15582ac604",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.20.0/node-v20.20.0-darwin-x64.tar.gz",
+        "checksum": "sha256:69bf9b294dc04e3b97c3d5e4f16b3c634201b7f5f617fb65d93a9a9ac4bec0f0",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.20.0/node-v20.20.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:69b98aa4662032ab06bd92216f0aebb2727d7ee4e1eb79ea5787bbbb38af4801",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "20.19.6": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.19.6/node-v20.19.6-linux-x64.tar.gz",
+        "checksum": "sha256:24344f9f03e3b388a901f8fb5d98e627e6cf74ce44aaf5a0fd6c4b39e4f2adc8",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.19.6/node-v20.19.6-linux-arm64.tar.gz",
+        "checksum": "sha256:a332bb8b108d7aab2f2e2736293e4ab41638cf6f3b3f49a756b8f63469024fa5",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.19.6/node-v20.19.6-darwin-x64.tar.gz",
+        "checksum": "sha256:3f8c96205b22374d8dc54531586f164afe546e722aa8f9c813f17dcf30fb978b",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.19.6/node-v20.19.6-darwin-arm64.tar.gz",
+        "checksum": "sha256:53dc59c40870460d5f72b279d06ef2c0ae70cdc154317003f853545f2f4e7747",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "20.19.5": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.19.5/node-v20.19.5-linux-x64.tar.gz",
+        "checksum": "sha256:4eba5fbe1fb10753bc06e42f001a91c5cec16798b7764a3e9257adc59af47fe1",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.19.5/node-v20.19.5-linux-arm64.tar.gz",
+        "checksum": "sha256:a08b513de673853ca16395ec461a104a99bf0e941ebb7baedb98b30cd221d8cc",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.19.5/node-v20.19.5-darwin-x64.tar.gz",
+        "checksum": "sha256:f9cff058f2766d4d0631dc69b5f7f27664b3a42ff186e25ac7e1ac269af7e696",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.19.5/node-v20.19.5-darwin-arm64.tar.gz",
+        "checksum": "sha256:cfed7503d8d99fbcf2f52e408ec52f616058eb0867b34dbc3437259993ef5cba",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "20.19.4": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.19.4/node-v20.19.4-linux-x64.tar.gz",
+        "checksum": "sha256:d80a33707605ced9a31b8f543cea9ab512bc3d2fef2c148f31a50e939ff07560",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.19.4/node-v20.19.4-linux-arm64.tar.gz",
+        "checksum": "sha256:d200798332b7a56d355888ce58e6a639fac7939a4833e5bc8780c66888e1ce4d",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.19.4/node-v20.19.4-darwin-x64.tar.gz",
+        "checksum": "sha256:cc47ed094c1876b211a9091d09a78537c1cbbb0f8cf5a49c9fd79933ee8fd7fd",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.19.4/node-v20.19.4-darwin-arm64.tar.gz",
+        "checksum": "sha256:8b89801f527a85e3f7de539512c9dde08673ac99db6458cc7cc627e05d707054",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "20.19.3": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.19.3/node-v20.19.3-linux-x64.tar.gz",
+        "checksum": "sha256:76272878069683c3a36b933d2f4842436a26b527daa930ae9346b477011ee2f3",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.19.3/node-v20.19.3-linux-arm64.tar.gz",
+        "checksum": "sha256:8e6939f63b736470bf2cbda596ab62393f26d9af9d7046d61270899880d4f149",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.19.3/node-v20.19.3-darwin-x64.tar.gz",
+        "checksum": "sha256:6f9dc8cbce8f8c74e4df296fb58c20fc6e88f47880a299fc76bbb01a90219870",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.19.3/node-v20.19.3-darwin-arm64.tar.gz",
+        "checksum": "sha256:4efd92305e36e6e9f8cfe8d7781b188eec86f306ca712535ecf2c10dc8c1ae13",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "20.19.2": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.19.2/node-v20.19.2-linux-x64.tar.gz",
+        "checksum": "sha256:eec2c7b9c6ac72e42885a42edfc0503c0e4ee455f855c4a17a6cbcf026656dd5",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.19.2/node-v20.19.2-linux-arm64.tar.gz",
+        "checksum": "sha256:24c3090d4e8c3667cd57482263291ca4f562c2e0773d5e618a0c6ba32d21b39f",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.19.2/node-v20.19.2-darwin-x64.tar.gz",
+        "checksum": "sha256:29f91e05992a7d81498ab1d04938a184313cb4aaccab95bb4636e30e6424eae3",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.19.2/node-v20.19.2-darwin-arm64.tar.gz",
+        "checksum": "sha256:5f96c725cd2be1151f08b25c05bf5a21866a2dc7db3803d351a6ea19fcc53665",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "20.19.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.19.1/node-v20.19.1-linux-x64.tar.gz",
+        "checksum": "sha256:086ab500a98900a4c05127559b2cec4d659b3aa674453be5028d416de4eb1532",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.19.1/node-v20.19.1-linux-arm64.tar.gz",
+        "checksum": "sha256:f8fac0cc6cb06b4e443febda59178d5a6c6a5379e0194e6d156d3d3116e75b5f",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.19.1/node-v20.19.1-darwin-x64.tar.gz",
+        "checksum": "sha256:f4963877f026cca411b537029cee01d1fde6d3293cfb88d77096794cb89c866b",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.19.1/node-v20.19.1-darwin-arm64.tar.gz",
+        "checksum": "sha256:d3746fee0e00e3a7fedf50633f8e04adb6873b1fe9b5b50c37dff16f64a4f2c7",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "20.19.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.19.0/node-v20.19.0-linux-x64.tar.gz",
+        "checksum": "sha256:8a4dbcdd8bccef3132d21e8543940557e55dcf44f00f0a99ba8a062f4552e722",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.19.0/node-v20.19.0-linux-arm64.tar.gz",
+        "checksum": "sha256:618e4294602b78e97118a39050116b70d088b16197cd3819bba1fc18b473dfc4",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.19.0/node-v20.19.0-darwin-x64.tar.gz",
+        "checksum": "sha256:a8554af97d6491fdbdabe63d3a1cfb9571228d25a3ad9aed2df856facb131b20",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.19.0/node-v20.19.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:c016cd1975a264a29dc1b07c6fbe60d5df0a0c2beb4113c0450e3d998d1a0d9c",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "20.18.3": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.18.3/node-v20.18.3-linux-x64.tar.gz",
+        "checksum": "sha256:9fc3952da39b20d1fcfdb777b198cc035485afbbb1004b4df93f35245d61151e",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.18.3/node-v20.18.3-linux-arm64.tar.gz",
+        "checksum": "sha256:93a9df19238adfaa289f4784041d03edaf2fdd89fbb247faffca2fe4a1000703",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.18.3/node-v20.18.3-darwin-x64.tar.gz",
+        "checksum": "sha256:ba668f64df9239843fefcef095ee539f5ac5aa1b0fc15a71f1ecca16abedec7a",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.18.3/node-v20.18.3-darwin-arm64.tar.gz",
+        "checksum": "sha256:1f15b7ed18a580af31cf32bc126572292d820f547bf55bf9cdce08041a24e1d9",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "20.18.2": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.18.2/node-v20.18.2-linux-x64.tar.gz",
+        "checksum": "sha256:eb5b031bdd728871c3b9a82655dbfa533bc262c0b6da1d09a86842430cef07d4",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.18.2/node-v20.18.2-linux-arm64.tar.gz",
+        "checksum": "sha256:319789e8a055ff80793a05e633c8c5c9226050144a09da3747225b4ec56a2a99",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.18.2/node-v20.18.2-darwin-x64.tar.gz",
+        "checksum": "sha256:00a16bb0a82a2ad5d00d66b466ae1afa678482283747c27e9bce96668f334744",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.18.2/node-v20.18.2-darwin-arm64.tar.gz",
+        "checksum": "sha256:fa76d5b5340f14070ebaa88ef8faa28c1e9271502725e830cb52f0cf5b6493de",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "20.18.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.18.1/node-v20.18.1-linux-x64.tar.gz",
+        "checksum": "sha256:259e5a8bf2e15ecece65bd2a47153262eda71c0b2c9700d5e703ce4951572784",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.18.1/node-v20.18.1-linux-arm64.tar.gz",
+        "checksum": "sha256:73cd297378572e0bc9dfc187c5ec8cca8d43aee6a596c10ebea1ed5f9ec682b6",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.18.1/node-v20.18.1-darwin-x64.tar.gz",
+        "checksum": "sha256:c5497dd17c8875b53712edaf99052f961013cedc203964583fc0cfc0aaf93581",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.18.1/node-v20.18.1-darwin-arm64.tar.gz",
+        "checksum": "sha256:9e92ce1032455a9cc419fe71e908b27ae477799371b45a0844eedb02279922a4",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "20.18.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.18.0/node-v20.18.0-linux-x64.tar.gz",
+        "checksum": "sha256:24a5d58a1d4c2903478f4b7c3cfd2eeb5cea2cae3baee11a4dc6a1fed25fec6c",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.18.0/node-v20.18.0-linux-arm64.tar.gz",
+        "checksum": "sha256:38bccb35c06ee4edbcd00c77976e3fad1d69d2e57c3c0c363d1700a2a2493278",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.18.0/node-v20.18.0-darwin-x64.tar.gz",
+        "checksum": "sha256:c02aa7560612a4e2cc359fd89fae7aedde370c06db621f2040a4a9f830a125dc",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.18.0/node-v20.18.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:92e180624259d082562592bb12548037c6a417069be29e452ec5d158d657b4be",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "20.17.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.17.0/node-v20.17.0-linux-x64.tar.gz",
+        "checksum": "sha256:21e656f6f4e34080ddc5d75fbfe58ce8482fe6e70a76aeae14afdcdc1e23079d",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.17.0/node-v20.17.0-linux-arm64.tar.gz",
+        "checksum": "sha256:18afbf2781edfcc9918343f4bf74a8c35d74d778b85d40a0c09b232adc0ea82c",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.17.0/node-v20.17.0-darwin-x64.tar.gz",
+        "checksum": "sha256:eefe9447dbb0b5b233d42730989c6c364487de4043145db2f63da94e9623c380",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.17.0/node-v20.17.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:476324108c4361935465631eec47df1c943ba2c87bc050853385b1d1c71f0b1f",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "20.16.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.16.0/node-v20.16.0-linux-x64.tar.gz",
+        "checksum": "sha256:b3f874ea84e440d69ed02ca92429d0eccd17737fde86db69c1c153d16ec654f2",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.16.0/node-v20.16.0-linux-arm64.tar.gz",
+        "checksum": "sha256:551588f8f5ca05c04efb53f1b2bb7d9834603327bdc82d60a944d385569866e1",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.16.0/node-v20.16.0-darwin-x64.tar.gz",
+        "checksum": "sha256:e18942cd706e4d69a4845ddacee2f1c17a72e853a229e3d2623d2edeb7efde72",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.16.0/node-v20.16.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:fc7355e778b181575153b7dea4879e8021776eeb376c43c50f65893d2ea70aa3",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "20.15.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.15.1/node-v20.15.1-linux-x64.tar.gz",
+        "checksum": "sha256:a9db028c0a1c63e3aa0d97de24b0966bc507d8239b3aedc4e752eea6b0580665",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.15.1/node-v20.15.1-linux-arm64.tar.gz",
+        "checksum": "sha256:8554c91ccd32782351035d3a9b168ad01c6922480800a21870fc5d6d86c2bb70",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.15.1/node-v20.15.1-darwin-x64.tar.gz",
+        "checksum": "sha256:f5379772ffae1404cfd1fcc8cf0c6c5971306b8fb2090d348019047306de39dc",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.15.1/node-v20.15.1-darwin-arm64.tar.gz",
+        "checksum": "sha256:4743bc042f90ba5d9edf09403207290a9cdd2f6061bdccf7caaa0bbfd49f343e",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "20.15.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.15.0/node-v20.15.0-linux-x64.tar.gz",
+        "checksum": "sha256:3a873874caae30b5a9125fdf8872f7800cc0216eb89d097470110cd267a596e2",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.15.0/node-v20.15.0-linux-arm64.tar.gz",
+        "checksum": "sha256:9e593b61bf2a2e01073eba20508f0adc6daa746f577ec4e8d777032f15b5fa48",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.15.0/node-v20.15.0-darwin-x64.tar.gz",
+        "checksum": "sha256:95ca98b974d06f84095dd0a977dea5fde79e909d103715fb782856ded12d2146",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.15.0/node-v20.15.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:2646c338d2c5ecabba4f745fc315d6fdfbb7e01b5badecc154ad27dda00325fc",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "20.14.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.14.0/node-v20.14.0-linux-x64.tar.gz",
+        "checksum": "sha256:5b9bf40cfc7c21de14a1b4c367650e3c96eb101156bf9368ffc2f947414b6581",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.14.0/node-v20.14.0-linux-arm64.tar.gz",
+        "checksum": "sha256:d63e83fca4f81801396620c46a42892a2ef26e21a4508f68de373e61a12bd9c5",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.14.0/node-v20.14.0-darwin-x64.tar.gz",
+        "checksum": "sha256:1dcc18a199cb5f46d43ed1c3c61b87a247d1a1a11dd6b32a36a9c46ac1088f86",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.14.0/node-v20.14.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:d2148d79e9ff04d2982d00faeae942ceba488ca327a91065e528235167b9e9d6",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "20.13.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.13.1/node-v20.13.1-linux-x64.tar.gz",
+        "checksum": "sha256:80b978a9fe544b1892e73a4bf89e0b3792b1d459b621874efdc2ddd2270c03fe",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.13.1/node-v20.13.1-linux-arm64.tar.gz",
+        "checksum": "sha256:4f9c2ffb116855d6fa4b6654e453f403e31b53284b81c789b73d1d2e20c6f710",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.13.1/node-v20.13.1-darwin-x64.tar.gz",
+        "checksum": "sha256:80bde95dc976b84db5ca566738c07305087ae578f5f3b05191e0e6ff54aaeaf2",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.13.1/node-v20.13.1-darwin-arm64.tar.gz",
+        "checksum": "sha256:c30fe595f59dcd2c5158da6bf8bc251ffc85ca37304afa89db150fb3c62c4507",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "20.13.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.13.0/node-v20.13.0-linux-x64.tar.gz",
+        "checksum": "sha256:a74ceb142362d152aa871710ef9fb338ab72c76415f5afa802fc0aea445397b3",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.13.0/node-v20.13.0-linux-arm64.tar.gz",
+        "checksum": "sha256:29e904b9dd7325911ab38f79c5462f1d562d5573b97e8f63d700870a270ef43a",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.13.0/node-v20.13.0-darwin-x64.tar.gz",
+        "checksum": "sha256:417fb4a3a3a70547d5f6d05e068e6d6ec226a6d12c94d91661641e4e11eaeb63",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.13.0/node-v20.13.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:ef850bf9045d756c7a703c30fc09d7d9de9c7e7f254c6f4c02a1531381a806fd",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "20.12.2": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.12.2/node-v20.12.2-linux-x64.tar.gz",
+        "checksum": "sha256:f8f9b6877778ed2d5f920a5bd853f0f8a8be1c42f6d448c763a95625cbbb4b0d",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.12.2/node-v20.12.2-linux-arm64.tar.gz",
+        "checksum": "sha256:2dc8ffa0da135bf493f881d2d38aac610772c801bb7b6208fcc5de9350f119f7",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.12.2/node-v20.12.2-darwin-x64.tar.gz",
+        "checksum": "sha256:cd5e9a80a38ccffc036a87b232a5402339c7bf8fa9a494ae0731a1a671687718",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.12.2/node-v20.12.2-darwin-arm64.tar.gz",
+        "checksum": "sha256:98eb624b52efec2530079e1d11296ec0ac20771b94b087d21649250339cf5332",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "20.12.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.12.1/node-v20.12.1-linux-x64.tar.gz",
+        "checksum": "sha256:da2f590a39717792dcf8c4bf6b9e4b269601e6ce3a3f150a3c4b379f7eea6d83",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.12.1/node-v20.12.1-linux-arm64.tar.gz",
+        "checksum": "sha256:6eb199eaa4f83a729242c69792a126cb58ca6a60d791dffd9cedb4cfd32b96c0",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.12.1/node-v20.12.1-darwin-x64.tar.gz",
+        "checksum": "sha256:f5dc3c71c87c58c9b019d9f85302db3a6a6c47167c5a0480b697f153d02ac316",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.12.1/node-v20.12.1-darwin-arm64.tar.gz",
+        "checksum": "sha256:65df8cb0724e3a58c7757b75a70cc1057e1f67ffc5e852bfe6241de0b37c70a0",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "20.12.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.12.0/node-v20.12.0-linux-x64.tar.gz",
+        "checksum": "sha256:b6b998947595c9550d6b89c815a68d608f5920275f1b48812f89792de3fdd893",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.12.0/node-v20.12.0-linux-arm64.tar.gz",
+        "checksum": "sha256:8e180526df8ad4086a4df7bfaaa14d21eb2a6cf58b1c5493c639022c165c2884",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.12.0/node-v20.12.0-darwin-x64.tar.gz",
+        "checksum": "sha256:5c7d71a1c1cf613037432e0b6c3d913d96604d9293b3397ec70b344730c81daf",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.12.0/node-v20.12.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:422a74b7ede14b697a8c2ca887ea161fe79898a35f163fdfb98435c5ab25027b",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "20.11.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.11.1/node-v20.11.1-linux-x64.tar.gz",
+        "checksum": "sha256:bf3a779bef19452da90fb88358ec2c57e0d2f882839b20dc6afc297b6aafc0d7",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.11.1/node-v20.11.1-linux-arm64.tar.gz",
+        "checksum": "sha256:e34ab2fc2726b4abd896bcbff0250e9b2da737cbd9d24267518a802ed0606f3b",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.11.1/node-v20.11.1-darwin-x64.tar.gz",
+        "checksum": "sha256:c52e7fb0709dbe63a4cbe08ac8af3479188692937a7bd8e776e0eedfa33bb848",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.11.1/node-v20.11.1-darwin-arm64.tar.gz",
+        "checksum": "sha256:e0065c61f340e85106a99c4b54746c5cee09d59b08c5712f67f99e92aa44995d",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "20.11.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.11.0/node-v20.11.0-linux-x64.tar.gz",
+        "checksum": "sha256:9556262f6cd4c020af027782afba31ca6d1a37e45ac0b56cecd2d5a4daf720e0",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.11.0/node-v20.11.0-linux-arm64.tar.gz",
+        "checksum": "sha256:402178cd5438b9ed89bffafc119e2bd4148616390bcdfd7089090ffc4615c981",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.11.0/node-v20.11.0-darwin-x64.tar.gz",
+        "checksum": "sha256:c0ba02c905814258bd99a362027f8d4d2cc738218a9cf1dce2620e8735e3a80e",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.11.0/node-v20.11.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:94e443d007e2882f8e5aecc85d978f7591520dc3b642adc7583b3cb0b3fc37d7",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "20.10.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.10.0/node-v20.10.0-linux-x64.tar.gz",
+        "checksum": "sha256:d3f0908a9d9190a8525c5b9a716ed91bb57e908555841b0c47f75b2a001ff91b",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.10.0/node-v20.10.0-linux-arm64.tar.gz",
+        "checksum": "sha256:8354cdb7cb2ad585ee6bb24819f5229bb48c118c5dabb282dfed153d766a68a4",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.10.0/node-v20.10.0-darwin-x64.tar.gz",
+        "checksum": "sha256:5ff5e8abd3eea6e5f507eb6677554f5b2188eedef654096aa4168a9941e91a32",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.10.0/node-v20.10.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:68b93099451d77aac116cf8fce179cabcf53fec079508dc6b39d3a086fb461a8",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "20.9.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.9.0/node-v20.9.0-linux-x64.tar.gz",
+        "checksum": "sha256:f0919f092fbf74544438907fa083c21e76b2d7a4bc287f0607ada1553ef16f60",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.9.0/node-v20.9.0-linux-arm64.tar.gz",
+        "checksum": "sha256:d2a7dbeeb274bfd16b579d2cafb92f673010df36c83a5b55de3916aad6806a6a",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v20.9.0/node-v20.9.0-darwin-x64.tar.gz",
+        "checksum": "sha256:fc5b73f2a78c17bbe926cdb1447d652f9f094c79582f1be6471b4b38a2e1ccc8",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v20.9.0/node-v20.9.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:31d2d46ae8d8a3982f54e2ff1e60c2e4a8e80bf78a3e8b46dcaac95ac5d7ce6a",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "18.20.8": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.20.8/node-v18.20.8-linux-x64.tar.gz",
+        "checksum": "sha256:27a9f3f14d5e99ad05a07ed3524ba3ee92f8ff8b6db5ff80b00f9feb5ec8097a",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.20.8/node-v18.20.8-linux-arm64.tar.gz",
+        "checksum": "sha256:2e3dfc51154e6fea9fc86a90c4ea8f3ecb8b60acaf7367c4b76691da192571c1",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.20.8/node-v18.20.8-darwin-x64.tar.gz",
+        "checksum": "sha256:ed2554677188f4afc0d050ecd8bd56effb2572d6518f8da6d40321ede6698509",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.20.8/node-v18.20.8-darwin-arm64.tar.gz",
+        "checksum": "sha256:bae4965d29d29bd32f96364eefbe3bca576a03e917ddbb70b9330d75f2cacd76",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "18.20.7": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.20.7/node-v18.20.7-linux-x64.tar.gz",
+        "checksum": "sha256:ca593cc143875d33b257ab45ae629a02485333e8096221c44ef62c99678aa7fc",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.20.7/node-v18.20.7-linux-arm64.tar.gz",
+        "checksum": "sha256:fc1f0e0c1022c5486da4726c58dc678c076ac2d7ad30b1b47b9071f043adce1e",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.20.7/node-v18.20.7-darwin-x64.tar.gz",
+        "checksum": "sha256:c42eee8d9557720052d05856651488074f7736583b3312a223760490b9f5ce0e",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.20.7/node-v18.20.7-darwin-arm64.tar.gz",
+        "checksum": "sha256:cdbe696f68b9162872295d4ec88a0700a3827261ae729f5eaf0606c69d6ab37e",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "18.20.6": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.20.6/node-v18.20.6-linux-x64.tar.gz",
+        "checksum": "sha256:bff0672c5117e6f0809c456d9194630b5886442ddf298b2292529959c45b92c0",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.20.6/node-v18.20.6-linux-arm64.tar.gz",
+        "checksum": "sha256:9580a8c3bb3e8014e15c6940595c45e831f5a878dec78f086824a8adf91a327f",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.20.6/node-v18.20.6-darwin-x64.tar.gz",
+        "checksum": "sha256:25a4040000e9838af28d0d168301c70d07dcc61294089dde5f5d9044dafda1e5",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.20.6/node-v18.20.6-darwin-arm64.tar.gz",
+        "checksum": "sha256:7105fb1ac42968010020db61edcc0ea0a366b37d792405d2959668e45b612753",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "18.20.5": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.20.5/node-v18.20.5-linux-x64.tar.gz",
+        "checksum": "sha256:e7b80346bb586790ac6b29aa25c96716fcdf6039a6929c2ed506cec09cebc3c0",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.20.5/node-v18.20.5-linux-arm64.tar.gz",
+        "checksum": "sha256:759cfb9f76a1019daf65db9c2e5e43074ee660ec9b9ff3f31dcc4a88cca671e9",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.20.5/node-v18.20.5-darwin-x64.tar.gz",
+        "checksum": "sha256:dff01068da7d3fe7b515f72a3903dca96a34dc377f6f426b6a813901274b6441",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.20.5/node-v18.20.5-darwin-arm64.tar.gz",
+        "checksum": "sha256:bdfeaf59dbf29aec08c0c66130edf0a8a17014b4f2997727641dfd0b58b51f48",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "18.20.4": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.20.4/node-v18.20.4-linux-x64.tar.gz",
+        "checksum": "sha256:c4b0827dc47609d0a8379e6de6c74b3934da0b1312c733b5ebdcac16e3f1e954",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.20.4/node-v18.20.4-linux-arm64.tar.gz",
+        "checksum": "sha256:f4e0b8b1a89e5d6529e517d57b42ac5cbab0562d86e88566d8e90578257e2b16",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.20.4/node-v18.20.4-darwin-x64.tar.gz",
+        "checksum": "sha256:7d2eb630b66bb39b9cf6bb12b35de833e2445797f2ddc9bcae714e63e75181ca",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.20.4/node-v18.20.4-darwin-arm64.tar.gz",
+        "checksum": "sha256:aca5b568cc2a7e918037f05168634a921d88f43882c92a01b4ef5e39d0b89414",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "18.20.3": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.20.3/node-v18.20.3-linux-x64.tar.gz",
+        "checksum": "sha256:262bdd5d59608360cb872cdb3d2aa089867b46963ec7e6a000c1afc7d183db5c",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.20.3/node-v18.20.3-linux-arm64.tar.gz",
+        "checksum": "sha256:7aab1e72b5f214ae08895ca0cfbf68e1731d53a6ebf945b929446564f2cc80d8",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.20.3/node-v18.20.3-darwin-x64.tar.gz",
+        "checksum": "sha256:317a4607390c923610303e8583972e23fb656e9d348d3740bde0f1a94cdb7e0c",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.20.3/node-v18.20.3-darwin-arm64.tar.gz",
+        "checksum": "sha256:99328b985f7336a8fcfb62fda382155d210979fcca928e2dd75b7148d9bba636",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "18.20.2": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.20.2/node-v18.20.2-linux-x64.tar.gz",
+        "checksum": "sha256:a222595d353a7d1e48994a7d9c25e61ab1b8a1b0ce0652029f5cf999978b2e49",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.20.2/node-v18.20.2-linux-arm64.tar.gz",
+        "checksum": "sha256:0b21ad5a11dd6c59a62eb34d1a0c2af28fe29187fa60da2c993b7cdf2a5a2f28",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.20.2/node-v18.20.2-darwin-x64.tar.gz",
+        "checksum": "sha256:e26d8074da6d22ed23140e0ba964cba9c694f9b839ce48835d692a7a7e36421e",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.20.2/node-v18.20.2-darwin-arm64.tar.gz",
+        "checksum": "sha256:2647d831f16b3dc7857ed4ee721d3c378194918ecda80b9471590250d328fa3c",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "18.20.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.20.1/node-v18.20.1-linux-x64.tar.gz",
+        "checksum": "sha256:d226c39c5546dca97567db8f8ca7f92fca6572d44f181b1f85af83eee5d6f9e1",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.20.1/node-v18.20.1-linux-arm64.tar.gz",
+        "checksum": "sha256:52896372b3b151f639be7efa8662d68aaeb065cae2c15d61d14e2b73ada79597",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.20.1/node-v18.20.1-darwin-x64.tar.gz",
+        "checksum": "sha256:87d6c6e5df6c4615ca90b044c75dc112473df4ebd55f6f471740c4e1c9602cbe",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.20.1/node-v18.20.1-darwin-arm64.tar.gz",
+        "checksum": "sha256:275ffd6e96ea38e0ce0db2a37950381102fc95d1ad863b360ba0889dc7190405",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "18.20.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.20.0/node-v18.20.0-linux-x64.tar.gz",
+        "checksum": "sha256:80620426d177141aa99376de2ad1cb5ed461104cc53c0a5334df91467c60cac3",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.20.0/node-v18.20.0-linux-arm64.tar.gz",
+        "checksum": "sha256:93ff82497bf2ff7c0b2549637dd5098039439aa7805b08412cc71a98d437d9dd",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.20.0/node-v18.20.0-darwin-x64.tar.gz",
+        "checksum": "sha256:062ba71618e88e06321de5caa038843c350aababa2d315f3ca7b8551f8e66c1c",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.20.0/node-v18.20.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:10066ad4dd9e03ea5c4c45ef8775420ff37b860de09bbdf87b97e0c07b1ea036",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "18.19.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.19.1/node-v18.19.1-linux-x64.tar.gz",
+        "checksum": "sha256:724802c45237477dbe5777923743e6c77906830cae03a82b5653ebd75b301dda",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.19.1/node-v18.19.1-linux-arm64.tar.gz",
+        "checksum": "sha256:2913e8544d95c8be9e6034c539ec0584014532166a088bf742629756c3ec42e2",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.19.1/node-v18.19.1-darwin-x64.tar.gz",
+        "checksum": "sha256:ab67c52c0d215d6890197c951e1bd479b6140ab630212b96867395e21d813016",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.19.1/node-v18.19.1-darwin-arm64.tar.gz",
+        "checksum": "sha256:0c7249318868877032ed21cc0ed450015ee44b31b9b281955521cd3fc39fbfa3",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "18.19.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.19.0/node-v18.19.0-linux-x64.tar.gz",
+        "checksum": "sha256:153312ae9fe8684f345100e4d141a521dc542b36d8c1e09c31ac290eae98c62a",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.19.0/node-v18.19.0-linux-arm64.tar.gz",
+        "checksum": "sha256:4297548671897a1ba6a9a78726cb3f53458048948b4f71d597886ccf799db603",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.19.0/node-v18.19.0-darwin-x64.tar.gz",
+        "checksum": "sha256:0a749fcdf5d6bf46e1c17b3ea01e050b4d1ec3f3073b14aa745527b45a759c74",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.19.0/node-v18.19.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:8907c42a968765b77730fb319458d63ec4ed009265f8012097c3a052407aa99b",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "18.18.2": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.18.2/node-v18.18.2-linux-x64.tar.gz",
+        "checksum": "sha256:a44c3e7f8bf91e852c928e5d8bd67ca316b35e27eec1d8acbe3b9dbe03688dab",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.18.2/node-v18.18.2-linux-arm64.tar.gz",
+        "checksum": "sha256:0c9a6502b66310cb26e12615b57304e91d92ac03d4adcb91c1906351d7928f0d",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.18.2/node-v18.18.2-darwin-x64.tar.gz",
+        "checksum": "sha256:5bb8da908ed590e256a69bf2862238c8a67bc4600119f2f7721ca18a7c810c0f",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.18.2/node-v18.18.2-darwin-arm64.tar.gz",
+        "checksum": "sha256:9f982cc91b28778dd8638e4f94563b0c2a1da7aba62beb72bd427721035ab553",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "18.18.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.18.1/node-v18.18.1-linux-x64.tar.gz",
+        "checksum": "sha256:9ce4db11f1d8399f6b58aab6858a688b2e09405127b47ebc4594dc8262a5e29f",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.18.1/node-v18.18.1-linux-arm64.tar.gz",
+        "checksum": "sha256:1d3ef02cfefc9c87a010ec9ac9a21cafc71096e8159b9f35b419d6e5f71e2f92",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.18.1/node-v18.18.1-darwin-x64.tar.gz",
+        "checksum": "sha256:b7237c9c8e6f7ec3a2c61158e9e5e96f1e19d54a1d1d0932b79fede24aa6de86",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.18.1/node-v18.18.1-darwin-arm64.tar.gz",
+        "checksum": "sha256:e2b276e7a62cb4bd487211a185f84a94f012220f9e09d2ecd1f24de482c8f023",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "18.18.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.18.0/node-v18.18.0-linux-x64.tar.gz",
+        "checksum": "sha256:8aae62b6b3a5d659459c35c51e4373b950d11595a273db16c6162c712c5533a2",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.18.0/node-v18.18.0-linux-arm64.tar.gz",
+        "checksum": "sha256:54037e72a2676db610f0a9d66055a23241adf07f336cd0c9289a7b301eae9060",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.18.0/node-v18.18.0-darwin-x64.tar.gz",
+        "checksum": "sha256:993e43ac4750609437a8523937a42663e5a7aa7973acac3f26b8d478aca1285d",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.18.0/node-v18.18.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:b21a2e8a3e75f81eb6124ea463d67cf4648a04dce9062e8d5a1bc44c99606a15",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "18.17.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.17.1/node-v18.17.1-linux-x64.tar.gz",
+        "checksum": "sha256:2cb75f2bc04b0a3498733fbee779b2f76fe3f655188b4ac69ef2887b6721da2d",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.17.1/node-v18.17.1-linux-arm64.tar.gz",
+        "checksum": "sha256:8f5203f5c6dc44ea50ac918b7ecbdb1c418e4f3d9376d8232a1ef9ff38f9c480",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.17.1/node-v18.17.1-darwin-x64.tar.gz",
+        "checksum": "sha256:b3e083d2715f07ec3f00438401fb58faa1e0bdf3c7bde9f38b75ed17809d92fa",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.17.1/node-v18.17.1-darwin-arm64.tar.gz",
+        "checksum": "sha256:18ca716ea57522b90473777cb9f878467f77fdf826d37beb15a0889fdd74533e",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "18.17.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.17.0/node-v18.17.0-linux-x64.tar.gz",
+        "checksum": "sha256:5c4a7fd9262c0c47bafab3442de6c3fed1602be3d243cb8cf11309a201955e75",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.17.0/node-v18.17.0-linux-arm64.tar.gz",
+        "checksum": "sha256:9d586f9d8b73a121b8a5438079c7106379aaae868f945a9f1755565607607944",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.17.0/node-v18.17.0-darwin-x64.tar.gz",
+        "checksum": "sha256:2f381442381f7fbde2ca644c3275bec9c9c2a8d361f467b40e39428acdd6ccff",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.17.0/node-v18.17.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:19731ef427e77ad9c5f476eb62bfb02a7f179d3012feed0bbded62e45f23e679",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "18.16.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.16.1/node-v18.16.1-linux-x64.tar.gz",
+        "checksum": "sha256:59582f51570d0857de6333620323bdeee5ae36107318f86ce5eca24747cabf5b",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.16.1/node-v18.16.1-linux-arm64.tar.gz",
+        "checksum": "sha256:555b5c521e068acc976e672978ba0f5b1a0c030192b50639384c88143f4460bc",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.16.1/node-v18.16.1-darwin-x64.tar.gz",
+        "checksum": "sha256:3040210287a0b8d05af49f57de191afa783e497abbb10c340bae9158cb51fdd4",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.16.1/node-v18.16.1-darwin-arm64.tar.gz",
+        "checksum": "sha256:2ccb24e9211f4d17d8d8cfc0ea521198bb6a54e2f779f8feda952dbd3bb651ac",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "18.16.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.16.0/node-v18.16.0-linux-x64.tar.gz",
+        "checksum": "sha256:fc83046a93d2189d919005a348db3b2372b598a145d84eb9781a3a4b0f032e95",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.16.0/node-v18.16.0-linux-arm64.tar.gz",
+        "checksum": "sha256:dc3dfaee899ed21682e47eaf15525f85aff29013c392490e9b25219cd95b1c35",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.16.0/node-v18.16.0-darwin-x64.tar.gz",
+        "checksum": "sha256:cd520da6e2e89fab881c66a3e9aff02cb0d61d68104b1d6a571dd71bef920870",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.16.0/node-v18.16.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:82c7bb4869419ce7338669e6739a786dfc7e72f276ffbed663f85ffc905dcdb4",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "18.15.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.15.0/node-v18.15.0-linux-x64.tar.gz",
+        "checksum": "sha256:b298a73a9fc07badfa9e4a2e86ed48824fc9201327cdc43e3f3f58b273c535e7",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.15.0/node-v18.15.0-linux-arm64.tar.gz",
+        "checksum": "sha256:8ef7aa7a679360ddbf0c7c8511881030b3de9d1f54451d92ba5c8d59a91c7073",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.15.0/node-v18.15.0-darwin-x64.tar.gz",
+        "checksum": "sha256:76add174d2d3f98da08907412e82add7352b8cb6f639324d352a65c084b99c7e",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.15.0/node-v18.15.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:bd302a689c3c34e2b61d86b97de66d26a335881a17af09b6a0a4bb1019df56e4",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "18.14.2": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.14.2/node-v18.14.2-linux-x64.tar.gz",
+        "checksum": "sha256:95bdaaf92265eefd40d2055fb9b5cd6cbc3cb2c4495e3ebd4b1b501822d69731",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.14.2/node-v18.14.2-linux-arm64.tar.gz",
+        "checksum": "sha256:e5c5d83e65271260ea4135330309d43fdc26c42457156ff237eeba65c6237f58",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.14.2/node-v18.14.2-darwin-x64.tar.gz",
+        "checksum": "sha256:137fbd2abf59db87033a1114fab7afb497e3d747c3726dd881b6297d59782da2",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.14.2/node-v18.14.2-darwin-arm64.tar.gz",
+        "checksum": "sha256:19f2e5f0659909e6f4b583fe581c0a5f14d079232f24093a55722d1bcf1b9991",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "18.14.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.14.1/node-v18.14.1-linux-x64.tar.gz",
+        "checksum": "sha256:6a7c6862b86cb01b892ca5967dba14bd3122dbfed9d5c9fedd30585d5974f1f6",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.14.1/node-v18.14.1-linux-arm64.tar.gz",
+        "checksum": "sha256:608af6ad3cf5a171c889c022cb51a460bdbf57fbb8fbcd40612ea8063aa95f07",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.14.1/node-v18.14.1-darwin-x64.tar.gz",
+        "checksum": "sha256:940cfc29b42d174bf8fa271644508ab357b282a669b73adf0935982382ef5f38",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.14.1/node-v18.14.1-darwin-arm64.tar.gz",
+        "checksum": "sha256:513f3ab25244c5ea3eedc6218b7418dcd7a0f20e143fdbf8955f0ea74f53c2d8",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "18.14.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.14.0/node-v18.14.0-linux-x64.tar.gz",
+        "checksum": "sha256:bcdfd28bb7ab9a53c7045e0862556f77c250580c6d3d6cb960843895e024cac6",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.14.0/node-v18.14.0-linux-arm64.tar.gz",
+        "checksum": "sha256:29b38346f6b01e14a7582adf0132fae83410a8da21cdba936357010a065290a6",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.14.0/node-v18.14.0-darwin-x64.tar.gz",
+        "checksum": "sha256:274a62f2f1c21e6216a9be1445c53ef63814db4a3ffeea8028b507fb6453c0ac",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.14.0/node-v18.14.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:514438c258ee87e3083c21359f6d5e84988946db8a5ed5fa8bb0485276ea99f0",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "18.13.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.13.0/node-v18.13.0-linux-x64.tar.gz",
+        "checksum": "sha256:2d2881cf860624b9fa9866670a65708c747d458213bdccaa8e7266b105d404ad",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.13.0/node-v18.13.0-linux-arm64.tar.gz",
+        "checksum": "sha256:dc68e229425b941eeae0b1d59c66c680b56fd536d0ad2311e3fb009bd83661e4",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.13.0/node-v18.13.0-darwin-x64.tar.gz",
+        "checksum": "sha256:8b57c4da4ff6cca19d5ef7953f8816e3406d1508a2e4ee7f997984b3b1d11b77",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.13.0/node-v18.13.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:418d535e64dbcbd628715180c2de4ffcecb8a84b81f233c60e6ab9f0d795c249",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "18.12.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.12.1/node-v18.12.1-linux-x64.tar.gz",
+        "checksum": "sha256:a8fcacb8033504e6d704bdee821f7005ee3774db25c799bcf2a13b5bda7de172",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.12.1/node-v18.12.1-linux-arm64.tar.gz",
+        "checksum": "sha256:521587df6d2b9d9c524105c8f3f9d775dcfc5e7fbf7633e4455cc2e9af7d0ced",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.12.1/node-v18.12.1-darwin-x64.tar.gz",
+        "checksum": "sha256:90ac0e8148f3fb52bcfc01d9f7d7963ce565dd0add0cd8d3e0698fbd7ecf1e5a",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.12.1/node-v18.12.1-darwin-arm64.tar.gz",
+        "checksum": "sha256:9857042e18a0530a19f22f29a38de4fed5608e32543216f9afb6edea8d0dfdd3",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "18.12.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.12.0/node-v18.12.0-linux-x64.tar.gz",
+        "checksum": "sha256:0699c8e02581a9c312d7157331561d36ef23963766eb47daa702edb6fd6735bd",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.12.0/node-v18.12.0-linux-arm64.tar.gz",
+        "checksum": "sha256:9bb70b30b9d34f2b859cfef73ec3134537408dbf7806d45f104bc1e1d3c832e9",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v18.12.0/node-v18.12.0-darwin-x64.tar.gz",
+        "checksum": "sha256:cb3ca15bec3e5732a82bf321af30da8105f61df3934c0e79e6d3e54f84ca7913",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v18.12.0/node-v18.12.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:7aa5ef109086be0adf433b851504f0522a71a02c6d675e729375cd591a854f3c",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  }
+}

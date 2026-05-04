@@ -1,0 +1,692 @@
+{
+  "15.2.0-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v15.2.0-1/xpack-riscv-none-elf-gcc-15.2.0-1-linux-x64.tar.gz",
+        "checksum": "sha256:aaaa8060c914851a3e5ee1ba82cc3d6f80972f90638a05c6e823a37557a33758",
+        "size": 433494794,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v15.2.0-1/xpack-riscv-none-elf-gcc-15.2.0-1-linux-arm64.tar.gz",
+        "checksum": "sha256:4e60e2a54c16385e4e2476d08240f857495d5a61609d97e1ee49f72875a6ec1e",
+        "size": 425208852,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v15.2.0-1/xpack-riscv-none-elf-gcc-15.2.0-1-darwin-x64.tar.gz",
+        "checksum": "sha256:98e83f097b10163869dabffd58389ac8e4eb41bae0f67124569158655be593ea",
+        "size": 406097040,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v15.2.0-1/xpack-riscv-none-elf-gcc-15.2.0-1-darwin-arm64.tar.gz",
+        "checksum": "sha256:6588e8351455fad8aca37551f0e5a5543f3346bfa9a837cf03cbd3bdd4989f8f",
+        "size": 401163559,
+        "strip": 2
+      }
+    }
+  },
+  "14.3.0-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v14.3.0-1/xpack-riscv-none-elf-gcc-14.3.0-1-linux-x64.tar.gz",
+        "checksum": "sha256:be1768ef22789f4d9c41384e0261996f51724b84c2efa940d975dd7d9938c726",
+        "size": 414461685,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v14.3.0-1/xpack-riscv-none-elf-gcc-14.3.0-1-linux-arm64.tar.gz",
+        "checksum": "sha256:9e6ab407bf8eb4a39fa6b7a7f2cfd8d068a50bcf25685614a415d7f4bae6b311",
+        "size": 406957131,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v14.3.0-1/xpack-riscv-none-elf-gcc-14.3.0-1-darwin-x64.tar.gz",
+        "checksum": "sha256:0ebd4116c85a72b0e6c49a9e991f396f271269118af45b415286473482795e8a",
+        "size": 388701606,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v14.3.0-1/xpack-riscv-none-elf-gcc-14.3.0-1-darwin-arm64.tar.gz",
+        "checksum": "sha256:1cb71ea516a0b1042b8f7b584da2d4aee97d425f6b74ad96c37e791142a4784c",
+        "size": 384483005,
+        "strip": 2
+      }
+    }
+  },
+  "13.4.0-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v13.4.0-1/xpack-riscv-none-elf-gcc-13.4.0-1-linux-x64.tar.gz",
+        "checksum": "sha256:2f669492e131906f21641de3ed5cb808d17eff2716b551c73651fe6650565a5f",
+        "size": 367356024,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v13.4.0-1/xpack-riscv-none-elf-gcc-13.4.0-1-linux-arm64.tar.gz",
+        "checksum": "sha256:ecb74ef00346147bb0d9b78fed6249122473911af1f9b518b873580b8d7a749a",
+        "size": 363983215,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v13.4.0-1/xpack-riscv-none-elf-gcc-13.4.0-1-darwin-x64.tar.gz",
+        "checksum": "sha256:35a036ba11338b010ea8143dc91bebdefb10daf9c189befd442ac74c2f568847",
+        "size": 345147055,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v13.4.0-1/xpack-riscv-none-elf-gcc-13.4.0-1-darwin-arm64.tar.gz",
+        "checksum": "sha256:4b35ba81bbcf3944ca346cd51f81f3628ab6e3207bf813aaf5d1c70f1406f4ab",
+        "size": 341595065,
+        "strip": 2
+      }
+    }
+  },
+  "12.5.0-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.5.0-1/xpack-riscv-none-elf-gcc-12.5.0-1-linux-x64.tar.gz",
+        "checksum": "sha256:624fae17fb5dfaa0d8a9f8b345c9831cca9e06322a34254342a19eea61915e82",
+        "size": 344722823,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.5.0-1/xpack-riscv-none-elf-gcc-12.5.0-1-linux-arm64.tar.gz",
+        "checksum": "sha256:d508790fc3acc5ee801b9e63fd0f5aa622ec9d95472157e65e7c59861fb8f053",
+        "size": 341960987,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.5.0-1/xpack-riscv-none-elf-gcc-12.5.0-1-darwin-x64.tar.gz",
+        "checksum": "sha256:a77eab69083b77cb5abfef7335093f16fc08bda569365d4699670de44b85d3d9",
+        "size": 323865660,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.5.0-1/xpack-riscv-none-elf-gcc-12.5.0-1-darwin-arm64.tar.gz",
+        "checksum": "sha256:47331601bd7c87cf6d0b7090f381b184773e8e55113106cacbc401f4b7c7cd99",
+        "size": 320266403,
+        "strip": 2
+      }
+    }
+  },
+  "14.2.0-3": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v14.2.0-3/xpack-riscv-none-elf-gcc-14.2.0-3-linux-x64.tar.gz",
+        "checksum": "sha256:f574415b63f12b09bdd3475223ab492a465d23810646c90c13a4c3b676c83503",
+        "size": 344375405,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v14.2.0-3/xpack-riscv-none-elf-gcc-14.2.0-3-linux-arm64.tar.gz",
+        "checksum": "sha256:0c0551986e30174af55f245e1c3a86c45233fc793bf36586567f266ada6fdd98",
+        "size": 339315811,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v14.2.0-3/xpack-riscv-none-elf-gcc-14.2.0-3-darwin-x64.tar.gz",
+        "checksum": "sha256:8a6e699f12876152d6386e777675d94529ccc21a57224a69d973f676949a1687",
+        "size": 334933900,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v14.2.0-3/xpack-riscv-none-elf-gcc-14.2.0-3-darwin-arm64.tar.gz",
+        "checksum": "sha256:e76e86b8c500f8e92b3b4ff7b0444cfbf3b218515f322929e0744ec3b9ed80a8",
+        "size": 331541233,
+        "strip": 2
+      }
+    }
+  },
+  "14.2.0-2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v14.2.0-2/xpack-riscv-none-elf-gcc-14.2.0-2-linux-x64.tar.gz",
+        "checksum": "sha256:0ab93937aab882c3a69f63eff4fe8fc6e360e4a23776004fa116ad692e699d23",
+        "size": 331200932,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v14.2.0-2/xpack-riscv-none-elf-gcc-14.2.0-2-linux-arm64.tar.gz",
+        "checksum": "sha256:e1348fdd679131510f610a9aa42ec4e5d6bceb40115df4b57a44cb7186a7caa7",
+        "size": 326146927,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v14.2.0-2/xpack-riscv-none-elf-gcc-14.2.0-2-darwin-x64.tar.gz",
+        "checksum": "sha256:f6930ecadda7a5b37c8557534e2d7a44da5601129fafa17e4e36020f778c9e1a",
+        "size": 321644133,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v14.2.0-2/xpack-riscv-none-elf-gcc-14.2.0-2-darwin-arm64.tar.gz",
+        "checksum": "sha256:7a0e1ab5be053761cab354feade92e803e47eea841585a1df127820dcf33bea4",
+        "size": 318169246,
+        "strip": 2
+      }
+    }
+  },
+  "13.3.0-2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v13.3.0-2/xpack-riscv-none-elf-gcc-13.3.0-2-linux-x64.tar.gz",
+        "checksum": "sha256:41db92866f351fa1e153d706a4a6275099bc9564c1065db2c9b83b97b512e54c",
+        "size": 292781321,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v13.3.0-2/xpack-riscv-none-elf-gcc-13.3.0-2-linux-arm64.tar.gz",
+        "checksum": "sha256:9f27ba2df26780052ac12b6d9236816814242e6b712a2f4607046b27f2916ae5",
+        "size": 290538986,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v13.3.0-2/xpack-riscv-none-elf-gcc-13.3.0-2-darwin-x64.tar.gz",
+        "checksum": "sha256:294c159492592b39c49297eea0044ae075e879025d7244ec460002c970edaae1",
+        "size": 286116277,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v13.3.0-2/xpack-riscv-none-elf-gcc-13.3.0-2-darwin-arm64.tar.gz",
+        "checksum": "sha256:b94c7ea019c9ede3692fded01498d72658a40c0b39024d0d17aa69f9cc8d2cb7",
+        "size": 283098897,
+        "strip": 2
+      }
+    }
+  },
+  "12.4.0-2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.4.0-2/xpack-riscv-none-elf-gcc-12.4.0-2-linux-x64.tar.gz",
+        "checksum": "sha256:589eb2b600853a2aa1f759aa8997fce1941dcba9413ab50ff63326cb2d46e6b0",
+        "size": 274869523,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.4.0-2/xpack-riscv-none-elf-gcc-12.4.0-2-linux-arm64.tar.gz",
+        "checksum": "sha256:9f157b01959994b8525fd6a06e56863f07989d7871f4db7deeb4000bb90cbe6c",
+        "size": 272984321,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.4.0-2/xpack-riscv-none-elf-gcc-12.4.0-2-darwin-x64.tar.gz",
+        "checksum": "sha256:88f951e1ea12aa19730b9eb815be8690de4d6113ba388b199ae2f69eaa23ef91",
+        "size": 269170495,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.4.0-2/xpack-riscv-none-elf-gcc-12.4.0-2-darwin-arm64.tar.gz",
+        "checksum": "sha256:3fe49f59c1367787bab3da738d285eb0b094658d45fb6b7d406b38feec6f5cce",
+        "size": 266130876,
+        "strip": 2
+      }
+    }
+  },
+  "11.5.0-2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v11.5.0-2/xpack-riscv-none-elf-gcc-11.5.0-2-linux-x64.tar.gz",
+        "checksum": "sha256:85d08018b5c97b5d7ed293ad4370e5044030724f72e2ee98e1816698f76a7ce3",
+        "size": 267653636,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v11.5.0-2/xpack-riscv-none-elf-gcc-11.5.0-2-linux-arm64.tar.gz",
+        "checksum": "sha256:ebbab3b5abe6159cb369a3f66f16570d0ddab570aba823779bc6ddf1f2825a5c",
+        "size": 265856533,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v11.5.0-2/xpack-riscv-none-elf-gcc-11.5.0-2-darwin-x64.tar.gz",
+        "checksum": "sha256:1809a2ca9fdddefb1cebd1389e66c03e300ec4116b47dffbae7d74ac2f953db2",
+        "size": 262106237,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v11.5.0-2/xpack-riscv-none-elf-gcc-11.5.0-2-darwin-arm64.tar.gz",
+        "checksum": "sha256:54a735364541c3ccf245031267156f68eeca61d46d73bb83e92b173664efb7d2",
+        "size": 259264988,
+        "strip": 2
+      }
+    }
+  },
+  "14.2.0-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v14.2.0-1/xpack-riscv-none-elf-gcc-14.2.0-1-linux-x64.tar.gz",
+        "checksum": "sha256:a5eb707595e1424ff4127cc8b21b8b8cb076e6f0070b670485e72b9f74806200",
+        "size": 585052516,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v14.2.0-1/xpack-riscv-none-elf-gcc-14.2.0-1-linux-arm64.tar.gz",
+        "checksum": "sha256:12b9f088733054628e75067456b670ac4da2cc452c0ce0466645d73f0dee14c2",
+        "size": 578925798,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v14.2.0-1/xpack-riscv-none-elf-gcc-14.2.0-1-darwin-x64.tar.gz",
+        "checksum": "sha256:8baa5c250da21146ccda934b10f35b9fab082c2d4ee0577cc11bdcddd240e7cd",
+        "size": 574649649,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v14.2.0-1/xpack-riscv-none-elf-gcc-14.2.0-1-darwin-arm64.tar.gz",
+        "checksum": "sha256:37e862dfe7c085a4497cd9f7d2d44468500ddb9ecce7c02a40784a4bd52d0c5e",
+        "size": 570679896,
+        "strip": 2
+      }
+    }
+  },
+  "11.5.0-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v11.5.0-1/xpack-riscv-none-elf-gcc-11.5.0-1-linux-x64.tar.gz",
+        "checksum": "sha256:38cf0a7b885e21e3b0a88cde401b1a56290eb7856dab46a50bf05ec4f506df86",
+        "size": 482663685,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v11.5.0-1/xpack-riscv-none-elf-gcc-11.5.0-1-linux-arm64.tar.gz",
+        "checksum": "sha256:f8fecda99eb2ad5d90440c8494f725083e2445229c5d5962012905a8f9275fac",
+        "size": 480626730,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v11.5.0-1/xpack-riscv-none-elf-gcc-11.5.0-1-darwin-x64.tar.gz",
+        "checksum": "sha256:5596748cc940f632e11882c3ada92b68700b04cf48d97b41a9aae353ee3307a5",
+        "size": 477143239,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v11.5.0-1/xpack-riscv-none-elf-gcc-11.5.0-1-darwin-arm64.tar.gz",
+        "checksum": "sha256:d530428c080e7b1411653a64f634f79f94b48262285993280d2717fa4d471ce0",
+        "size": 473882956,
+        "strip": 2
+      }
+    }
+  },
+  "13.3.0-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v13.3.0-1/xpack-riscv-none-elf-gcc-13.3.0-1-linux-x64.tar.gz",
+        "checksum": "sha256:5386d1a7b261d37a6c34e644fc01ed2562132a9fae3e314083f64ad5e8cceb16",
+        "size": 528559968,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v13.3.0-1/xpack-riscv-none-elf-gcc-13.3.0-1-linux-arm64.tar.gz",
+        "checksum": "sha256:29cdee7d06abc0ad57f4ec74059aca6349042f2a8a98ba4501c186990210590c",
+        "size": 525983085,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v13.3.0-1/xpack-riscv-none-elf-gcc-13.3.0-1-darwin-x64.tar.gz",
+        "checksum": "sha256:050c7e22dc9651ce5f82f082554ec190b59223708ca0c03d4fecca93d8e7afc0",
+        "size": 521725371,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v13.3.0-1/xpack-riscv-none-elf-gcc-13.3.0-1-darwin-arm64.tar.gz",
+        "checksum": "sha256:b4616e83cc03db32de961ce6bd7703c4bc3ed4f71c1acd4143d25f6d8fb23eda",
+        "size": 518276717,
+        "strip": 2
+      }
+    }
+  },
+  "12.4.0-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.4.0-1/xpack-riscv-none-elf-gcc-12.4.0-1-linux-x64.tar.gz",
+        "checksum": "sha256:82acd24ef676aee41be5c9be2283f901af4b5ed5d9896fe49e17726c565070bc",
+        "size": 496117211,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.4.0-1/xpack-riscv-none-elf-gcc-12.4.0-1-linux-arm64.tar.gz",
+        "checksum": "sha256:1d25ba49784851eeb962cd7842d9c5d5a326c53ee5bbeddeccc473fa449cf501",
+        "size": 493940049,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.4.0-1/xpack-riscv-none-elf-gcc-12.4.0-1-darwin-x64.tar.gz",
+        "checksum": "sha256:1a389ac98a1b8988fbab575653b7cbbf726636fdd42b2fb8a361d6100dda5fe5",
+        "size": 490512260,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.4.0-1/xpack-riscv-none-elf-gcc-12.4.0-1-darwin-arm64.tar.gz",
+        "checksum": "sha256:520683780b062816f741e4c4bea0ab8fcd19307aa3162abfa8da81ef8e673aed",
+        "size": 487030961,
+        "strip": 2
+      }
+    }
+  },
+  "14.1.0-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v14.1.0-1/xpack-riscv-none-elf-gcc-14.1.0-1-linux-x64.tar.gz",
+        "checksum": "sha256:eb6d3b4923e680349e74c0de2f21dbc03141dc45b8665da2a784d0ff4b0df9ef",
+        "size": 583864571,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v14.1.0-1/xpack-riscv-none-elf-gcc-14.1.0-1-linux-arm64.tar.gz",
+        "checksum": "sha256:14aee09079a78d6b84bba0022d8fba0821ecd85dd723a335eda8b9f89792733e",
+        "size": 577758082,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v14.1.0-1/xpack-riscv-none-elf-gcc-14.1.0-1-darwin-x64.tar.gz",
+        "checksum": "sha256:758c6f31a33b6753d580a7eaf081b36ac51b6f4c73ba28382738abed183bcc91",
+        "size": 573423756,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v14.1.0-1/xpack-riscv-none-elf-gcc-14.1.0-1-darwin-arm64.tar.gz",
+        "checksum": "sha256:35f817c91c32678e7c9292b737e4b5c87234d1fa28d2f72b7222541ac6672183",
+        "size": 569436421,
+        "strip": 2
+      }
+    }
+  },
+  "13.2.0-2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v13.2.0-2/xpack-riscv-none-elf-gcc-13.2.0-2-linux-x64.tar.gz",
+        "checksum": "sha256:52545afb900200fbf65fe05f7ce7090b8a42c64091f4f5d43cae6bb68ea2434a",
+        "size": 514514778,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v13.2.0-2/xpack-riscv-none-elf-gcc-13.2.0-2-linux-arm64.tar.gz",
+        "checksum": "sha256:1c981c611a38dfe5af902089aed570d4dd501eb4ed88d801043e59ab9a62a86a",
+        "size": 511508420,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v13.2.0-2/xpack-riscv-none-elf-gcc-13.2.0-2-darwin-x64.tar.gz",
+        "checksum": "sha256:72e65bcad6360eb059096a0fb77f3e3e6c618b1281b89648056c95d1b2749466",
+        "size": 506786123,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v13.2.0-2/xpack-riscv-none-elf-gcc-13.2.0-2-darwin-arm64.tar.gz",
+        "checksum": "sha256:dfe3123e5e5093b165eaaf18401b802cbb8697f5ec9b0f5cfd99c45e848fd8a7",
+        "size": 503063487,
+        "strip": 2
+      }
+    }
+  },
+  "12.3.0-2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.3.0-2/xpack-riscv-none-elf-gcc-12.3.0-2-linux-x64.tar.gz",
+        "checksum": "sha256:9921d63c04611954af016b9ca74cd52c1ccb832800d321d67e4e651f16146d16",
+        "size": 482025804,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.3.0-2/xpack-riscv-none-elf-gcc-12.3.0-2-linux-arm64.tar.gz",
+        "checksum": "sha256:09343a15feafa1b370436d806dc4efba5bce02586ef7f317a894c16615213c27",
+        "size": 479424929,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.3.0-2/xpack-riscv-none-elf-gcc-12.3.0-2-darwin-x64.tar.gz",
+        "checksum": "sha256:ef312ce2d7cfd7e667ca10f0ce7a3f0805c0c02e159cedeb9448bff7de236bcb",
+        "size": 475523028,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.3.0-2/xpack-riscv-none-elf-gcc-12.3.0-2-darwin-arm64.tar.gz",
+        "checksum": "sha256:211f85c5a577069032982dfba1244af513ae2d075e1ee43bddf03bcd8673c02f",
+        "size": 471764944,
+        "strip": 2
+      }
+    }
+  },
+  "12.3.0-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.3.0-1/xpack-riscv-none-elf-gcc-12.3.0-1-linux-x64.tar.gz",
+        "checksum": "sha256:0a7f71150e7b284a01ef739a17a32bafce5db43c012d734d57be5a8c2e2b57b6",
+        "size": 482062233,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.3.0-1/xpack-riscv-none-elf-gcc-12.3.0-1-linux-arm64.tar.gz",
+        "checksum": "sha256:6dfb0390838ea37beab031d426e56ca707f0e7b3ec7fea987e4c1ff748b6d3f1",
+        "size": 479342765,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.3.0-1/xpack-riscv-none-elf-gcc-12.3.0-1-darwin-x64.tar.gz",
+        "checksum": "sha256:65d50dd2a87f4fd707d4859d4278a8eb01a6bfbba59ed07b5fbf7051a19ae4db",
+        "size": 475533025,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.3.0-1/xpack-riscv-none-elf-gcc-12.3.0-1-darwin-arm64.tar.gz",
+        "checksum": "sha256:54150de972a3e28dee14fc341f5c46f3d25654ac66a23e8e295f68ec8171648a",
+        "size": 471766840,
+        "strip": 2
+      }
+    }
+  },
+  "13.2.0-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v13.2.0-1/xpack-riscv-none-elf-gcc-13.2.0-1-linux-x64.tar.gz",
+        "checksum": "sha256:d7eff5c5d778873c3d486e5d2c805b82582e73081f93edb375a1ef5d84764b43",
+        "size": 514591878,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v13.2.0-1/xpack-riscv-none-elf-gcc-13.2.0-1-linux-arm64.tar.gz",
+        "checksum": "sha256:6df6ac0dfd2b56a7fe4a2fac74abf7c391a99a906e69aebea097757450683b50",
+        "size": 511451047,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v13.2.0-1/xpack-riscv-none-elf-gcc-13.2.0-1-darwin-x64.tar.gz",
+        "checksum": "sha256:5b3139c3c3b8a1b49c7791a022d8155c2a16e9d1a02469055027e40a41b288d0",
+        "size": 506788765,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v13.2.0-1/xpack-riscv-none-elf-gcc-13.2.0-1-darwin-arm64.tar.gz",
+        "checksum": "sha256:a32037a72288f87b356aefde49e474ad9016f90bb7ad37546bb8f916e58c47e7",
+        "size": 503069230,
+        "strip": 2
+      }
+    }
+  },
+  "12.2.0-3": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.2.0-3/xpack-riscv-none-elf-gcc-12.2.0-3-linux-x64.tar.gz",
+        "checksum": "sha256:0bb5f0c6a36f5197888fcd176e3734ec5b74167b5a631883f72ae3cbd47a97c3",
+        "size": 474379039,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.2.0-3/xpack-riscv-none-elf-gcc-12.2.0-3-linux-arm64.tar.gz",
+        "checksum": "sha256:64c70bb0b817bb9d9a700015bbb66450a7f238649346dd680bc897c783c68fb5",
+        "size": 470017864,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.2.0-3/xpack-riscv-none-elf-gcc-12.2.0-3-darwin-x64.tar.gz",
+        "checksum": "sha256:f277d63d7540f50a57cc1df98911a5721e824f84ad22da37d81fa044bab18126",
+        "size": 464373112,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.2.0-3/xpack-riscv-none-elf-gcc-12.2.0-3-darwin-arm64.tar.gz",
+        "checksum": "sha256:56967546a79f9f8034d755fd3df409f4c6ab64cb4a84ef0f6f881f8348e20f37",
+        "size": 461203817,
+        "strip": 2
+      }
+    }
+  },
+  "12.2.0-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.2.0-1/xpack-riscv-none-elf-gcc-12.2.0-1-linux-x64.tar.gz",
+        "checksum": "sha256:04b5f45d609b221505e9232b1b63ae6cdb17d0a23f13ce9c231fc4008753a58a",
+        "size": 483541153,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.2.0-1/xpack-riscv-none-elf-gcc-12.2.0-1-linux-arm64.tar.gz",
+        "checksum": "sha256:68ff464c907c8160308a32babba49ccb0493e480520d5c8513373301e65e7ee2",
+        "size": 480200310,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.2.0-1/xpack-riscv-none-elf-gcc-12.2.0-1-darwin-x64.tar.gz",
+        "checksum": "sha256:08508cc24201452a8f82bb12f9ee9474704d2d5db342205ae25567baca8de061",
+        "size": 479494483,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.2.0-1/xpack-riscv-none-elf-gcc-12.2.0-1-darwin-arm64.tar.gz",
+        "checksum": "sha256:4a0044c4c8e3115abe32030b80a136ab987fc2a0712b0ddf62d11d369a5ad521",
+        "size": 478568823,
+        "strip": 2
+      }
+    }
+  },
+  "12.1.0-2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.1.0-2/xpack-riscv-none-elf-gcc-12.1.0-2-linux-x64.tar.gz",
+        "checksum": "sha256:0df95d28487b5e55eb48c487bfc8951a23ef97080a8621dd4109586f51dc177e",
+        "size": 490577029,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.1.0-2/xpack-riscv-none-elf-gcc-12.1.0-2-linux-arm64.tar.gz",
+        "checksum": "sha256:66a81676aff6051d6e602f336f6c8ae9ca4dec483b45adbbf747dc022768653e",
+        "size": 487279152,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.1.0-2/xpack-riscv-none-elf-gcc-12.1.0-2-darwin-x64.tar.gz",
+        "checksum": "sha256:39bd9eb7df484309fb1c725ae806b16589b8d90f273419b2a41e4017886b2176",
+        "size": 486500112,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.1.0-2/xpack-riscv-none-elf-gcc-12.1.0-2-darwin-arm64.tar.gz",
+        "checksum": "sha256:e3532f8cc17969da85dd615108c5b2826eecacc7f003c0ba5914c03e3160af1c",
+        "size": 485628709,
+        "strip": 2
+      }
+    }
+  },
+  "12.1.0-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.1.0-1/xpack-riscv-none-elf-gcc-12.1.0-1-linux-x64.tar.gz",
+        "checksum": "sha256:d6dc108ab53a41df3036f57cae4d0e538fb0d47c7b4d5fc8bb1b5499a64a2cdc",
+        "size": 490585253,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.1.0-1/xpack-riscv-none-elf-gcc-12.1.0-1-linux-arm64.tar.gz",
+        "checksum": "sha256:78f9b63a97f378239cd447fdda54e7dd19d2823ee282b27f3e65aac398eedabb",
+        "size": 487262132,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.1.0-1/xpack-riscv-none-elf-gcc-12.1.0-1-darwin-x64.tar.gz",
+        "checksum": "sha256:6ab43e586728af78ef2aede74cea976836a3bfec9e970b5cbbd7bdd30788e992",
+        "size": 486508935,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v12.1.0-1/xpack-riscv-none-elf-gcc-12.1.0-1-darwin-arm64.tar.gz",
+        "checksum": "sha256:a3eb788e1e5485e951ff1067ddf174c35f296540bfeb9e2a4dfd452a72b7c18e",
+        "size": 485628758,
+        "strip": 2
+      }
+    }
+  },
+  "11.3.0-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v11.3.0-1/xpack-riscv-none-elf-gcc-11.3.0-1-linux-x64.tar.gz",
+        "checksum": "sha256:1c99fb1573ff2ed5deffce64cb96bb9272f351f054684c49dfd5ad41c6dd804d",
+        "size": 476486985,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v11.3.0-1/xpack-riscv-none-elf-gcc-11.3.0-1-linux-arm64.tar.gz",
+        "checksum": "sha256:2cd91f4bcc0c7a0f5b5beead3be834f6708d7a196f94f7728ac68e1ad06cee24",
+        "size": 473282190,
+        "strip": 2
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v11.3.0-1/xpack-riscv-none-elf-gcc-11.3.0-1-darwin-x64.tar.gz",
+        "checksum": "sha256:67c2f2d9bb530948610400e2b43aeef8a1d4913fae275b1edf04968019fb19b9",
+        "size": 472518625,
+        "strip": 2
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/download/v11.3.0-1/xpack-riscv-none-elf-gcc-11.3.0-1-darwin-arm64.tar.gz",
+        "checksum": "sha256:e3fda6401ea1a055a90bfe3116f4d46fdc9201280df7c3991bb964f4bad18886",
+        "size": 471723612,
+        "strip": 2
+      }
+    }
+  }
+}

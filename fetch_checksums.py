@@ -163,18 +163,33 @@ def set_checksum(manifest, key_path, checksum):
     obj["checksum"] = f"sha256:{checksum}"
 
 def main():
-    with open("manifest.json") as f:
-        manifest = json.load(f)
+    # Load index to discover per-tool files
+    with open("index.json") as f:
+        index = json.load(f)
 
-    fill_ins = collect_fill_ins(manifest)
-    print(f"Found {len(fill_ins)} FILL_IN checksums to resolve\n")
+    # Collect all per-tool files
+    tool_files = []
+    for section in ["languages", "tools"]:
+        for tool_name, meta in index.get(section, {}).items():
+            tool_files.append(meta["file"])
+
+    # Gather all FILL_IN entries across per-tool files
+    all_fill_ins = []  # (file_path, key_path, url)
+    for tf in tool_files:
+        with open(tf) as f:
+            data = json.load(f)
+        fill_ins = collect_fill_ins(data)
+        for path, url in fill_ins:
+            all_fill_ins.append((tf, path, url))
+
+    print(f"Found {len(all_fill_ins)} FILL_IN checksums to resolve\n")
 
     # Deduplicate URLs (some macos amd64/arm64 share the same URL)
-    url_to_paths = {}
-    for path, url in fill_ins:
-        url_to_paths.setdefault(url, []).append(path)
+    url_to_entries = {}
+    for tf, path, url in all_fill_ins:
+        url_to_entries.setdefault(url, []).append((tf, path))
 
-    unique_urls = list(url_to_paths.keys())
+    unique_urls = list(url_to_entries.keys())
     print(f"Unique URLs: {len(unique_urls)}\n")
 
     results = {}
@@ -199,18 +214,25 @@ def main():
             else:
                 print(f"  [{done}/{len(unique_urls)}] FAILED {fname}: {err}")
 
-    # Apply results
+    # Apply results — group by file, load once, apply all, write once
     applied = 0
+    files_to_update = {}
     for url, checksum in results.items():
-        for path in url_to_paths[url]:
-            set_checksum(manifest, path, checksum)
+        for tf, path in url_to_entries[url]:
+            files_to_update.setdefault(tf, []).append((path, checksum))
+
+    for tf, updates in files_to_update.items():
+        with open(tf) as f:
+            data = json.load(f)
+        for path, checksum in updates:
+            set_checksum(data, path, checksum)
             applied += 1
+        with open(tf, "w") as f:
+            json.dump(data, f, indent=2)
+            f.write("\n")
+        print(f"  Updated {tf}")
 
-    with open("manifest.json", "w") as f:
-        json.dump(manifest, f, indent=2)
-        f.write("\n")
-
-    remaining = len(fill_ins) - applied
+    remaining = len(all_fill_ins) - applied
     print(f"\nApplied {applied} checksums.")
     if remaining > 0:
         print(f"WARNING: {remaining} checksums still missing!")

@@ -1,0 +1,4 @@
+sha256:aaf4f6a228291d287da34948295bf97ccccc2bdf9cd1a800e1925f4e6bbcb0db  vcpkg-2026-03-04-darwin-amd64.tar.gz
+sha256:beed4ed5e3fe5c62a0925948871e1c35867b68d062d084afeeaf9abf3391fbe5  vcpkg-2026-03-04-darwin-arm64.tar.gz
+sha256:170fccaa8fddb29152660ec2abeb7187c1d4dd5c279e3f91a97548ce97d234e8  vcpkg-2026-03-04-linux-amd64.tar.gz
+sha256:491e9df6f38bcdd30fbc3fb3734899fc7b375ca0c2a8551c2aa6e896cc1db8b6  vcpkg-2026-03-04-linux-arm64.tar.gz

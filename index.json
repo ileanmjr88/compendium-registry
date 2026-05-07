@@ -2,6 +2,11 @@
   "version": "2",
   "updated_at": "2026-04-11",
   "languages": {
+    "arm-none-eabi-gcc": {
+      "latest": "15.2.1-1.1",
+      "versions": 20,
+      "file": "languages/arm-none-eabi-gcc.json"
+    },
     "clang": {
       "latest": "22.1.3",
       "versions": 22,
@@ -26,14 +31,14 @@
       "latest": "3.14.4",
       "versions": 10,
       "file": "languages/python.json"
+    },
+    "riscv-none-elf-gcc": {
+      "latest": "15.2.0-1",
+      "versions": 23,
+      "file": "languages/riscv-none-elf-gcc.json"
     }
   },
   "tools": {
-    "arm-none-eabi-gcc": {
-      "latest": "15.2.1-1.1",
-      "versions": 20,
-      "file": "tools/arm-none-eabi-gcc.json"
-    },
     "ccache": {
       "latest": "4.13.2",
       "versions": 29,
@@ -63,11 +68,6 @@
       "latest": "10.33.0",
       "versions": 11,
       "file": "tools/pnpm.json"
-    },
-    "riscv-none-elf-gcc": {
-      "latest": "15.2.0-1",
-      "versions": 23,
-      "file": "tools/riscv-none-elf-gcc.json"
     },
     "ruff": {
       "latest": "0.15.10",

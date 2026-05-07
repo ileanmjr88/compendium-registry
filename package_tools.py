@@ -51,7 +51,7 @@ def vcpkg_repo_tag(version: str) -> str:
     the tool release date.
     """
     import json
-    req = urllib.request.Request("https://api.github.com/repos/microsoft/vcpkg/tags?per_page=20")
+    req = urllib.request.Request("https://api.github.com/repos/microsoft/vcpkg/tags?per_page=50")
     req.add_header("User-Agent", "compendium-package-tools/0.1")
     token = os.environ.get("GITHUB_TOKEN", "")
     if token:
@@ -153,15 +153,25 @@ def package_vcpkg(version: str, output_dir: Path):
         # Remove .git to save space
         shutil.rmtree(vcpkg_src / ".git", ignore_errors=True)
 
-        # 2. Download all platform binaries
+        # 2. Download all platform binaries (older releases may be missing some platforms)
         print(f"\n  → downloading pre-built binaries")
         binaries = {}
         for platform_arch, url_template in VCPKG_BINARY_URLS.items():
             url = url_template.format(version=version)
             binary_path = tmp / f"vcpkg-{platform_arch}"
-            download(url, binary_path)
+            try:
+                download(url, binary_path)
+            except urllib.request.HTTPError as e:
+                if e.code == 404:
+                    print(f"    ⚠ {platform_arch} not published for {version} — skipping")
+                    continue
+                raise
             make_executable(binary_path)
             binaries[platform_arch] = binary_path
+
+        if not binaries:
+            print(f"  ✗ no platform binaries available for {version}")
+            sys.exit(1)
 
         # 3. Package for each platform
         print(f"\n  → creating tarballs")
@@ -176,11 +186,13 @@ def package_vcpkg(version: str, output_dir: Path):
                 shutil.rmtree(vcpkg_dir)
             shutil.copytree(vcpkg_src, vcpkg_dir)
 
-            # Drop in the pre-built binary
-            dest_binary = vcpkg_dir / "vcpkg"
+            # Drop in the pre-built binary at bin/vcpkg (Compendium installer adds bin/ to PATH)
+            bin_dir = vcpkg_dir / "bin"
+            bin_dir.mkdir(exist_ok=True)
+            dest_binary = bin_dir / "vcpkg"
             shutil.copy2(binary_path, dest_binary)
             make_executable(dest_binary)
-            print(f"    ✓ binary copied")
+            print(f"    ✓ binary copied to bin/vcpkg")
 
             # Add .vcpkg-root marker file
             (vcpkg_dir / ".vcpkg-root").touch()
@@ -238,8 +250,8 @@ def package_vcpkg(version: str, output_dir: Path):
     print(f"Manifest snippet for vcpkg {version}")
     print(f"{'='*60}\n")
 
-    # Assume uploads go to compendium-registry releases
-    base_url = f"https://github.com/ileanmjr88/compendium-registry/releases/download/v0.1.0"
+    # Per-tool, per-version release tag (e.g. vcpkg-2026-04-08)
+    base_url = f"https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-{version}"
 
     for platform_arch, info in sorted(checksums.items()):
         os_name, arch = platform_arch.split("-")

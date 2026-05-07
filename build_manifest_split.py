@@ -613,6 +613,16 @@ def build_all():
     if check_github_latest("xpack-dev-tools", "gcc-xpack", r"v(\d+\.\d+\.\d+-\d+(?:\.\d+)?)", known_latest("languages", "gcc")):
         update_tool("languages", "gcc", fetch_xpack_tool("gcc-xpack", "gcc"))
 
+    # arm-none-eabi-gcc (xPack) — C/C++ cross-compiler for ARM Cortex-M
+    print("arm-none-eabi-gcc:")
+    if check_github_latest("xpack-dev-tools", "arm-none-eabi-gcc-xpack", r"v(\d+\.\d+\.\d+-\d+(?:\.\d+)?)", known_latest("languages", "arm-none-eabi-gcc")):
+        update_tool("languages", "arm-none-eabi-gcc", fetch_xpack_tool("arm-none-eabi-gcc-xpack", "arm-none-eabi-gcc"))
+
+    # riscv-none-elf-gcc (xPack) — C/C++ cross-compiler for RISC-V
+    print("riscv-none-elf-gcc:")
+    if check_github_latest("xpack-dev-tools", "riscv-none-elf-gcc-xpack", r"v(\d+\.\d+\.\d+-\d+(?:\.\d+)?)", known_latest("languages", "riscv-none-elf-gcc")):
+        update_tool("languages", "riscv-none-elf-gcc", fetch_xpack_tool("riscv-none-elf-gcc-xpack", "riscv-none-elf-gcc"))
+
     # === Tools ===
     # Each entry: (tool_name, owner, repo, version_regex, fetcher)
     github_tools = [
@@ -672,10 +682,6 @@ def build_all():
                 ("darwin", "amd64"): "pnpm-macos-x64",
                 ("darwin", "arm64"): "pnpm-macos-arm64",
             }, strip=0)),
-        ("arm-none-eabi-gcc", "xpack-dev-tools", "arm-none-eabi-gcc-xpack", r"v(\d+\.\d+\.\d+-\d+(?:\.\d+)?)",
-            lambda: fetch_xpack_tool("arm-none-eabi-gcc-xpack", "arm-none-eabi-gcc")),
-        ("riscv-none-elf-gcc", "xpack-dev-tools", "riscv-none-elf-gcc-xpack", r"v(\d+\.\d+\.\d+-\d+(?:\.\d+)?)",
-            lambda: fetch_xpack_tool("riscv-none-elf-gcc-xpack", "riscv-none-elf-gcc")),
         ("openocd", "xpack-dev-tools", "openocd-xpack", r"v(\d+\.\d+\.\d+-\d+(?:\.\d+)?)",
             lambda: fetch_xpack_tool("openocd-xpack", "openocd")),
         ("vcpkg", "microsoft", "vcpkg-tool", r"(\d{4}-\d{2}-\d{2})", fetch_vcpkg),

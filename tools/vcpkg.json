@@ -2,714 +2,714 @@
   "2026-04-08": {
     "linux": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2026-04-08/vcpkg-glibc",
-        "checksum": "sha256:d0670a2c918f0878e8738049446da076bc7b4d881caf55e9f726230a4bbd8445",
-        "size": 8529552,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2026-04-08/vcpkg-2026-04-08-linux-amd64.tar.gz",
+        "checksum": "sha256:8a13e3153bc49d983c7ad460f3f2be421640e75d4efccb3a41583dc0dde3e7d8",
+        "size": 8154727,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2026-04-08/vcpkg-glibc-arm64",
-        "checksum": "sha256:d9ba3f67adbc743817087f50d4e5734a56bd642ba44ffb73dce97d9ffc78726e",
-        "size": 8290408,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2026-04-08/vcpkg-2026-04-08-linux-arm64.tar.gz",
+        "checksum": "sha256:ca148972cc9607f38c4be90f028c1f78ec92fd0710a2d787820fbaa664ff3b36",
+        "size": 8070646,
+        "strip": 1
       }
     },
     "darwin": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2026-04-08/vcpkg-macos",
-        "checksum": "sha256:a01331f42606173730bfd9f3692505327211e5f2ebe566ecc002c658ae826472",
-        "size": 12611856,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2026-04-08/vcpkg-2026-04-08-darwin-amd64.tar.gz",
+        "checksum": "sha256:07fa0241a2d168523db790eac6ea40711c97aae58b3a9cd987f024757193ad5c",
+        "size": 9502378,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2026-04-08/vcpkg-macos",
-        "checksum": "sha256:a01331f42606173730bfd9f3692505327211e5f2ebe566ecc002c658ae826472",
-        "size": 12611856,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2026-04-08/vcpkg-2026-04-08-darwin-arm64.tar.gz",
+        "checksum": "sha256:0f6ff7150485b9b673e082dca5a147d6f9dedf165a43467a1ac54d1cd466bc30",
+        "size": 9502376,
+        "strip": 1
       }
     }
   },
   "2026-03-04": {
     "linux": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2026-03-04/vcpkg-glibc",
-        "checksum": "sha256:091320c4974d54476639554ce6dd8eb4dcae036edfb4eb5d8736f13373a4651e",
-        "size": 8477216,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2026-03-04/vcpkg-2026-03-04-linux-amd64.tar.gz",
+        "checksum": "sha256:5672dacafca6c171a832eb0b76d72c424f218d00836e075c826adbd2545b9cfc",
+        "size": 8104867,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2026-03-04/vcpkg-glibc-arm64",
-        "checksum": "sha256:49e2dccae2b6f30ba2809a69d9fdf4a231a94a46b5310715262e32be09e21a91",
-        "size": 8215256,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2026-03-04/vcpkg-2026-03-04-linux-arm64.tar.gz",
+        "checksum": "sha256:0c97b61e1310208610ac1411f022f8a53051da456ba3485110aa3607d20ebe71",
+        "size": 8021598,
+        "strip": 1
       }
     },
     "darwin": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2026-03-04/vcpkg-macos",
-        "checksum": "sha256:d8c9ec02ee11e92a86fcff128f938a382eb413ff803f29216649ecacf0e13d7d",
-        "size": 12462720,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2026-03-04/vcpkg-2026-03-04-darwin-amd64.tar.gz",
+        "checksum": "sha256:a73b0138f3984b6582d99443c477dda637a9240c324ced170d8cb885560f7db8",
+        "size": 9417963,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2026-03-04/vcpkg-macos",
-        "checksum": "sha256:d8c9ec02ee11e92a86fcff128f938a382eb413ff803f29216649ecacf0e13d7d",
-        "size": 12462720,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2026-03-04/vcpkg-2026-03-04-darwin-arm64.tar.gz",
+        "checksum": "sha256:0100b59329514906a2cc89aa2844d309c0c8af888424f72554c2bb2db28ce494",
+        "size": 9417964,
+        "strip": 1
       }
     }
   },
   "2026-02-21": {
     "linux": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2026-02-21/vcpkg-glibc",
-        "checksum": "sha256:ee5d4d727bdd46bc822a1940fefe3d3ec340222a0bd6911020cb637ea8b679ee",
-        "size": 8445328,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2026-02-21/vcpkg-2026-02-21-linux-amd64.tar.gz",
+        "checksum": "sha256:87372424e277f74f55df48c5117b14391270ed886f3ebfc59a9a3e216a986dcf",
+        "size": 7914666,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2026-02-21/vcpkg-glibc-arm64",
-        "checksum": "sha256:cc37b26bf5606bafb7dc148d51e915fa5f33e01ca2f1fd15c83ef727fd59f392",
-        "size": 8208104,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2026-02-21/vcpkg-2026-02-21-linux-arm64.tar.gz",
+        "checksum": "sha256:46ade204e1e42a7a9da8e8ad8c3451cd1691841bea40adfc2d872cdeb4bde947",
+        "size": 7828875,
+        "strip": 1
       }
     },
     "darwin": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2026-02-21/vcpkg-macos",
-        "checksum": "sha256:5a2fe9007f9307a30fc3da025311d1baf922cf60e109c2b6b9dce4298902fcd1",
-        "size": 12440160,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2026-02-21/vcpkg-2026-02-21-darwin-amd64.tar.gz",
+        "checksum": "sha256:19538eb6f6c59d35d8c17625784ddc97dd3d5a8977dbc7732be301d8b0d66ed9",
+        "size": 9221092,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2026-02-21/vcpkg-macos",
-        "checksum": "sha256:5a2fe9007f9307a30fc3da025311d1baf922cf60e109c2b6b9dce4298902fcd1",
-        "size": 12440160,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2026-02-21/vcpkg-2026-02-21-darwin-arm64.tar.gz",
+        "checksum": "sha256:61c0d6ea6ab46f36df75478715af8eeef3bddd9bf1138d4e473b002e04095515",
+        "size": 9221108,
+        "strip": 1
       }
     }
   },
   "2025-12-16": {
     "linux": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-12-16/vcpkg-glibc",
-        "checksum": "sha256:81faeebbe98a61c9449750354c448865f8eac3cca7c65add11a14da7bc8203a6",
-        "size": 8457784,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-12-16/vcpkg-2025-12-16-linux-amd64.tar.gz",
+        "checksum": "sha256:0df63b9f0b9407d3ca6ef0ae6f3d585c2e63217ede6c0f25e139f1bebbd92c77",
+        "size": 7832085,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-12-16/vcpkg-glibc-arm64",
-        "checksum": "sha256:9a0605980005c066048e35901c8d84b2a99f4bd22ed2cbb7ec13d6e0ccbe07e3",
-        "size": 8206312,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-12-16/vcpkg-2025-12-16-linux-arm64.tar.gz",
+        "checksum": "sha256:138414b324b0354228ffc17dea5b50f3151950d45e168084005d934cb27952d6",
+        "size": 7752644,
+        "strip": 1
       }
     },
     "darwin": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-12-16/vcpkg-macos",
-        "checksum": "sha256:f4f8f6abbcb2dab5bb7591bb5f9e704be261196eee66e1b92189ba830ce5e356",
-        "size": 12433056,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-12-16/vcpkg-2025-12-16-darwin-amd64.tar.gz",
+        "checksum": "sha256:5b599a9c6d5024f0f718078d6ab2e2a891661ae10ce799236da58595eb3b3807",
+        "size": 9138853,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-12-16/vcpkg-macos",
-        "checksum": "sha256:f4f8f6abbcb2dab5bb7591bb5f9e704be261196eee66e1b92189ba830ce5e356",
-        "size": 12433056,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-12-16/vcpkg-2025-12-16-darwin-arm64.tar.gz",
+        "checksum": "sha256:162b7814c3391e11b0d2aca473ed8fe8150349972959adfc66173793cdfbc7ec",
+        "size": 9138852,
+        "strip": 1
       }
     }
   },
   "2025-12-05": {
     "linux": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-12-05/vcpkg-glibc",
-        "checksum": "sha256:54098727c0bcc338308dd42c7a94427816f9127e8393864684b7d9cdebbfe351",
-        "size": 8421328,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-12-05/vcpkg-2025-12-05-linux-amd64.tar.gz",
+        "checksum": "sha256:1db0a064a5529e77972869e7391358e454162063f7b4a8b94fd499ca9a4dc51a",
+        "size": 7749161,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-12-05/vcpkg-glibc-arm64",
-        "checksum": "sha256:f80f12472a8bb8cef2705d3523f202a1d961c00dcfde881140fad0df0d376dbe",
-        "size": 8196016,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-12-05/vcpkg-2025-12-05-linux-arm64.tar.gz",
+        "checksum": "sha256:67d6ee1d009b80c0c73ee4c52c966f19ec8850d48e610bb664d4641efd6fe789",
+        "size": 7665318,
+        "strip": 1
       }
     },
     "darwin": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-12-05/vcpkg-macos",
-        "checksum": "sha256:68c88066a990eaefeb2cc606719b62c265de69904a5b19e953309c175c4b56d4",
-        "size": 12403920,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-12-05/vcpkg-2025-12-05-darwin-amd64.tar.gz",
+        "checksum": "sha256:db1085e4313afe847a7f05abd1ed0ed58e2e6edd8fb6dfa8e8eb85fd127fc202",
+        "size": 9050825,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-12-05/vcpkg-macos",
-        "checksum": "sha256:68c88066a990eaefeb2cc606719b62c265de69904a5b19e953309c175c4b56d4",
-        "size": 12403920,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-12-05/vcpkg-2025-12-05-darwin-arm64.tar.gz",
+        "checksum": "sha256:27130ade14a2c194dc6513fc18684fe8eea3e9db79bfb1ba1988ce79374b71b2",
+        "size": 9050860,
+        "strip": 1
       }
     }
   },
   "2025-11-19": {
     "linux": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-11-19/vcpkg-glibc",
-        "checksum": "sha256:b6f2423adc787a1c8107759631bf4abaadeddb82f46efc2e1ddee9f857b2cff5",
-        "size": 8412968,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-11-19/vcpkg-2025-11-19-linux-amd64.tar.gz",
+        "checksum": "sha256:e6495bf4fd88b7556b15b47f91457919a9bbee1d4d8e142e53fa22c089905fc9",
+        "size": 7748681,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-11-19/vcpkg-glibc-arm64",
-        "checksum": "sha256:287202d9e3e6301e703e2c6b519bb7d282f6e96736c7a50584f941ed178b459f",
-        "size": 8195712,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-11-19/vcpkg-2025-11-19-linux-arm64.tar.gz",
+        "checksum": "sha256:c40a64527058b3d77c0c51d0c9996f1a34b4c510fe0186087c71b2045d28bfc0",
+        "size": 7665475,
+        "strip": 1
       }
     },
     "darwin": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-11-19/vcpkg-macos",
-        "checksum": "sha256:2b8dea4e35c3dc889120c360cf6f6ef439ed21a65f2a782fb3422e55cf223abf",
-        "size": 12387456,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-11-19/vcpkg-2025-11-19-darwin-amd64.tar.gz",
+        "checksum": "sha256:80e5d4a1b54a19b14d1caf4230e6dcfab8c3c9d1025768d81ad087e97ab7b2a4",
+        "size": 9050937,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-11-19/vcpkg-macos",
-        "checksum": "sha256:2b8dea4e35c3dc889120c360cf6f6ef439ed21a65f2a782fb3422e55cf223abf",
-        "size": 12387456,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-11-19/vcpkg-2025-11-19-darwin-arm64.tar.gz",
+        "checksum": "sha256:c5545d96049082c28d9676b1313ca6a59e2c0825a4d7f3b7ee20693c52afc8c3",
+        "size": 9050930,
+        "strip": 1
       }
     }
   },
   "2025-10-16": {
     "linux": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-10-16/vcpkg-glibc",
-        "checksum": "sha256:35b9a7a3ea7f8f88a42a1a5673669152e360ea39b5f301567ca8081e131abb65",
-        "size": 8410064,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-10-16/vcpkg-2025-10-16-linux-amd64.tar.gz",
+        "checksum": "sha256:c8f13c32f4916441973e14711e13ff1c54cf8eb82d3af46eb3b63653f3c5cc71",
+        "size": 7697409,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-10-16/vcpkg-glibc-arm64",
-        "checksum": "sha256:389530ee331164b3a765d4da9a9f7de52f12141e685b08b09e360a341555b382",
-        "size": 8193008,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-10-16/vcpkg-2025-10-16-linux-arm64.tar.gz",
+        "checksum": "sha256:3b800e7fff75441f53ab7d3a8488febfd0762fdb57e977e291ae85a6ef8130c2",
+        "size": 7616234,
+        "strip": 1
       }
     },
     "darwin": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-10-16/vcpkg-macos",
-        "checksum": "sha256:7a3d0301622106405282bbaf1560ddb16e5e5e37ea9b97e0c2c7cdef408cd896",
-        "size": 12386368,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-10-16/vcpkg-2025-10-16-darwin-amd64.tar.gz",
+        "checksum": "sha256:743239848ef4c33f234bd104dc9469392acd1a7ef233d04d251b6c83d35d07fc",
+        "size": 8998153,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-10-16/vcpkg-macos",
-        "checksum": "sha256:7a3d0301622106405282bbaf1560ddb16e5e5e37ea9b97e0c2c7cdef408cd896",
-        "size": 12386368,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-10-16/vcpkg-2025-10-16-darwin-arm64.tar.gz",
+        "checksum": "sha256:a4f9976daa1bed692bfb74c117ba9d1501c1e1d573dc4e333f147c9cd6143e98",
+        "size": 8998128,
+        "strip": 1
       }
     }
   },
   "2025-10-10": {
     "linux": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-10-10/vcpkg-glibc",
-        "checksum": "sha256:4904b4a0fda467b7d9d9ec6e041f2603ecfcc14774fa147e11830b99645f410e",
-        "size": 8405968,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-10-10/vcpkg-2025-10-10-linux-amd64.tar.gz",
+        "checksum": "sha256:dd6b01afbe05cfbc464158212a2b1f02eadf5e1440597cef1ebd0c11cec1c2d2",
+        "size": 7697426,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-10-10/vcpkg-glibc-arm64",
-        "checksum": "sha256:12c189ab6029db0f1fd1544fb1ec3b86824a3ac32ea0ff6a70a5277b309797e3",
-        "size": 8193008,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-10-10/vcpkg-2025-10-10-linux-arm64.tar.gz",
+        "checksum": "sha256:b30b9725ab4e1ea0925d5ba7e585c26525e8058f3e8583fb0518236cc22da037",
+        "size": 7616842,
+        "strip": 1
       }
     },
     "darwin": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-10-10/vcpkg-macos",
-        "checksum": "sha256:8c5d950d4994a9ca1bee1d89e88cd70870f32d1eff0cc55c50be8306bda73ae5",
-        "size": 12386368,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-10-10/vcpkg-2025-10-10-darwin-amd64.tar.gz",
+        "checksum": "sha256:c5d9f439555242337fcde96575a3690c58030743cf385216c03f54c6a76c1361",
+        "size": 8999537,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-10-10/vcpkg-macos",
-        "checksum": "sha256:8c5d950d4994a9ca1bee1d89e88cd70870f32d1eff0cc55c50be8306bda73ae5",
-        "size": 12386368,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-10-10/vcpkg-2025-10-10-darwin-arm64.tar.gz",
+        "checksum": "sha256:b7c52cd1c1b8fc3f1c4911657de829b49baa2660d867430c6fd53cb4abbf7f61",
+        "size": 8999548,
+        "strip": 1
       }
     }
   },
   "2025-09-03": {
     "linux": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-09-03/vcpkg-glibc",
-        "checksum": "sha256:6617adf1fca0cb7fb33d3b3a67002c8d68630811ec17655336baf4343c878851",
-        "size": 8396272,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-09-03/vcpkg-2025-09-03-linux-amd64.tar.gz",
+        "checksum": "sha256:84eb48ec85c5f9edb3ff7afbca633bfac8dac243e63cba741e9efa955811ac39",
+        "size": 7652731,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-09-03/vcpkg-glibc-arm64",
-        "checksum": "sha256:f6aee762a4f86c9b9e5e0a8ccc9eb3dd43fc39332b37711bea573894598b88b9",
-        "size": 8190992,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-09-03/vcpkg-2025-09-03-linux-arm64.tar.gz",
+        "checksum": "sha256:7dc76c35e098f1687c98653906e49ee5aeee7bf45a96869cca0657f8d756399d",
+        "size": 7569835,
+        "strip": 1
       }
     },
     "darwin": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-09-03/vcpkg-macos",
-        "checksum": "sha256:a5d31c50610e37f257204e8da9b7ad3de6bd96c8314493be48426c36e6d6a86c",
-        "size": 12370240,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-09-03/vcpkg-2025-09-03-darwin-amd64.tar.gz",
+        "checksum": "sha256:1f944bf89a7aeedf2e75508bb5e3f2d209ed2bdcc8cb1623913d0250676dadec",
+        "size": 8949941,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-09-03/vcpkg-macos",
-        "checksum": "sha256:a5d31c50610e37f257204e8da9b7ad3de6bd96c8314493be48426c36e6d6a86c",
-        "size": 12370240,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-09-03/vcpkg-2025-09-03-darwin-arm64.tar.gz",
+        "checksum": "sha256:db95bce1830892daca738728af54ae24bf810a3d17a44383a5d2c66d63bc7d1d",
+        "size": 8949909,
+        "strip": 1
       }
     }
   },
   "2025-08-29": {
     "linux": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-08-29/vcpkg-glibc",
-        "checksum": "sha256:94b66a3ddfa41b561c28f3399a528fce9647d6375f1cdbbe9b386f861e57712b",
-        "size": 8400072,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-08-29/vcpkg-2025-08-29-linux-amd64.tar.gz",
+        "checksum": "sha256:df783b3e2422f029986e435216a11c08d6d71975eda40d44cfc84363824fe783",
+        "size": 7653420,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-08-29/vcpkg-glibc-arm64",
-        "checksum": "sha256:b43129216144f6d4ba299a1d5ec9cd883024e740cf5531622cc041786bdd3150",
-        "size": 8190632,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-08-29/vcpkg-2025-08-29-linux-arm64.tar.gz",
+        "checksum": "sha256:df0ed95f89c42f615d30802a46c87d5a984058d43528f0e7e3d88e6d55a8e2b0",
+        "size": 7575385,
+        "strip": 1
       }
     },
     "darwin": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-08-29/vcpkg-macos",
-        "checksum": "sha256:2afff3bcd68a1cee668458d6c7afdd9cd84bfeb9ffd0d217dd221062f6183b75",
-        "size": 12369376,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-08-29/vcpkg-2025-08-29-darwin-amd64.tar.gz",
+        "checksum": "sha256:35a0ae0e5419039243957936bc0c63d4afb2463c87d07107d0920323dc80f770",
+        "size": 8952288,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-08-29/vcpkg-macos",
-        "checksum": "sha256:2afff3bcd68a1cee668458d6c7afdd9cd84bfeb9ffd0d217dd221062f6183b75",
-        "size": 12369376,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-08-29/vcpkg-2025-08-29-darwin-arm64.tar.gz",
+        "checksum": "sha256:ed3faf07cd2326da86c813174fcd0d5f67be226e60f03f7862cf0236bb6c988b",
+        "size": 8952294,
+        "strip": 1
       }
     }
   },
   "2025-07-21": {
     "linux": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-07-21/vcpkg-glibc",
-        "checksum": "sha256:2a27e9af93da5b33e798bc01aa502182a82fc2ad9736fc3e98096cb7b3ebc420",
-        "size": 8218560,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-07-21/vcpkg-2025-07-21-linux-amd64.tar.gz",
+        "checksum": "sha256:32a8a6116b24338d212084604185fedd5052ea49c38e2897f7c5cd44396f1d90",
+        "size": 7520378,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-07-21/vcpkg-glibc-arm64",
-        "checksum": "sha256:d0f95014468428f1f2213862ff0665d9732b98554e63f1111236a34fd270756c",
-        "size": 7882544,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-07-21/vcpkg-2025-07-21-linux-arm64.tar.gz",
+        "checksum": "sha256:1f6b7fa8c7a08fbfc0d56be04b7dd0c1591d6b7db44d74341b517939134c5f6f",
+        "size": 7407765,
+        "strip": 1
       }
     },
     "darwin": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-07-21/vcpkg-macos",
-        "checksum": "sha256:d229d33ce1e9c9e54231c897deba3667cd354e8bf51514237e3ecd6ab9f6305e",
-        "size": 12344736,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-07-21/vcpkg-2025-07-21-darwin-amd64.tar.gz",
+        "checksum": "sha256:acacf3b34d0cd70ee12594ca09845a39f0bb941dbd19c080fe7c65d6c44782ad",
+        "size": 8873565,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-07-21/vcpkg-macos",
-        "checksum": "sha256:d229d33ce1e9c9e54231c897deba3667cd354e8bf51514237e3ecd6ab9f6305e",
-        "size": 12344736,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-07-21/vcpkg-2025-07-21-darwin-arm64.tar.gz",
+        "checksum": "sha256:bbfb80c135c18eb47472e151b5f0a63be90db039a5b0cebe4201cb5267951f46",
+        "size": 8873564,
+        "strip": 1
       }
     }
   },
   "2025-07-16": {
     "linux": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-07-16/vcpkg-glibc",
-        "checksum": "sha256:da2d367d42474405f69a0af7809819964c0f3acff969e7709c0039cd17715949",
-        "size": 8218560,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-07-16/vcpkg-2025-07-16-linux-amd64.tar.gz",
+        "checksum": "sha256:592947b123ec2bc3189a2082940a8c1a35ebd694664bf8013b7a92ea3607f162",
+        "size": 7520176,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-07-16/vcpkg-glibc-arm64",
-        "checksum": "sha256:58d9cb606c976b90bec78ad1e81710456f91e5b733855dc54a1eee7fdba80868",
-        "size": 7882544,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-07-16/vcpkg-2025-07-16-linux-arm64.tar.gz",
+        "checksum": "sha256:36e5bb3921a0d4b4ba042cfafa6c74ad3f831b8df153727b26f75beb6516d99c",
+        "size": 7407545,
+        "strip": 1
       }
     },
     "darwin": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-07-16/vcpkg-macos",
-        "checksum": "sha256:accf0b5ecbcb5a4ce3f4469543887e7cbdc4789f9122ca4db48c15c95828e868",
-        "size": 12344736,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-07-16/vcpkg-2025-07-16-darwin-amd64.tar.gz",
+        "checksum": "sha256:0a2fbd33e61e333d347f271be0103dba6bdfba95563e62c2f89c70f422ea573d",
+        "size": 8873210,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-07-16/vcpkg-macos",
-        "checksum": "sha256:accf0b5ecbcb5a4ce3f4469543887e7cbdc4789f9122ca4db48c15c95828e868",
-        "size": 12344736,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-07-16/vcpkg-2025-07-16-darwin-arm64.tar.gz",
+        "checksum": "sha256:784d1ede44f3dc3b0a26456ce0830107b7ba194521c5234afea5f9399fddfbaa",
+        "size": 8873226,
+        "strip": 1
       }
     }
   },
   "2025-06-20": {
     "linux": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-06-20/vcpkg-glibc",
-        "checksum": "sha256:ec89708c46f7aa30955ac8163b820500d29cbcc785775439540b6df5896e65f2",
-        "size": 8208032,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-06-20/vcpkg-2025-06-20-linux-amd64.tar.gz",
+        "checksum": "sha256:c0e94d48c772e432f664970fe2265f3a227f0168aabc6a2a17fe846bd1517ee2",
+        "size": 7517475,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-06-20/vcpkg-glibc-arm64",
-        "checksum": "sha256:bab91a90cace906f262a5d0e95135d9560914220eafe2f5ea45c86251032b83b",
-        "size": 7871680,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-06-20/vcpkg-2025-06-20-linux-arm64.tar.gz",
+        "checksum": "sha256:a097bad5906cb2f897c1eb9e5cfa1dd540d83039e44d1d677b4582b2192a6c1d",
+        "size": 7402050,
+        "strip": 1
       }
     },
     "darwin": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-06-20/vcpkg-macos",
-        "checksum": "sha256:826eee9f074a97de3eaee1bb12d4b2532dfa423711ae813063aac0afcbe6f8c0",
-        "size": 12326064,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-06-20/vcpkg-2025-06-20-darwin-amd64.tar.gz",
+        "checksum": "sha256:760a020c73d683f1f8d334182195761effc4ab1ffac126c259518361c2ecf1f3",
+        "size": 8867306,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-06-20/vcpkg-macos",
-        "checksum": "sha256:826eee9f074a97de3eaee1bb12d4b2532dfa423711ae813063aac0afcbe6f8c0",
-        "size": 12326064,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-06-20/vcpkg-2025-06-20-darwin-arm64.tar.gz",
+        "checksum": "sha256:a23cb9a44af813fd2aae6ee509af6edcae154cdf913cc3cf10adf93d986e833e",
+        "size": 8867271,
+        "strip": 1
       }
     }
   },
   "2025-06-02": {
     "linux": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-06-02/vcpkg-glibc",
-        "checksum": "sha256:3f0908c7e14dc2dde4be4c0a5b00f7f071a94b7d5722c82bda0716c04af2b28f",
-        "size": 8136552,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-06-02/vcpkg-2025-06-02-linux-amd64.tar.gz",
+        "checksum": "sha256:964ccc7efb070fe88bcd24e1a6be5f6f3b14e40ba99631f531c801f83b12905d",
+        "size": 7411486,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-06-02/vcpkg-glibc-arm64",
-        "checksum": "sha256:e996a95d0d84f12cf3c7bb3394c7f9974194fdd09aee8f744a82f54223fa3dae",
-        "size": 7805016,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-06-02/vcpkg-2025-06-02-linux-arm64.tar.gz",
+        "checksum": "sha256:0c36d1b85884bf0a571cb78236ecca11fb4739556e8e8bbcbf7d5be905945952",
+        "size": 7300271,
+        "strip": 1
       }
     },
     "darwin": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-06-02/vcpkg-macos",
-        "checksum": "sha256:97cdb000d61f7ab62141b79102b2001d7753164d7e4ef6e4b26b3fa6807ab405",
-        "size": 12195104,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-06-02/vcpkg-2025-06-02-darwin-amd64.tar.gz",
+        "checksum": "sha256:5c3249cf8d8ecf1b2b7c1e0825433894137fb173a63511a3249cddbf5da47060",
+        "size": 8735967,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-06-02/vcpkg-macos",
-        "checksum": "sha256:97cdb000d61f7ab62141b79102b2001d7753164d7e4ef6e4b26b3fa6807ab405",
-        "size": 12195104,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-06-02/vcpkg-2025-06-02-darwin-arm64.tar.gz",
+        "checksum": "sha256:24745904ace857a1d7d9c92366a04a1438da4dd1e8888fdf6f4509a0fc9d6d1f",
+        "size": 8735956,
+        "strip": 1
       }
     }
   },
   "2025-05-19": {
     "linux": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-05-19/vcpkg-glibc",
-        "checksum": "sha256:681fa45567df04128e8f7e4f455941ea0628f5bdeb4b2197e29b6969408b24bf",
-        "size": 8132456,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-05-19/vcpkg-2025-05-19-linux-amd64.tar.gz",
+        "checksum": "sha256:dc94c3c90c7757abf63c823fcb5de8a606e34594fe1144363efe41be46bc0c56",
+        "size": 7414329,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-05-19/vcpkg-glibc-arm64",
-        "checksum": "sha256:26c31ce11440694872ca29d45c3790dafdeefe520c02428227c5a545c2540864",
-        "size": 7800920,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-05-19/vcpkg-2025-05-19-linux-arm64.tar.gz",
+        "checksum": "sha256:f3a04b16c00892c6b2331584717d891c409572231c4674d92ee37e836497be82",
+        "size": 7301310,
+        "strip": 1
       }
     },
     "darwin": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-05-19/vcpkg-macos",
-        "checksum": "sha256:19f24a199912d428bc7ed423bd6cda21b93c047eac38fa683154ed0015e409fb",
-        "size": 12162208,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-05-19/vcpkg-2025-05-19-darwin-amd64.tar.gz",
+        "checksum": "sha256:748e8cb5f3f35e5fa91a9ea6669523b44a2acab579cf4509df847872c1fca5cb",
+        "size": 8737108,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-05-19/vcpkg-macos",
-        "checksum": "sha256:19f24a199912d428bc7ed423bd6cda21b93c047eac38fa683154ed0015e409fb",
-        "size": 12162208,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-05-19/vcpkg-2025-05-19-darwin-arm64.tar.gz",
+        "checksum": "sha256:6486611c8afebbe3443130492640f131044306dc342dc80639c39b83de71ed77",
+        "size": 8737111,
+        "strip": 1
       }
     }
   },
   "2025-04-16": {
     "linux": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-04-16/vcpkg-glibc",
-        "checksum": "sha256:dc9876092bc7bf2bd48b59cf538a32ab6360bc4c8c16a8a0419873d3e66d2ce9",
-        "size": 8063416,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-04-16/vcpkg-2025-04-16-linux-amd64.tar.gz",
+        "checksum": "sha256:4af0d37f6982c1cae0f03dab61d82df0497237cca852173b5c945b63090988c0",
+        "size": 7391711,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-04-16/vcpkg-glibc-arm64",
-        "checksum": "sha256:7c21d920317aa2406824a7e5874048004e24561581a23b487c77f8dc9407dad4",
-        "size": 7737368,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-04-16/vcpkg-2025-04-16-linux-arm64.tar.gz",
+        "checksum": "sha256:02fc00523427d3a31e6a78d57750095986fce241e176db049698d2ba5c5c9f70",
+        "size": 7276899,
+        "strip": 1
       }
     },
     "darwin": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-04-16/vcpkg-macos",
-        "checksum": "sha256:8e15412d9140bf6c070dda087d61f3e118b9dcc7d3f9e8642b7377af9a205110",
-        "size": 12056672,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-04-16/vcpkg-2025-04-16-darwin-amd64.tar.gz",
+        "checksum": "sha256:2e4f99707633eb68c8e655aca13f2f9c26529dd760d3b4de4449fb745822b788",
+        "size": 8690560,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-04-16/vcpkg-macos",
-        "checksum": "sha256:8e15412d9140bf6c070dda087d61f3e118b9dcc7d3f9e8642b7377af9a205110",
-        "size": 12056672,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-04-16/vcpkg-2025-04-16-darwin-arm64.tar.gz",
+        "checksum": "sha256:5d0d21421ba79a70228790beda66fc89d84c4420f385fde2881e022c5efb792c",
+        "size": 8690527,
+        "strip": 1
       }
     }
   },
   "2025-04-07": {
     "linux": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-04-07/vcpkg-glibc",
-        "checksum": "sha256:46fc005bfab3b5b95165936a73a68c7f6c4576f9eb09dbd328405fc5559396ac",
-        "size": 8004704,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-04-07/vcpkg-2025-04-07-linux-amd64.tar.gz",
+        "checksum": "sha256:5340a9ba9864f9cd505f4c3fecf70186ae41796e7082708c690500448e64f4a1",
+        "size": 7342304,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-04-07/vcpkg-glibc-arm64",
-        "checksum": "sha256:d92095c1715b313762a56c2b64944961094b0dcae99255440eae20e310bc5aed",
-        "size": 7631416,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-04-07/vcpkg-2025-04-07-linux-arm64.tar.gz",
+        "checksum": "sha256:86b16d2285907ed3e84dd662b892fc5776199fa1075af288451e85c659393822",
+        "size": 7228369,
+        "strip": 1
       }
     },
     "darwin": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-04-07/vcpkg-macos",
-        "checksum": "sha256:af79c8680fc73fc2981706490b812025720ff91eabbee4eeea2cb0ac88abcec8",
-        "size": 11739680,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-04-07/vcpkg-2025-04-07-darwin-amd64.tar.gz",
+        "checksum": "sha256:7c2d23b852cd8468cb00d6873ef95c67db377911df758e5004b74666be31f8db",
+        "size": 8534743,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-04-07/vcpkg-macos",
-        "checksum": "sha256:af79c8680fc73fc2981706490b812025720ff91eabbee4eeea2cb0ac88abcec8",
-        "size": 11739680,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-04-07/vcpkg-2025-04-07-darwin-arm64.tar.gz",
+        "checksum": "sha256:dca7b16bdbf3b63f462086a6729d4d7f0644abc5da62f8c4d4a7ec01cc316be0",
+        "size": 8534669,
+        "strip": 1
       }
     }
   },
   "2025-04-01": {
     "linux": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-04-01/vcpkg-glibc",
-        "checksum": "sha256:47a3ab40ac181183451c9011299e8d3c7d6d2aca63f33097ef4094fe4cce5b57",
-        "size": 7999600,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-04-01/vcpkg-2025-04-01-linux-amd64.tar.gz",
+        "checksum": "sha256:b03c2f00745d2e75b5b48dfc2bd65ba85e05a06deb77b671ec41314700c7a1ae",
+        "size": 7338800,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-04-01/vcpkg-glibc-arm64",
-        "checksum": "sha256:d8369240f05e68b4a3523d50d5be68dc6831c75692abb0d1c55e19990ee1a3f8",
-        "size": 7630472,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-04-01/vcpkg-2025-04-01-linux-arm64.tar.gz",
+        "checksum": "sha256:240a23a96cf2546800578c49aa07f699d4cee110028c84b34f8c780ca8152ee7",
+        "size": 7226898,
+        "strip": 1
       }
     },
     "darwin": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-04-01/vcpkg-macos",
-        "checksum": "sha256:92deb117cbc347c451a2cc9240c57d5ee59aec67eaf37cc712a9a35b80f62ea8",
-        "size": 11739008,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-04-01/vcpkg-2025-04-01-darwin-amd64.tar.gz",
+        "checksum": "sha256:74c7eaccdee597a9ee1698dc80941e556763f132521aa2446776302d9c644342",
+        "size": 8528898,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-04-01/vcpkg-macos",
-        "checksum": "sha256:92deb117cbc347c451a2cc9240c57d5ee59aec67eaf37cc712a9a35b80f62ea8",
-        "size": 11739008,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-04-01/vcpkg-2025-04-01-darwin-arm64.tar.gz",
+        "checksum": "sha256:636a3b5620783c45186761ba3c47d3f3e17597ad890adfaf6423b812ad9a1a2b",
+        "size": 8529338,
+        "strip": 1
       }
     }
   },
   "2025-03-22": {
     "linux": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-03-22/vcpkg-glibc",
-        "checksum": "sha256:aeb20709177946fe951224a21e74b40319b60200c47957be10981c4936411402",
-        "size": 7978680,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-03-22/vcpkg-2025-03-22-linux-amd64.tar.gz",
+        "checksum": "sha256:c77590550136ac0f08f7ed080345d33166cc0a10d9bb81f11d737c4e9a770bc2",
+        "size": 7333468,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-03-22/vcpkg-glibc-arm64",
-        "checksum": "sha256:b52f79f302cdd9569da2712eb81609ca1db7c431594fe620cc587704cd8b7f5d",
-        "size": 7616432,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-03-22/vcpkg-2025-03-22-linux-arm64.tar.gz",
+        "checksum": "sha256:90769b6a2a8a0c8cb43b9332cc6c4a22f911ef1fa16a039e6107d3f72935b681",
+        "size": 7224565,
+        "strip": 1
       }
     },
     "darwin": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-03-22/vcpkg-macos",
-        "checksum": "sha256:024e5e9e7a83af8ec62e87340aecd15deb2e1bf28976470b8a103c5c9e91000b",
-        "size": 11698064,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-03-22/vcpkg-2025-03-22-darwin-amd64.tar.gz",
+        "checksum": "sha256:2118dea6cd05434a2bbed07728dbed8c9bdb0d3bbe961f95b078749e613619ce",
+        "size": 8517601,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-03-22/vcpkg-macos",
-        "checksum": "sha256:024e5e9e7a83af8ec62e87340aecd15deb2e1bf28976470b8a103c5c9e91000b",
-        "size": 11698064,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-03-22/vcpkg-2025-03-22-darwin-arm64.tar.gz",
+        "checksum": "sha256:89830e8994a1e16c303928531599de7b17be8e5ff90ce78271b234450795bec2",
+        "size": 8517608,
+        "strip": 1
       }
     }
   },
   "2025-03-13": {
     "linux": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-03-13/vcpkg-glibc",
-        "checksum": "sha256:d76b8c880b8999ae64d9adb9c3bc8217a7e9b08644a3a60e628e9e42a47ade5f",
-        "size": 7986024,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-03-13/vcpkg-2025-03-13-linux-amd64.tar.gz",
+        "checksum": "sha256:736487f758ba0100c4c5fe1adceab84d4dc34b6404a9ff4983f971e7e106197d",
+        "size": 7324790,
+        "strip": 1
       }
     },
     "darwin": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-03-13/vcpkg-macos",
-        "checksum": "sha256:0ba0b39d21be0391f945b9d38c4f696ee8da5a4c5e8f92ee8d1d9936fcedf7ac",
-        "size": 11714832,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-03-13/vcpkg-2025-03-13-darwin-amd64.tar.gz",
+        "checksum": "sha256:e263805850279adac8a16dc10c7bfdc46731da1a46370f804972ce2406d77434",
+        "size": 8518084,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-03-13/vcpkg-macos",
-        "checksum": "sha256:0ba0b39d21be0391f945b9d38c4f696ee8da5a4c5e8f92ee8d1d9936fcedf7ac",
-        "size": 11714832,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-03-13/vcpkg-2025-03-13-darwin-arm64.tar.gz",
+        "checksum": "sha256:02cf6f476530351e9aae989830a9346617eaa077fb433f10241817cb9ca215d2",
+        "size": 8518104,
+        "strip": 1
       }
     }
   },
   "2025-02-11": {
     "linux": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-02-11/vcpkg-glibc",
-        "checksum": "sha256:83b9a7a8ec73a213d7a355b3f3268d6099e1e9dec45910ae6e358e1eac07ebfb",
-        "size": 7985760,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-02-11/vcpkg-2025-02-11-linux-amd64.tar.gz",
+        "checksum": "sha256:80ed01bf3f253c1bb4e64784b6fbf0bec71b21c229a536ffce153632fd4abd70",
+        "size": 7278210,
+        "strip": 1
       }
     },
     "darwin": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-02-11/vcpkg-macos",
-        "checksum": "sha256:136f942fd3d550749ee59ade9c7f6006e33ba5881e630a6b27535b50f4d5213c",
-        "size": 11737424,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-02-11/vcpkg-2025-02-11-darwin-amd64.tar.gz",
+        "checksum": "sha256:abb9c6dc510048dde977899ed20e66a6c6eb05ab4611b42dad55c625e8a838f7",
+        "size": 8474997,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-02-11/vcpkg-macos",
-        "checksum": "sha256:136f942fd3d550749ee59ade9c7f6006e33ba5881e630a6b27535b50f4d5213c",
-        "size": 11737424,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-02-11/vcpkg-2025-02-11-darwin-arm64.tar.gz",
+        "checksum": "sha256:638ff6662764e89bb9bf2641c80131151f34b7cf243200033a8e47a65b25d4ee",
+        "size": 8474987,
+        "strip": 1
       }
     }
   },
   "2025-01-29": {
     "linux": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-01-29/vcpkg-glibc",
-        "checksum": "sha256:57f0d3776c9aeed24f3d020ab6b08d37f5c16589a9d9154181607620ae7f2fa5",
-        "size": 7965216,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-01-29/vcpkg-2025-01-29-linux-amd64.tar.gz",
+        "checksum": "sha256:5db82b665e1c08ad37a77a7fd53fd926985a31eee2708651ff36b80b5272ac75",
+        "size": 7272702,
+        "strip": 1
       }
     },
     "darwin": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-01-29/vcpkg-macos",
-        "checksum": "sha256:321cdf9960f899dd32639d6ff53439084cbe39fc82e369a69ed098153c6c4acd",
-        "size": 11700928,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-01-29/vcpkg-2025-01-29-darwin-amd64.tar.gz",
+        "checksum": "sha256:ee24db1bba0a4bdd5d8d835fbafd7e51e63d979a02dc80120d9c046f5b44d8c6",
+        "size": 8470362,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-01-29/vcpkg-macos",
-        "checksum": "sha256:321cdf9960f899dd32639d6ff53439084cbe39fc82e369a69ed098153c6c4acd",
-        "size": 11700928,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-01-29/vcpkg-2025-01-29-darwin-arm64.tar.gz",
+        "checksum": "sha256:eae47b49e08bd7cf9427a2f01002e8e4c289923a516f7d916c6fd904cd300bd3",
+        "size": 8470343,
+        "strip": 1
       }
     }
   },
   "2025-01-24": {
     "linux": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-01-24/vcpkg-glibc",
-        "checksum": "sha256:f4d2fde0a6bd8c89f60edbb3a20f2d5cba1c98b69a1c30b44a959986a1908ac4",
-        "size": 7975176,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-01-24/vcpkg-2025-01-24-linux-amd64.tar.gz",
+        "checksum": "sha256:17814921f9d8dc0036f58a5ffadde0ce5bea79e923fa959a52bdf57cb8b01e3a",
+        "size": 7276945,
+        "strip": 1
       }
     },
     "darwin": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-01-24/vcpkg-macos",
-        "checksum": "sha256:34710fd10d24128a12a008e60dde91c6f8a0f79b6904ff21b3d09d15ba52a519",
-        "size": 11703600,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-01-24/vcpkg-2025-01-24-darwin-amd64.tar.gz",
+        "checksum": "sha256:79738c99a1af2bf1183d21b221fff9b8bfedc360ffd300ef0f98d065454bf3b1",
+        "size": 8475765,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-01-24/vcpkg-macos",
-        "checksum": "sha256:34710fd10d24128a12a008e60dde91c6f8a0f79b6904ff21b3d09d15ba52a519",
-        "size": 11703600,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-01-24/vcpkg-2025-01-24-darwin-arm64.tar.gz",
+        "checksum": "sha256:4201e68273abd20ad7948760688ba01345a9a3f9d86447f3dcb37372a5bf15ff",
+        "size": 8475761,
+        "strip": 1
       }
     }
   },
   "2025-01-11": {
     "linux": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-01-11/vcpkg-glibc",
-        "checksum": "sha256:12b5c4483b257e2388ec834c66fce6705981b301f5c97e0f5fa6816daca8c8c1",
-        "size": 7904304,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-01-11/vcpkg-2025-01-11-linux-amd64.tar.gz",
+        "checksum": "sha256:d965eef94e5b0a9e1753fc5dc0f54ef9c363cd7bfdedc0d4ec162ddee0cddab5",
+        "size": 7207303,
+        "strip": 1
       }
     },
     "darwin": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-01-11/vcpkg-macos",
-        "checksum": "sha256:2b8a338961455a7487108709dc2b1dacc7b2e5aed6c33eb88ea619187e0ced28",
-        "size": 11528736,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-01-11/vcpkg-2025-01-11-darwin-amd64.tar.gz",
+        "checksum": "sha256:b24bf1bb0e0919a686c7f722c63adf65c6bcd14fecb9bb9f79fce8ca91530621",
+        "size": 8377620,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2025-01-11/vcpkg-macos",
-        "checksum": "sha256:2b8a338961455a7487108709dc2b1dacc7b2e5aed6c33eb88ea619187e0ced28",
-        "size": 11528736,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2025-01-11/vcpkg-2025-01-11-darwin-arm64.tar.gz",
+        "checksum": "sha256:485bf1be40d987e61a933a5f911dd31602becbe508565b7b8c3ed41f20c5d7a0",
+        "size": 8377609,
+        "strip": 1
       }
     }
   },
   "2024-12-09": {
     "linux": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2024-12-09/vcpkg-glibc",
-        "checksum": "sha256:717eeda488cd24f2dc08e729b77eaf70da722d92aed5d07dfdc889fb6c776a05",
-        "size": 8234968,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2024-12-09/vcpkg-2024-12-09-linux-amd64.tar.gz",
+        "checksum": "sha256:efffc10b487425965f375f4745d911632b30378aed596cbd1a84f0c2256f838b",
+        "size": 7292674,
+        "strip": 1
       }
     },
     "darwin": {
       "amd64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2024-12-09/vcpkg-macos",
-        "checksum": "sha256:06febac420979d7fe4d596c098024021c8a49f7177973f603a53f53dd40fda73",
-        "size": 11652064,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2024-12-09/vcpkg-2024-12-09-darwin-amd64.tar.gz",
+        "checksum": "sha256:27a5b255b6cd086e4cd3d2eae3bdf32a77c4e646a6859dd11479dd6f67b4ec9d",
+        "size": 8395825,
+        "strip": 1
       },
       "arm64": {
-        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2024-12-09/vcpkg-macos",
-        "checksum": "sha256:06febac420979d7fe4d596c098024021c8a49f7177973f603a53f53dd40fda73",
-        "size": 11652064,
-        "strip": 0
+        "url": "https://github.com/ileanmjr88/compendium-registry/releases/download/vcpkg-2024-12-09/vcpkg-2024-12-09-darwin-arm64.tar.gz",
+        "checksum": "sha256:e53fb00aebd501f848813207ea1d63e93138a95723a158482a8d52f2e5eea168",
+        "size": 8395819,
+        "strip": 1
       }
     }
   }

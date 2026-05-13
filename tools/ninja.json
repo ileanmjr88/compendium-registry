@@ -1,0 +1,464 @@
+{
+  "1.13.2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.2/ninja-linux.zip",
+        "checksum": "sha256:5749cbc4e668273514150a80e387a957f933c6ed3f5f11e03fb30955e2bbead6",
+        "size": 134040,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.2/ninja-linux-aarch64.zip",
+        "checksum": "sha256:fd2cacc8050a7f12a16a2e48f9e06fca5c14fc4c2bee2babb67b58be17a607fc",
+        "size": 126256,
+        "strip": 0
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.2/ninja-mac.zip",
+        "checksum": "sha256:c99048673aa765960a99cf10c6ddb9f1fad506099ff0a0e137ad8960a88f321b",
+        "size": 314051,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.2/ninja-mac.zip",
+        "checksum": "sha256:c99048673aa765960a99cf10c6ddb9f1fad506099ff0a0e137ad8960a88f321b",
+        "size": 314051,
+        "strip": 0
+      }
+    }
+  },
+  "1.13.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.1/ninja-linux.zip",
+        "checksum": "sha256:0830252db77884957a1a4b87b05a1e2d9b5f658b8367f82999a941884cbe0238",
+        "size": 134048,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.1/ninja-linux-aarch64.zip",
+        "checksum": "sha256:740f1b9f9d8ae68438240a6a2f3f7a27fc8b1946d2024a6a6b25857ee877987b",
+        "size": 126282,
+        "strip": 0
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.1/ninja-mac.zip",
+        "checksum": "sha256:da7797794153629aca5570ef7c813342d0be214ba84632af886856e8f0063dd9",
+        "size": 314009,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.1/ninja-mac.zip",
+        "checksum": "sha256:da7797794153629aca5570ef7c813342d0be214ba84632af886856e8f0063dd9",
+        "size": 314009,
+        "strip": 0
+      }
+    }
+  },
+  "1.13.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.0/ninja-linux.zip",
+        "checksum": "sha256:46aa8ad0a431e9b6e39f6ca0abc47bf8b13be094e3ac7d0f6d39e94bbdc746f9",
+        "size": 134141,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.0/ninja-linux-aarch64.zip",
+        "checksum": "sha256:b2b2f956963ef6300841c253a7aa81c3e9e5dbd2ed059bee6f8bcd851b5bb096",
+        "size": 149063,
+        "strip": 0
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.0/ninja-mac.zip",
+        "checksum": "sha256:229314c7ef65e9c11d19f84e5f4bb374105a4f21f64ed55e8f403df765ab52a7",
+        "size": 313931,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.0/ninja-mac.zip",
+        "checksum": "sha256:229314c7ef65e9c11d19f84e5f4bb374105a4f21f64ed55e8f403df765ab52a7",
+        "size": 313931,
+        "strip": 0
+      }
+    }
+  },
+  "1.12.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.12.1/ninja-linux.zip",
+        "checksum": "sha256:6f98805688d19672bd699fbbfa2c2cf0fc054ac3df1f0e6a47664d963d530255",
+        "size": 123084,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.12.1/ninja-linux-aarch64.zip",
+        "checksum": "sha256:5c25c6570b0155e95fce5918cb95f1ad9870df5768653afe128db822301a05a1",
+        "size": 121787,
+        "strip": 0
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.12.1/ninja-mac.zip",
+        "checksum": "sha256:89a287444b5b3e98f88a945afa50ce937b8ffd1dcc59c555ad9b1baf855298c9",
+        "size": 281130,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.12.1/ninja-mac.zip",
+        "checksum": "sha256:89a287444b5b3e98f88a945afa50ce937b8ffd1dcc59c555ad9b1baf855298c9",
+        "size": 281130,
+        "strip": 0
+      }
+    }
+  },
+  "1.12.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.12.0/ninja-linux.zip",
+        "checksum": "sha256:ddc96efa3c7c9d41de733d15e2eda07a8a212555cb43f35d727e080d2ca687ab",
+        "size": 123353,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.12.0/ninja-linux-aarch64.zip",
+        "checksum": "sha256:375a49c79095334c88338ff15f90730e08a4d03997ef660f48f11ee7e450db7a",
+        "size": 122558,
+        "strip": 0
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.12.0/ninja-mac.zip",
+        "checksum": "sha256:19806019c9623a062c3d9fa0d5f45b633a3d150f88e73fbd6c0ff6ea5534df10",
+        "size": 281138,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.12.0/ninja-mac.zip",
+        "checksum": "sha256:19806019c9623a062c3d9fa0d5f45b633a3d150f88e73fbd6c0ff6ea5534df10",
+        "size": 281138,
+        "strip": 0
+      }
+    }
+  },
+  "1.11.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.11.1/ninja-linux.zip",
+        "checksum": "sha256:b901ba96e486dce377f9a070ed4ef3f79deb45f4ffe2938f8e7ddc69cfb3df77",
+        "size": 119463,
+        "strip": 0
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.11.1/ninja-mac.zip",
+        "checksum": "sha256:482ecb23c59ae3d4f158029112de172dd96bb0e97549c4b1ca32d8fad11f873e",
+        "size": 277306,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.11.1/ninja-mac.zip",
+        "checksum": "sha256:482ecb23c59ae3d4f158029112de172dd96bb0e97549c4b1ca32d8fad11f873e",
+        "size": 277306,
+        "strip": 0
+      }
+    }
+  },
+  "1.11.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.11.0/ninja-linux.zip",
+        "checksum": "sha256:9726e730d5b8599f82654dc80265e64a10a8a817552c34153361ed0c017f9f02",
+        "size": 119182,
+        "strip": 0
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.11.0/ninja-mac.zip",
+        "checksum": "sha256:21915277db59756bfc61f6f281c1f5e3897760b63776fd3d360f77dd7364137f",
+        "size": 277298,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.11.0/ninja-mac.zip",
+        "checksum": "sha256:21915277db59756bfc61f6f281c1f5e3897760b63776fd3d360f77dd7364137f",
+        "size": 277298,
+        "strip": 0
+      }
+    }
+  },
+  "1.10.2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.10.2/ninja-linux.zip",
+        "checksum": "sha256:763464859c7ef2ea3a0a10f4df40d2025d3bb9438fcb1228404640410c0ec22d",
+        "size": 103219,
+        "strip": 0
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.10.2/ninja-mac.zip",
+        "checksum": "sha256:6fa359f491fac7e5185273c6421a000eea6a2f0febf0ac03ac900bd4d80ed2a5",
+        "size": 234089,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.10.2/ninja-mac.zip",
+        "checksum": "sha256:6fa359f491fac7e5185273c6421a000eea6a2f0febf0ac03ac900bd4d80ed2a5",
+        "size": 234089,
+        "strip": 0
+      }
+    }
+  },
+  "1.10.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.10.1/ninja-linux.zip",
+        "checksum": "sha256:7ee7f467a1a747c5b5e02342904af9c24e84df4ca993541f1c4d0f113cab27aa",
+        "size": 99913,
+        "strip": 0
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.10.1/ninja-mac.zip",
+        "checksum": "sha256:0bd650190d4405c15894055e349d9b59d5690b0389551d757c5ed2d3841972d1",
+        "size": 116967,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.10.1/ninja-mac.zip",
+        "checksum": "sha256:0bd650190d4405c15894055e349d9b59d5690b0389551d757c5ed2d3841972d1",
+        "size": 116967,
+        "strip": 0
+      }
+    }
+  },
+  "1.10.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.10.0/ninja-linux.zip",
+        "checksum": "sha256:6566836ddf3d72ca06685b34814e0c6fa0f0943542d651d0dab3150f10307c82",
+        "size": 99857,
+        "strip": 0
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.10.0/ninja-mac.zip",
+        "checksum": "sha256:2ee405c0e205d55666c60cc9c0d8d04c8ede06d3ef2e2c2aabe08fd81c17d22e",
+        "size": 116745,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.10.0/ninja-mac.zip",
+        "checksum": "sha256:2ee405c0e205d55666c60cc9c0d8d04c8ede06d3ef2e2c2aabe08fd81c17d22e",
+        "size": 116745,
+        "strip": 0
+      }
+    }
+  },
+  "1.9.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.9.0/ninja-linux.zip",
+        "checksum": "sha256:1b1235f2b0b4df55ac6d80bbe681ea3639c9d2c505c7ff2159a3daf63d196305",
+        "size": 85212,
+        "strip": 0
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.9.0/ninja-mac.zip",
+        "checksum": "sha256:26d32a79f786cca1004750f59e545199bf110e21e300d3c2424c1fddd78f28ab",
+        "size": 90974,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.9.0/ninja-mac.zip",
+        "checksum": "sha256:26d32a79f786cca1004750f59e545199bf110e21e300d3c2424c1fddd78f28ab",
+        "size": 90974,
+        "strip": 0
+      }
+    }
+  },
+  "1.8.2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.8.2/ninja-linux.zip",
+        "checksum": "sha256:d2fea9ff33b3ef353161ed906f260d565ca55b8ca0568fa07b1d2cab90a84a07",
+        "size": 77854,
+        "strip": 0
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.8.2/ninja-mac.zip",
+        "checksum": "sha256:0347d55c66061652b26f48769d566761630ffde3143793b29064a57f356542cc",
+        "size": 77284,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.8.2/ninja-mac.zip",
+        "checksum": "sha256:0347d55c66061652b26f48769d566761630ffde3143793b29064a57f356542cc",
+        "size": 77284,
+        "strip": 0
+      }
+    }
+  },
+  "1.7.2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.7.2/ninja-linux.zip",
+        "checksum": "sha256:38fa8cfb9c1632a5cdf7a32fe1a7c5aa89e96c1d492c28624f4cc018e68458b9",
+        "size": 75086,
+        "strip": 0
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.7.2/ninja-mac.zip",
+        "checksum": "sha256:dd29df5d1a92f1216659c3752311286da5350896b94f8963bb8e0877e0f1de04",
+        "size": 74599,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.7.2/ninja-mac.zip",
+        "checksum": "sha256:dd29df5d1a92f1216659c3752311286da5350896b94f8963bb8e0877e0f1de04",
+        "size": 74599,
+        "strip": 0
+      }
+    }
+  },
+  "1.7.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.7.1/ninja-linux.zip",
+        "checksum": "sha256:eb541331792ac75ade60a7c0d7737a4851f2a131e0143b38c059dbfe731fb5a4",
+        "size": 74111,
+        "strip": 0
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.7.1/ninja-mac.zip",
+        "checksum": "sha256:c998a1c3e425e826d6c443e925d1da86bb905721d73b73015d3f5798423d548e",
+        "size": 74830,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.7.1/ninja-mac.zip",
+        "checksum": "sha256:c998a1c3e425e826d6c443e925d1da86bb905721d73b73015d3f5798423d548e",
+        "size": 74830,
+        "strip": 0
+      }
+    }
+  },
+  "1.6.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.6.0/ninja-linux.zip",
+        "checksum": "sha256:846ebceec3f71bb32d145482e5ce62c6731449ab399d3202b47baf8ae63a9a52",
+        "size": 71368,
+        "strip": 0
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.6.0/ninja-mac.zip",
+        "checksum": "sha256:5f95293544b1d69ca65f72068385c85948b7b5d7b3b413ea5ecd9e42e5d7e17d",
+        "size": 72245,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.6.0/ninja-mac.zip",
+        "checksum": "sha256:5f95293544b1d69ca65f72068385c85948b7b5d7b3b413ea5ecd9e42e5d7e17d",
+        "size": 72245,
+        "strip": 0
+      }
+    }
+  },
+  "1.5.3": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.5.3/ninja-linux.zip",
+        "checksum": "sha256:00f3f832e929b5162fab20cf8cfd2922a0f89016631d9e2421236af3e0ba4f31",
+        "size": 69130,
+        "strip": 0
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.5.3/ninja-mac.zip",
+        "checksum": "sha256:730145ba8a5d154c65e4c40e7fff32d67af021c61d26ed5252d41b54783a1bfa",
+        "size": 71491,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.5.3/ninja-mac.zip",
+        "checksum": "sha256:730145ba8a5d154c65e4c40e7fff32d67af021c61d26ed5252d41b54783a1bfa",
+        "size": 71491,
+        "strip": 0
+      }
+    }
+  },
+  "1.5.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.5.1/ninja-linux.zip",
+        "checksum": "sha256:7bb3e377f39e0b8496c64da4c0ca7482eed241720ed78683dd1f9a30f88ec57a",
+        "size": 69875,
+        "strip": 0
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.5.1/ninja-mac.zip",
+        "checksum": "sha256:fc0b22c2a58f3102d46d0712ac39d85838aaedbcaea93273499a744ac43f7097",
+        "size": 71975,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.5.1/ninja-mac.zip",
+        "checksum": "sha256:fc0b22c2a58f3102d46d0712ac39d85838aaedbcaea93273499a744ac43f7097",
+        "size": 71975,
+        "strip": 0
+      }
+    }
+  },
+  "1.4.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.4.0/ninja-linux.zip",
+        "checksum": "sha256:c5dfb8014fb45407b1e0b2608926289b64a3af339e22ac496127855bc187bebe",
+        "size": 66868,
+        "strip": 0
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.4.0/ninja-mac.zip",
+        "checksum": "sha256:f439ef42853b6aba97017b9154c14a81b16365f0ee7c454698d3f554068a7f0c",
+        "size": 66763,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.4.0/ninja-mac.zip",
+        "checksum": "sha256:f439ef42853b6aba97017b9154c14a81b16365f0ee7c454698d3f554068a7f0c",
+        "size": 66763,
+        "strip": 0
+      }
+    }
+  }
+}

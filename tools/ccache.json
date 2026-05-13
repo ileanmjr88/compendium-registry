@@ -1,0 +1,706 @@
+{
+  "4.13.2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.13.2/ccache-4.13.2-linux-x86_64-glibc.tar.gz",
+        "checksum": "sha256:e531303ffded7ddf0f275674d866f6ac1ad89148c235346e7b12c3c915d15f56",
+        "size": 1742535,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.13.2/ccache-4.13.2-linux-aarch64-glibc.tar.gz",
+        "checksum": "sha256:3213c25e7f34d26370aa045da49a8d02504af0147f66c88a12d45334a732bf5f",
+        "size": 1686641,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.13.2/ccache-4.13.2-darwin.tar.gz",
+        "checksum": "sha256:1961ee24dedb9d1b5064e9b477f2f9e4a8e99c5862ee4916ec1e554b9cca2cf6",
+        "size": 2118174,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.13.2/ccache-4.13.2-darwin.tar.gz",
+        "checksum": "sha256:1961ee24dedb9d1b5064e9b477f2f9e4a8e99c5862ee4916ec1e554b9cca2cf6",
+        "size": 2118174,
+        "strip": 1
+      }
+    }
+  },
+  "4.13.1": {
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.13.1/ccache-4.13.1-darwin.tar.gz",
+        "checksum": "sha256:7a11de6768cb06a832b97d80ec6031aad9124a468fbd828d6e91287087878a61",
+        "size": 2105210,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.13.1/ccache-4.13.1-darwin.tar.gz",
+        "checksum": "sha256:7a11de6768cb06a832b97d80ec6031aad9124a468fbd828d6e91287087878a61",
+        "size": 2105210,
+        "strip": 1
+      }
+    }
+  },
+  "4.13": {
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.13/ccache-4.13-darwin.tar.gz",
+        "checksum": "sha256:5e1b2835dc3629e6e85133f18e90b00e6fb0c7ecc3cfb8a46de3e20cbc4297d1",
+        "size": 2104144,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.13/ccache-4.13-darwin.tar.gz",
+        "checksum": "sha256:5e1b2835dc3629e6e85133f18e90b00e6fb0c7ecc3cfb8a46de3e20cbc4297d1",
+        "size": 2104144,
+        "strip": 1
+      }
+    }
+  },
+  "4.12.3": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.12.3/ccache-4.12.3-linux-x86_64.tar.xz",
+        "checksum": "sha256:a99aa455873c978f6905f07e3176cfdf48bb610990c23ce0e1b718da0f38faa7",
+        "size": 1291452,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.12.3/ccache-4.12.3-linux-aarch64.tar.xz",
+        "checksum": "sha256:3ac9c7dc17414aa3b731a8c3bf9a3f785153048efbb597656e2827edb5eac936",
+        "size": 1156328,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.12.3/ccache-4.12.3-darwin.tar.gz",
+        "checksum": "sha256:4803a2e888ead60296ba4690f9ba68823a2eda66e8d8aaf216e007bdfa1b3ffb",
+        "size": 2073447,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.12.3/ccache-4.12.3-darwin.tar.gz",
+        "checksum": "sha256:4803a2e888ead60296ba4690f9ba68823a2eda66e8d8aaf216e007bdfa1b3ffb",
+        "size": 2073447,
+        "strip": 1
+      }
+    }
+  },
+  "4.12.2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.12.2/ccache-4.12.2-linux-x86_64.tar.xz",
+        "checksum": "sha256:630c34ec94d451b200f5b14a6a25580d6a45bc80c394b7e0b93e33556eee5d32",
+        "size": 1289864,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.12.2/ccache-4.12.2-linux-aarch64.tar.xz",
+        "checksum": "sha256:b01c270c245e41998ab777164aba085dbeb23ce515f4e2134a1fdddabf0bf6ad",
+        "size": 1155660,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.12.2/ccache-4.12.2-darwin.tar.gz",
+        "checksum": "sha256:d3afaf5ed3f81b922b4a8966ae4784ec733dbd104b863aba8fea4ec89e1741f5",
+        "size": 2070202,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.12.2/ccache-4.12.2-darwin.tar.gz",
+        "checksum": "sha256:d3afaf5ed3f81b922b4a8966ae4784ec733dbd104b863aba8fea4ec89e1741f5",
+        "size": 2070202,
+        "strip": 1
+      }
+    }
+  },
+  "4.12.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.12.1/ccache-4.12.1-linux-x86_64.tar.xz",
+        "checksum": "sha256:742e6a6e17c0a060046874eece2949b221c228e1119698a4c6e0b096cbc87152",
+        "size": 1288940,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.12.1/ccache-4.12.1-linux-aarch64.tar.xz",
+        "checksum": "sha256:05d349e8f14aebecce13102e803a441b7466b91c01b943bb744ad1db754434e0",
+        "size": 1154040,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.12.1/ccache-4.12.1-darwin.tar.gz",
+        "checksum": "sha256:4cc7353ecfb53102512c1affc09fd52600421c66b8abaeb071a3babd3bf8f530",
+        "size": 2068738,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.12.1/ccache-4.12.1-darwin.tar.gz",
+        "checksum": "sha256:4cc7353ecfb53102512c1affc09fd52600421c66b8abaeb071a3babd3bf8f530",
+        "size": 2068738,
+        "strip": 1
+      }
+    }
+  },
+  "4.12": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.12/ccache-4.12-linux-x86_64.tar.xz",
+        "checksum": "sha256:d77e140d0403175b93f979f0b0d36e821bf31728b282f4bfda939f65836bcabe",
+        "size": 1275896,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.12/ccache-4.12-linux-aarch64.tar.xz",
+        "checksum": "sha256:378ed4b9f645f5aab691447e4ec45b4c68508a424ac37c9be7baa28ded385791",
+        "size": 1141244,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.12/ccache-4.12-darwin.tar.gz",
+        "checksum": "sha256:95cb03de0f2e0edb264d2443f2fe4500a13086689cc9ecd1095eb274dd8d9aee",
+        "size": 2055052,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.12/ccache-4.12-darwin.tar.gz",
+        "checksum": "sha256:95cb03de0f2e0edb264d2443f2fe4500a13086689cc9ecd1095eb274dd8d9aee",
+        "size": 2055052,
+        "strip": 1
+      }
+    }
+  },
+  "4.11.3": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.11.3/ccache-4.11.3-linux-x86_64.tar.xz",
+        "checksum": "sha256:7766991b91b3a5a177ab33fa043fe09e72c68586d5a86d20a563a05b74f119c0",
+        "size": 1255044,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.11.3/ccache-4.11.3-darwin.tar.gz",
+        "checksum": "sha256:6f187a79fc57864d900aff28f9c3f93d020ed7a849be2f2ead6799959ccf30b0",
+        "size": 2001104,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.11.3/ccache-4.11.3-darwin.tar.gz",
+        "checksum": "sha256:6f187a79fc57864d900aff28f9c3f93d020ed7a849be2f2ead6799959ccf30b0",
+        "size": 2001104,
+        "strip": 1
+      }
+    }
+  },
+  "4.11.2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.11.2/ccache-4.11.2-linux-x86_64.tar.xz",
+        "checksum": "sha256:c97655c75e1e7137d9bc9a9c854220fcbe14f1d7224c64a18c43c70195567ccb",
+        "size": 1254544,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.11.2/ccache-4.11.2-darwin.tar.gz",
+        "checksum": "sha256:0cd4680973f6293d1e46caaeb65ae2facb769660c6762dcfee9dc9eed217448e",
+        "size": 2001019,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.11.2/ccache-4.11.2-darwin.tar.gz",
+        "checksum": "sha256:0cd4680973f6293d1e46caaeb65ae2facb769660c6762dcfee9dc9eed217448e",
+        "size": 2001019,
+        "strip": 1
+      }
+    }
+  },
+  "4.11.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.11.1/ccache-4.11.1-linux-x86_64.tar.xz",
+        "checksum": "sha256:53eee44eac8b5a5517dd0173c89bdab303b48252155c6a9f96fa18572343f531",
+        "size": 1254060,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.11.1/ccache-4.11.1-darwin.tar.gz",
+        "checksum": "sha256:cc9d571b993c8d03d696063664c8bdd1c6cdff359d9d01682d3bd67362931fde",
+        "size": 1999183,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.11.1/ccache-4.11.1-darwin.tar.gz",
+        "checksum": "sha256:cc9d571b993c8d03d696063664c8bdd1c6cdff359d9d01682d3bd67362931fde",
+        "size": 1999183,
+        "strip": 1
+      }
+    }
+  },
+  "4.11": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.11/ccache-4.11-linux-x86_64.tar.xz",
+        "checksum": "sha256:1ce338439d1fa1356a1e8e2103adebb9bf4640b843a122dd665ecacf4dc56e02",
+        "size": 1254056,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.11/ccache-4.11-darwin.tar.gz",
+        "checksum": "sha256:913428513fe1d8a319d1a3b8b82f9ae1665d88097100cc18f5440b50f5b4ea01",
+        "size": 1999132,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.11/ccache-4.11-darwin.tar.gz",
+        "checksum": "sha256:913428513fe1d8a319d1a3b8b82f9ae1665d88097100cc18f5440b50f5b4ea01",
+        "size": 1999132,
+        "strip": 1
+      }
+    }
+  },
+  "4.10.2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.10.2/ccache-4.10.2-linux-x86_64.tar.xz",
+        "checksum": "sha256:80cab87bd510eca796467aee8e663c398239e0df1c4800a0b5dff11dca0b4f18",
+        "size": 1125036,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.10.2/ccache-4.10.2-darwin.tar.gz",
+        "checksum": "sha256:d90514fff15943a8607e84e3f42d45f823915a92f99984f3fc88202f6295d1e8",
+        "size": 2126925,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.10.2/ccache-4.10.2-darwin.tar.gz",
+        "checksum": "sha256:d90514fff15943a8607e84e3f42d45f823915a92f99984f3fc88202f6295d1e8",
+        "size": 2126925,
+        "strip": 1
+      }
+    }
+  },
+  "4.10.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.10.1/ccache-4.10.1-linux-x86_64.tar.xz",
+        "checksum": "sha256:1733deb871116b7907c42fad6ae1f224e4a482e2a0a429a1300e992412c882c2",
+        "size": 1124884,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.10.1/ccache-4.10.1-darwin.tar.gz",
+        "checksum": "sha256:0b7439762eda8ff36cbb9d7c4a143c1c4fa04ad5e59d323cf47a94e9c3827c63",
+        "size": 2126641,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.10.1/ccache-4.10.1-darwin.tar.gz",
+        "checksum": "sha256:0b7439762eda8ff36cbb9d7c4a143c1c4fa04ad5e59d323cf47a94e9c3827c63",
+        "size": 2126641,
+        "strip": 1
+      }
+    }
+  },
+  "4.10": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.10/ccache-4.10-linux-x86_64.tar.xz",
+        "checksum": "sha256:b4d60c2bade0e1c83a5bf26a6cbf1121512e4c25c6c5adba331314950f05d77b",
+        "size": 1124124,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.10/ccache-4.10-darwin.tar.gz",
+        "checksum": "sha256:efb263afc5d3cac34d45195b8d0286285761ce24e9d19632c8c7ec404362fbd0",
+        "size": 2124965,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.10/ccache-4.10-darwin.tar.gz",
+        "checksum": "sha256:efb263afc5d3cac34d45195b8d0286285761ce24e9d19632c8c7ec404362fbd0",
+        "size": 2124965,
+        "strip": 1
+      }
+    }
+  },
+  "4.9.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.9.1/ccache-4.9.1-linux-x86_64.tar.xz",
+        "checksum": "sha256:d33f17ca6e02918cdc44738ce3adacb586bca65374ff1ceb0c4b2f1c87a24bef",
+        "size": 1143872,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.9.1/ccache-4.9.1-darwin.tar.gz",
+        "checksum": "sha256:0bf179f4fd5f707984bbe101bbca2690fa41b0da7ced17d5087102923afd1712",
+        "size": 2311729,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.9.1/ccache-4.9.1-darwin.tar.gz",
+        "checksum": "sha256:0bf179f4fd5f707984bbe101bbca2690fa41b0da7ced17d5087102923afd1712",
+        "size": 2311729,
+        "strip": 1
+      }
+    }
+  },
+  "4.9": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.9/ccache-4.9-linux-x86_64.tar.xz",
+        "checksum": "sha256:5ad73713eab41a5bbc15a11716d790b85ae0e3d3a931fd7ebde1ab13829ec666",
+        "size": 1142140,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.9/ccache-4.9-darwin.tar.gz",
+        "checksum": "sha256:5a2548e2008227ee2dc12877e82ef0375f4946bd37e4957f745b61f7982cda97",
+        "size": 2305580,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.9/ccache-4.9-darwin.tar.gz",
+        "checksum": "sha256:5a2548e2008227ee2dc12877e82ef0375f4946bd37e4957f745b61f7982cda97",
+        "size": 2305580,
+        "strip": 1
+      }
+    }
+  },
+  "4.8.3": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.8.3/ccache-4.8.3-linux-x86_64.tar.xz",
+        "checksum": "sha256:1021f6dc9641447524cc7bceb72f807f2d6502df118d69dc3f0f86cacf048e79",
+        "size": 1037196,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.8.3/ccache-4.8.3-darwin.tar.gz",
+        "checksum": "sha256:4799fd4d538e34977768f744a1edf8e321708446b8bf019ef267f54dffb0b187",
+        "size": 2225802,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.8.3/ccache-4.8.3-darwin.tar.gz",
+        "checksum": "sha256:4799fd4d538e34977768f744a1edf8e321708446b8bf019ef267f54dffb0b187",
+        "size": 2225802,
+        "strip": 1
+      }
+    }
+  },
+  "4.8.2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.8.2/ccache-4.8.2-linux-x86_64.tar.xz",
+        "checksum": "sha256:0b33f39766fe9db67f40418aed6a5b3d7b2f4f7fab025a8213264b77a2d0e1b1",
+        "size": 1038792,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.8.2/ccache-4.8.2-darwin.tar.gz",
+        "checksum": "sha256:a2930f3602cecdb86d84208719c800c1e89d638568abaf24926d91ebaa93a778",
+        "size": 2239488,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.8.2/ccache-4.8.2-darwin.tar.gz",
+        "checksum": "sha256:a2930f3602cecdb86d84208719c800c1e89d638568abaf24926d91ebaa93a778",
+        "size": 2239488,
+        "strip": 1
+      }
+    }
+  },
+  "4.8.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.8.1/ccache-4.8.1-linux-x86_64.tar.xz",
+        "checksum": "sha256:dda0f7911b9849399edb69c7e2017ad45a932dfe540dc4946adab14a8120a435",
+        "size": 1038924,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.8.1/ccache-4.8.1-darwin.tar.gz",
+        "checksum": "sha256:db56a716bb14268ebf5b6b7fd118ed08a46b566ac9e19759bc22f9c96571fedb",
+        "size": 2242228,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.8.1/ccache-4.8.1-darwin.tar.gz",
+        "checksum": "sha256:db56a716bb14268ebf5b6b7fd118ed08a46b566ac9e19759bc22f9c96571fedb",
+        "size": 2242228,
+        "strip": 1
+      }
+    }
+  },
+  "4.7.5": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.7.5/ccache-4.7.5-linux-x86_64.tar.xz",
+        "checksum": "sha256:5f8abe5a2c3a6dcc03d77ff7198facdb087bf678f68a22f397e404d963ff34f9",
+        "size": 978528,
+        "strip": 1
+      }
+    }
+  },
+  "4.8": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.8/ccache-4.8-linux-x86_64.tar.xz",
+        "checksum": "sha256:3b35ec9e8af0f849e66e7b5392e2d436d393adbb0574b7147b203943258c6205",
+        "size": 995716,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.8/ccache-4.8-darwin.tar.gz",
+        "checksum": "sha256:38f4776a3584a40d2293637b4c47ff0d7cecaed0145860c8e4de138d82097c8d",
+        "size": 2097102,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.8/ccache-4.8-darwin.tar.gz",
+        "checksum": "sha256:38f4776a3584a40d2293637b4c47ff0d7cecaed0145860c8e4de138d82097c8d",
+        "size": 2097102,
+        "strip": 1
+      }
+    }
+  },
+  "4.7.4": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.7.4/ccache-4.7.4-linux-x86_64.tar.xz",
+        "checksum": "sha256:0b700cc10884f7faf615203241d34eba7ebe0723f38f6aeb77569a556ff37313",
+        "size": 978436,
+        "strip": 1
+      }
+    }
+  },
+  "4.7.3": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.7.3/ccache-4.7.3-linux-x86_64.tar.xz",
+        "checksum": "sha256:8d8bbcb9ae7401433c2eba4dcf5c500a4967da09861579223c00b06f69edd76d",
+        "size": 976372,
+        "strip": 1
+      }
+    }
+  },
+  "4.7.2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.7.2/ccache-4.7.2-linux-x86_64.tar.xz",
+        "checksum": "sha256:406c30b4f15b46da744df8f2f4e51556680040b5da4c58a55dbc12215fc979e2",
+        "size": 976048,
+        "strip": 1
+      }
+    }
+  },
+  "4.7.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.7.1/ccache-4.7.1-linux-x86_64.tar.xz",
+        "checksum": "sha256:a4240c3fefdba3ddf9ec95138b9eedd65c3655cac63026cc3bb8aff11a2ccd81",
+        "size": 975784,
+        "strip": 1
+      }
+    }
+  },
+  "4.7": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.7/ccache-4.7-linux-x86_64.tar.xz",
+        "checksum": "sha256:ea093055623e663e332355001399020084f31006de49b0570d3e05419fe8fd4a",
+        "size": 974912,
+        "strip": 1
+      }
+    }
+  },
+  "4.6.3": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.6.3/ccache-4.6.3-linux-x86_64.tar.xz",
+        "checksum": "sha256:abfa3a89de66f98972da43acbc52894a3f328fa784d0a33d45288c9bd450339d",
+        "size": 928972,
+        "strip": 1
+      }
+    }
+  },
+  "4.6.2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.6.2/ccache-4.6.2-linux-x86_64.tar.xz",
+        "checksum": "sha256:6a61e2bdd21f4a44587c537301c80797bde003e4e71d3369c35308e112827f5a",
+        "size": 928568,
+        "strip": 1
+      }
+    }
+  },
+  "4.6.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.6.1/ccache-4.6.1-linux-x86_64.tar.xz",
+        "checksum": "sha256:da1e1781bc1c4b019216fa16391af3e1daaee7e7f49a8ec9b0cdc8a1d05c50e2",
+        "size": 927100,
+        "strip": 1
+      }
+    }
+  },
+  "4.13.6": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.13.6/ccache-4.13.6-linux-x86_64-glibc.tar.gz",
+        "checksum": "sha256:567b1b648411819590f918f045218c92da14418bdec3b30db94a3b4f5d77cf13",
+        "size": 1754958,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.13.6/ccache-4.13.6-linux-aarch64-glibc.tar.gz",
+        "checksum": "sha256:fae67fb810e1f0d390409af6603355483572229e19183e68574cd0f851a6fb98",
+        "size": 1703957,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.13.6/ccache-4.13.6-darwin.tar.gz",
+        "checksum": "sha256:0274210ec9c9936ed5711d59b0de3167a51216a588ddde35f6bc828f366fe6d9",
+        "size": 2123909,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.13.6/ccache-4.13.6-darwin.tar.gz",
+        "checksum": "sha256:0274210ec9c9936ed5711d59b0de3167a51216a588ddde35f6bc828f366fe6d9",
+        "size": 2123909,
+        "strip": 1
+      }
+    }
+  },
+  "4.13.5": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.13.5/ccache-4.13.5-linux-x86_64-glibc.tar.gz",
+        "checksum": "sha256:3f4a7adb6e74f3682d592be48042f46afa87f7d76fd76d28b829ab88691899de",
+        "size": 1754420,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.13.5/ccache-4.13.5-linux-aarch64-glibc.tar.gz",
+        "checksum": "sha256:ec994f23300e471bda1ef5a72a0709844ad444f043f4ccffaf6d5bc0aa498fc2",
+        "size": 1702077,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.13.5/ccache-4.13.5-darwin.tar.gz",
+        "checksum": "sha256:369b61a9efde2b25f7cb5c7da77fe3491514fc91b62fd9f5df02c4b08cbaa4a9",
+        "size": 2122513,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.13.5/ccache-4.13.5-darwin.tar.gz",
+        "checksum": "sha256:369b61a9efde2b25f7cb5c7da77fe3491514fc91b62fd9f5df02c4b08cbaa4a9",
+        "size": 2122513,
+        "strip": 1
+      }
+    }
+  },
+  "4.13.4": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.13.4/ccache-4.13.4-linux-x86_64-glibc.tar.gz",
+        "checksum": "sha256:042378eeeb7ddee68b7df40bcfb0d9fe6a80e777fd4e277b242847377c949faa",
+        "size": 1753028,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.13.4/ccache-4.13.4-linux-aarch64-glibc.tar.gz",
+        "checksum": "sha256:2857247a91277a5f6c7ad109ac8ca51d0e665d53eba1d23d29f46639c61ba39e",
+        "size": 1701535,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.13.4/ccache-4.13.4-darwin.tar.gz",
+        "checksum": "sha256:cd5444ce79a2ca2b75147f84cdced1707db158866d38fc76337b7c82b59ec864",
+        "size": 2123077,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.13.4/ccache-4.13.4-darwin.tar.gz",
+        "checksum": "sha256:cd5444ce79a2ca2b75147f84cdced1707db158866d38fc76337b7c82b59ec864",
+        "size": 2123077,
+        "strip": 1
+      }
+    }
+  },
+  "4.13.3": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.13.3/ccache-4.13.3-linux-x86_64-glibc.tar.gz",
+        "checksum": "sha256:a582268c03837b454b941e6f82b1f14d00adbbadfa796b020aa84ba76a1d7d6b",
+        "size": 1752955,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.13.3/ccache-4.13.3-linux-aarch64-glibc.tar.gz",
+        "checksum": "sha256:71a043e3859b380ca2ca73880a2e3a828ecb409df33d10be23c0826b1fe8dba5",
+        "size": 1701460,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.13.3/ccache-4.13.3-darwin.tar.gz",
+        "checksum": "sha256:995b9a1b14772112d435d4aec9ca2413feea023b35e101c3854c602f0dc1e3b1",
+        "size": 2123000,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.13.3/ccache-4.13.3-darwin.tar.gz",
+        "checksum": "sha256:995b9a1b14772112d435d4aec9ca2413feea023b35e101c3854c602f0dc1e3b1",
+        "size": 2123000,
+        "strip": 1
+      }
+    }
+  }
+}

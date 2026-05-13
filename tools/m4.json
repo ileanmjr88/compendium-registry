@@ -1,0 +1,122 @@
+{
+  "1.4.20-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/m4-xpack/releases/download/v1.4.20-1/xpack-m4-1.4.20-1-linux-x64.tar.gz",
+        "checksum": "sha256:f593eeefafc59f33c323ce350b50e91f7c58917abef3320c3b118facbf370725",
+        "size": 1052124,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/m4-xpack/releases/download/v1.4.20-1/xpack-m4-1.4.20-1-linux-arm64.tar.gz",
+        "checksum": "sha256:bc5fa98051abab8a8410499d89065c3554be7c1ca0574e85367a14d0764cfdfb",
+        "size": 1047825,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/m4-xpack/releases/download/v1.4.20-1/xpack-m4-1.4.20-1-darwin-x64.tar.gz",
+        "checksum": "sha256:1329aa4237a933fe7f63e0c5922ea271a79a7d56ab7e1424f77f949f838777b5",
+        "size": 1045689,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/m4-xpack/releases/download/v1.4.20-1/xpack-m4-1.4.20-1-darwin-arm64.tar.gz",
+        "checksum": "sha256:eec5cca7634e7ea463f044fb3d233a472de62932f1889f12fd8ca06ba5b7609e",
+        "size": 1032454,
+        "strip": 1
+      }
+    }
+  },
+  "1.4.19-3": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/m4-xpack/releases/download/v1.4.19-3/xpack-m4-1.4.19-3-linux-x64.tar.gz",
+        "checksum": "sha256:cc91f42a22c500193419f98e6faae1333bb51c90e53374b28d0ba8149d065d63",
+        "size": 1040635,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/m4-xpack/releases/download/v1.4.19-3/xpack-m4-1.4.19-3-linux-arm64.tar.gz",
+        "checksum": "sha256:efffb0c84f80db1331781cf62b6698b68f359fa673ab9d700113e45e471b6ba3",
+        "size": 1035635,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/m4-xpack/releases/download/v1.4.19-3/xpack-m4-1.4.19-3-darwin-x64.tar.gz",
+        "checksum": "sha256:d377b57ffce461bc8d445cda806ee9dc4a6ac5788e61c1c8fe582dacc444efb6",
+        "size": 1030341,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/m4-xpack/releases/download/v1.4.19-3/xpack-m4-1.4.19-3-darwin-arm64.tar.gz",
+        "checksum": "sha256:85db52443bf0011827b5422a3280905a00d8b5b308799d801d0b1239fe53d072",
+        "size": 1023609,
+        "strip": 1
+      }
+    }
+  },
+  "1.4.19-2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/m4-xpack/releases/download/v1.4.19-2/xpack-m4-1.4.19-2-linux-x64.tar.gz",
+        "checksum": "sha256:b15b3521c678b2e762d1156b01b9bbe0474e8f88f044de0783b0fb1da00c4a00",
+        "size": 1039958,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/m4-xpack/releases/download/v1.4.19-2/xpack-m4-1.4.19-2-linux-arm64.tar.gz",
+        "checksum": "sha256:a691b11a79c8eb6ef10f829b738341b560c6559f14de4738ca1a8a17b0ac84ed",
+        "size": 1034779,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/m4-xpack/releases/download/v1.4.19-2/xpack-m4-1.4.19-2-darwin-x64.tar.gz",
+        "checksum": "sha256:72bbe3c968e235b81cf9b06d2c2dffd227440c1c479710a0574bd2ac9ea258fc",
+        "size": 1032239,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/m4-xpack/releases/download/v1.4.19-2/xpack-m4-1.4.19-2-darwin-arm64.tar.gz",
+        "checksum": "sha256:59b0a9c31d73141af330f405e4edd134f9788a3efc96ab3e33f4bcde77012769",
+        "size": 1032616,
+        "strip": 1
+      }
+    }
+  },
+  "1.4.19-1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/m4-xpack/releases/download/v1.4.19-1/xpack-m4-1.4.19-1-linux-x64.tar.gz",
+        "checksum": "sha256:9f327c07506c5f620af13dd5009738560cb443feeabeac362947946b1f241d3d",
+        "size": 1038338,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/m4-xpack/releases/download/v1.4.19-1/xpack-m4-1.4.19-1-linux-arm64.tar.gz",
+        "checksum": "sha256:e51ec78b5c28d30cfcaec166a63f5f510c7aed361c04662a1462afd70b6fbcf8",
+        "size": 1033274,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/xpack-dev-tools/m4-xpack/releases/download/v1.4.19-1/xpack-m4-1.4.19-1-darwin-x64.tar.gz",
+        "checksum": "sha256:31162614d87b873953590d68e51a7112e205edc11fbba1ee4b6fca296ff8da7d",
+        "size": 1031961,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/xpack-dev-tools/m4-xpack/releases/download/v1.4.19-1/xpack-m4-1.4.19-1-darwin-arm64.tar.gz",
+        "checksum": "sha256:356876be46079cc5768f0144210170bd9991f6651fbba930983fb160f92047e1",
+        "size": 1021943,
+        "strip": 1
+      }
+    }
+  }
+}

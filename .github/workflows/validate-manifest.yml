@@ -1,0 +1,37 @@
+name: Validate manifest
+
+# Runs on every PR that touches the registry data, and on pushes to main
+# as a smoke test. Cheap (<30s) — no downloads, just JSON shape + checksum
+# format checks.
+
+on:
+  pull_request:
+    paths:
+      - 'index.json'
+      - 'languages/**'
+      - 'tools/**'
+      - 'scripts/validate_manifest.py'
+      - '.github/workflows/validate-manifest.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'index.json'
+      - 'languages/**'
+      - 'tools/**'
+      - 'scripts/validate_manifest.py'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate manifest
+        run: python3 scripts/validate_manifest.py

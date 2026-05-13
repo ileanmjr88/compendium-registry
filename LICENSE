@@ -1,0 +1,29 @@
+Compendium Registry — License Split
+===================================
+
+This repository contains two kinds of work, licensed separately:
+
+1. JSON manifest files — public-domain dedication (CC0 1.0 Universal)
+   --------------------------------------------------------------------
+   index.json
+   languages/*.json
+   tools/*.json
+
+   Use, copy, modify, and distribute without restriction or attribution.
+   Full text: see LICENSE.data (or
+   https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+
+2. Source code — MIT License
+   ---------------------------
+   Python scripts (build_manifest_split.py, package_tools.py,
+   fetch_checksums.py, etc.), shell helpers, and any other code in this
+   repository.
+
+   Full text: see LICENSE.code (or https://opensource.org/license/mit/)
+
+Files not explicitly covered above (e.g. README.md) fall under the source-
+code license (MIT).
+
+This split lets the data be reused freely (no attribution friction for
+package managers, mirrors, or tooling that depends on the manifests) while
+keeping the code under a permissive but attribution-bearing license.

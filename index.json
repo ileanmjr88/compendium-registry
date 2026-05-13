@@ -1,0 +1,113 @@
+{
+  "version": "2",
+  "updated_at": "2026-05-13",
+  "languages": {
+    "aarch64-none-elf-gcc": {
+      "latest": "15.2.1-1.1",
+      "versions": 11,
+      "file": "languages/aarch64-none-elf-gcc.json"
+    },
+    "arm-none-eabi-gcc": {
+      "latest": "15.2.1-1.1",
+      "versions": 20,
+      "file": "languages/arm-none-eabi-gcc.json"
+    },
+    "clang": {
+      "latest": "22.1.5",
+      "versions": 24,
+      "file": "languages/clang.json"
+    },
+    "gcc": {
+      "latest": "15.2.0-1",
+      "versions": 26,
+      "file": "languages/gcc.json"
+    },
+    "go": {
+      "latest": "1.26.3",
+      "versions": 269,
+      "file": "languages/go.json"
+    },
+    "node": {
+      "latest": "24.15.0",
+      "versions": 97,
+      "file": "languages/node.json"
+    },
+    "python": {
+      "latest": "3.14.5",
+      "versions": 11,
+      "file": "languages/python.json"
+    },
+    "riscv-none-elf-gcc": {
+      "latest": "15.2.0-1",
+      "versions": 23,
+      "file": "languages/riscv-none-elf-gcc.json"
+    }
+  },
+  "tools": {
+    "bison": {
+      "latest": "3.8.2-1",
+      "versions": 1,
+      "file": "tools/bison.json"
+    },
+    "ccache": {
+      "latest": "4.13.6",
+      "versions": 33,
+      "file": "tools/ccache.json"
+    },
+    "cmake": {
+      "latest": "4.3.2",
+      "versions": 24,
+      "file": "tools/cmake.json"
+    },
+    "golangci-lint": {
+      "latest": "2.12.2",
+      "versions": 33,
+      "file": "tools/golangci-lint.json"
+    },
+    "m4": {
+      "latest": "1.4.20-1",
+      "versions": 4,
+      "file": "tools/m4.json"
+    },
+    "ninja": {
+      "latest": "1.13.2",
+      "versions": 18,
+      "file": "tools/ninja.json"
+    },
+    "openocd": {
+      "latest": "0.12.0-7",
+      "versions": 14,
+      "file": "tools/openocd.json"
+    },
+    "pkg-config": {
+      "latest": "0.29.2-3",
+      "versions": 3,
+      "file": "tools/pkg-config.json"
+    },
+    "pnpm": {
+      "latest": "10.33.4",
+      "versions": 15,
+      "file": "tools/pnpm.json"
+    },
+    "realpath": {
+      "latest": "9.8.0-1",
+      "versions": 5,
+      "file": "tools/realpath.json"
+    },
+    "ruff": {
+      "latest": "0.15.12",
+      "versions": 32,
+      "file": "tools/ruff.json"
+    },
+    "uv": {
+      "latest": "0.11.14",
+      "versions": 38,
+      "file": "tools/uv.json"
+    },
+    "vcpkg": {
+      "latest": "2026-04-08",
+      "versions": 25,
+      "file": "tools/vcpkg.json"
+    }
+  }
+}

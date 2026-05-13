@@ -1,0 +1,85 @@
+name: Update registry
+
+# Refresh the manifest from upstream Mon/Wed/Fri and on demand.
+# On change, open a PR rather than commit to main — the validate-manifest
+# workflow then runs on that PR, so a bad upstream rename can't break consumers.
+
+on:
+  schedule:
+    - cron: '17 6 * * 1,3,5'  # Mon/Wed/Fri 06:17 UTC — off the hour to dodge cron herds
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'Why are you running this manually?'
+        required: false
+        default: 'manual trigger'
+
+concurrency:
+  group: update-registry
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build split manifests
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/build_manifest_split.py
+
+      - name: Resolve checksums
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/fetch_checksums.py
+
+      - name: Validate manifest
+        run: python3 scripts/validate_manifest.py
+
+      - name: Detect changes
+        id: diff
+        run: |
+          if git diff --quiet --exit-code -- index.json languages/ tools/; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No manifest changes."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Changes detected:"
+            git diff --stat -- index.json languages/ tools/
+          fi
+
+      - name: Open pull request
+        if: steps.diff.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: automation/update-registry
+          commit-message: 'chore: refresh registry from upstream'
+          title: 'chore: refresh registry from upstream'
+          body: |
+            Automated refresh of the Compendium registry.
+
+            - `scripts/build_manifest_split.py` pulled new versions from upstream sources.
+            - `scripts/fetch_checksums.py` resolved any `sha256:FILL_IN` placeholders.
+            - `scripts/validate_manifest.py` passed.
+
+            Review the diff before merging — upstream asset renames or
+            new prerelease conventions can occasionally produce surprises.
+
+            Triggered by: `${{ github.event_name }}`
+            ${{ github.event.inputs.reason && format('Reason: {0}', github.event.inputs.reason) || '' }}
+          labels: |
+            automation
+            registry-update
+          delete-branch: true

@@ -27,7 +27,8 @@ verify it. The registry is data-first: the JSON files in `languages/` and
 ├── tools/                      Per-tool version maps.
 │   ├── bison.json, m4.json, pkg-config.json, realpath.json    xPack utilities
 │   ├── ccache.json, cmake.json, ninja.json                    build tooling
-│   ├── golangci-lint.json, ruff.json, uv.json, pnpm.json      language tooling
+│   ├── golangci-lint.json, goreleaser.json, ruff.json,        language tooling
+│   │   uv.json, pnpm.json
 │   ├── openocd.json                  on-chip debugger (xPack)
 │   └── vcpkg.json                    Compendium-repackaged vcpkg
 ├── scripts/                    All maintenance code. Run from repo root, e.g.
@@ -102,128 +103,21 @@ the full data:
 | ninja                   | `ninja-build/ninja` releases                           |
 | ccache                  | `ccache/ccache` releases                               |
 | golangci-lint, ruff, uv | `golangci/`, `astral-sh/` releases                     |
+| goreleaser              | `goreleaser/goreleaser` releases                       |
 | pnpm                    | `pnpm/pnpm` releases                                   |
 | vcpkg                   | `microsoft/vcpkg-tool` binaries + `microsoft/vcpkg` repo, repackaged by `scripts/package_tools.py` |
 
-## Automated updates
+## Contributing
 
-Two workflows in `.github/workflows/`:
-
-### `update-registry.yml`
-
-Runs Mondays, Wednesdays, and Fridays at 06:17 UTC, and on demand via the
-Actions tab.
-
-1. `scripts/build_manifest_split.py` — for each tool, asks upstream for the latest tag.
-   If we already have it (per `index.json`), the tool is skipped. Otherwise it
-   pulls the recent releases page and merges any new versions into the per-tool
-   file. New entries land with `"checksum": "sha256:FILL_IN"` if upstream
-   doesn't expose a checksum directly on the asset.
-2. `scripts/fetch_checksums.py` — scans every per-tool file for `FILL_IN`, resolves
-   via:
-   1. companion `.sha` / `.sha256` / `.sha256sum` file
-   2. aggregate `SHA256SUMS` / `checksums.txt` in the release
-   3. project-specific files (golangci-lint, pnpm)
-   4. streaming the artifact and hashing it locally
-3. `scripts/validate_manifest.py` — schema + integrity check.
-4. If any tracked file changed, open a PR (branch `automation/update-registry`)
-   labeled `automation` / `registry-update`. The validate workflow then runs on
-   the PR; the reviewer just has to confirm the diff looks sane before merging.
-
-Trigger manually with `gh workflow run update-registry.yml -f reason="..."` or
-from the Actions tab. The `concurrency` group prevents a manual run from
-clashing with the scheduled one.
-
-### `validate-manifest.yml`
-
-Runs on every PR touching `index.json`, `languages/`, `tools/`, or the
-validator itself, and on pushes to `main` as a smoke test. Cheap (~30s) — no
-downloads, just JSON shape, sha256 format, and index-vs-per-tool consistency.
-
-## Local development
-
-```sh
-# Refresh manifests from upstream
-GITHUB_TOKEN=$(gh auth token) python3 scripts/build_manifest_split.py
-
-# Resolve any sha256:FILL_IN entries
-GITHUB_TOKEN=$(gh auth token) python3 scripts/fetch_checksums.py
-
-# Confirm shape before opening a PR
-python3 scripts/validate_manifest.py
-```
-
-`GITHUB_TOKEN` is optional but recommended — the GitHub API limits
-unauthenticated callers to 60 requests/hour, and a full refresh easily exceeds
-that.
-
-## Adding a tool
-
-For tools that publish standard GitHub release assets:
-
-1. Add an entry to `scripts/build_manifest_split.py` — either in the `github_tools`
-   list (for `tools/`) or in the languages block (for `languages/`). For xPack
-   tools the helper is `fetch_xpack_tool(repo, tool_name)`. For other GitHub
-   projects, `fetch_github_tool(owner, repo, tool_name, version_regex, file_patterns)`.
-2. Run `scripts/build_manifest_split.py` followed by `scripts/fetch_checksums.py`.
-3. Run `scripts/validate_manifest.py`.
-4. Commit the new `languages/<name>.json` or `tools/<name>.json` plus the
-   updated `index.json`. The scheduled workflow will pick the tool up on its
-   next run from then on.
-
-For tools that need assembly (e.g. vcpkg, where the binary lives in one repo
-and the scripts in another), add a packager in `scripts/package_tools.py` following
-the `package_vcpkg()` pattern, and add the assembled tarball URLs by hand in
-the per-tool JSON (the `tools/vcpkg.json` entries are good references).
+See [CONTRIBUTING.md](CONTRIBUTING.md) for local-development commands, the
+"adding a tool" walkthrough, and how the scheduled GitHub Actions workflows
+keep the registry fresh.
 
 ## Acknowledgements
 
-This registry is a distribution layer. Every binary it points at is the work
-of someone else — full credit goes to the upstream projects below.
-
-### Languages
-
-- [Go](https://go.dev/)
-- [Node.js](https://nodejs.org/)
-- [LLVM / Clang](https://llvm.org/) — source releases from [`llvm/llvm-project`](https://github.com/llvm/llvm-project)
-- [GCC](https://gcc.gnu.org/) — packaged by [xPack](https://xpack.github.io/)
-- [CPython](https://www.python.org/) — relocatable builds via [`astral-sh/python-build-standalone`](https://github.com/astral-sh/python-build-standalone)
-
-### Cross-compilers (xPack)
-
-- [arm-none-eabi-gcc](https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack) — ARM Cortex-M bare-metal
-- [aarch64-none-elf-gcc](https://github.com/xpack-dev-tools/aarch64-none-elf-gcc-xpack) — ARMv8-A bare-metal
-- [riscv-none-elf-gcc](https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack) — RISC-V bare-metal
-
-### Build systems & developer tools
-
-- [CMake](https://cmake.org/) by [Kitware](https://www.kitware.com/)
-- [Ninja](https://ninja-build.org/)
-- [ccache](https://ccache.dev/)
-- [vcpkg](https://vcpkg.io/) by Microsoft ([`microsoft/vcpkg`](https://github.com/microsoft/vcpkg) + [`microsoft/vcpkg-tool`](https://github.com/microsoft/vcpkg-tool))
-- [OpenOCD](https://openocd.org/) — on-chip debugger, packaged by [xPack](https://xpack.github.io/)
-
-### GNU utilities (xPack-packaged)
-
-- [GNU Bison](https://www.gnu.org/software/bison/)
-- [GNU M4](https://www.gnu.org/software/m4/)
-- [pkg-config](https://www.freedesktop.org/wiki/Software/pkg-config/)
-- [realpath](https://www.gnu.org/software/coreutils/) (from GNU coreutils)
-
-### Language tooling
-
-- [uv](https://github.com/astral-sh/uv) and [Ruff](https://github.com/astral-sh/ruff) by [Astral](https://astral.sh/)
-- [pnpm](https://pnpm.io/) — fast, disk-efficient Node.js package manager
-- [golangci-lint](https://golangci-lint.run/) — fast Go linters runner
-
-### Special thanks
-
-- The [xPack Project](https://xpack.github.io/) for the cross-platform
-  reproducible toolchain builds that make a large fraction of `languages/`
-  and `tools/` possible — a single upstream that ships consistent
-  `{linux,darwin}-{amd64,arm64}` tarballs is the difference between this
-  registry being maintainable and not.
-
+Every binary this registry points at is upstream work — see
+[ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md) for the full list of projects we
+distribute.
 
 ## License
 

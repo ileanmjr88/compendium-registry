@@ -670,6 +670,14 @@ def build_all():
                 ("darwin", "amd64"): "golangci-lint-{version}-darwin-amd64.tar.gz",
                 ("darwin", "arm64"): "golangci-lint-{version}-darwin-arm64.tar.gz",
             }, strip=1)),
+        ("goreleaser", "goreleaser", "goreleaser", r"v(\d+\.\d+\.\d+)", lambda: fetch_github_tool(
+            "goreleaser", "goreleaser", "goreleaser", r"v(\d+\.\d+\.\d+)",
+            {
+                ("linux", "amd64"): "goreleaser_Linux_x86_64.tar.gz",
+                ("linux", "arm64"): "goreleaser_Linux_arm64.tar.gz",
+                ("darwin", "amd64"): "goreleaser_Darwin_x86_64.tar.gz",
+                ("darwin", "arm64"): "goreleaser_Darwin_arm64.tar.gz",
+            }, strip=0)),
         ("uv", "astral-sh", "uv", r"(\d+\.\d+\.\d+)", lambda: fetch_github_tool(
             "astral-sh", "uv", "uv", r"(\d+\.\d+\.\d+)",
             {

@@ -1,6 +1,6 @@
 {
   "version": "2",
-  "updated_at": "2026-05-13",
+  "updated_at": "2026-05-15",
   "languages": {
     "aarch64-none-elf-gcc": {
       "latest": "15.2.1-1.1",
@@ -64,6 +64,11 @@
       "versions": 33,
       "file": "tools/golangci-lint.json"
     },
+    "goreleaser": {
+      "latest": "2.15.4",
+      "versions": 24,
+      "file": "tools/goreleaser.json"
+    },
     "m4": {
       "latest": "1.4.20-1",
       "versions": 4,
@@ -95,8 +100,8 @@
       "file": "tools/realpath.json"
     },
     "ruff": {
-      "latest": "0.15.12",
-      "versions": 32,
+      "latest": "0.15.13",
+      "versions": 33,
       "file": "tools/ruff.json"
     },
     "uv": {

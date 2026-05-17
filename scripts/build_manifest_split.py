@@ -108,8 +108,17 @@ def load_index() -> dict:
     return {}
 
 
-def make_artifact(url: str, checksum: str = "sha256:FILL_IN", size: int = 0, strip: int = 1) -> dict:
-    return {"url": url, "checksum": checksum, "size": size, "strip": strip}
+def make_artifact(
+    url: str,
+    checksum: str = "sha256:FILL_IN",
+    size: int = 0,
+    strip: int = 1,
+    link_bin_from: str | None = None,
+) -> dict:
+    artifact = {"url": url, "checksum": checksum, "size": size, "strip": strip}
+    if link_bin_from:
+        artifact["link_bin_from"] = link_bin_from
+    return artifact
 
 
 # ---------------------------------------------------------------------------
@@ -415,12 +424,13 @@ def resolve_checksums(assets: dict, tag: str, owner: str, repo: str) -> dict:
     return checksums
 
 
-def fetch_github_tool(owner, repo, tool_name, version_regex, file_patterns, strip=1):
+def fetch_github_tool(owner, repo, tool_name, version_regex, file_patterns, strip=1, link_bin_from=None):
     print(f"Fetching {tool_name} versions...")
     releases = github_releases(owner, repo)
     if not releases:
         return {}
 
+    link_bin_from = link_bin_from or {}
     result = {}
     for release in releases:
         if release.get("draft") or release.get("prerelease"):
@@ -450,6 +460,7 @@ def fetch_github_tool(owner, repo, tool_name, version_regex, file_patterns, stri
                         checksum=checksum,
                         size=asset.get("size", 0),
                         strip=strip,
+                        link_bin_from=link_bin_from.get((os_name, arch)),
                     )
                     break
 
@@ -645,7 +656,12 @@ def build_all():
                 ("linux", "arm64"): "cmake-{version}-linux-aarch64.tar.gz",
                 ("darwin", "amd64"): "cmake-{version}-macos-universal.tar.gz",
                 ("darwin", "arm64"): "cmake-{version}-macos-universal.tar.gz",
-            }, strip=1)),
+            },
+            strip=1,
+            link_bin_from={
+                ("darwin", "amd64"): "CMake.app/Contents/bin",
+                ("darwin", "arm64"): "CMake.app/Contents/bin",
+            })),
         ("ninja", "ninja-build", "ninja", r"v(\d+\.\d+\.\d+)", lambda: fetch_github_tool(
             "ninja-build", "ninja", "Ninja", r"v(\d+\.\d+\.\d+)",
             {

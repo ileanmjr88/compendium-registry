@@ -41,6 +41,34 @@ and the scripts in another), add a packager in `scripts/package_tools.py` follow
 the `package_vcpkg()` pattern, and add the assembled tarball URLs by hand in
 the per-tool JSON (the `tools/vcpkg.json` entries are good references).
 
+## Per-artifact fields
+
+Every artifact has `url`, `checksum`, `size`, and `strip` (required). The
+following optional fields are also recognised:
+
+- `link_bin_from` — relative path inside the extracted tarball that contains
+  the executables, used when the tarball does **not** place binaries at
+  `./bin/` post-strip. At install time the CLI creates a symlink
+  `<install>/bin -> <link_bin_from>` so `activate` can keep prepending the
+  same canonical `<install>/bin` to `PATH` regardless of upstream layout. The
+  canonical example is macOS CMake, which ships inside a `.app` bundle:
+
+  ```jsonc
+  "darwin": {
+    "arm64": {
+      "url": "...cmake-X.Y.Z-macos-universal.tar.gz",
+      "checksum": "sha256:...",
+      "size": 87032455,
+      "strip": 1,
+      "link_bin_from": "CMake.app/Contents/bin"
+    }
+  }
+  ```
+
+  Constraints: must be a non-empty relative path (no leading `/`, no `..`
+  segments). Omit the field entirely on platforms where the tarball already
+  has a `bin/` at the post-strip root.
+
 ## Automated updates
 
 Two workflows in `.github/workflows/` keep the registry fresh and honest:

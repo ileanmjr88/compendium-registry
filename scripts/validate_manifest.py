@@ -41,6 +41,12 @@ def validate_artifact(artifact: dict, path: str) -> list[str]:
         errors.append(f"{path}: size is not an integer")
     if not isinstance(artifact.get("strip", 0), int):
         errors.append(f"{path}: strip is not an integer")
+    link = artifact.get("link_bin_from")
+    if link is not None:
+        if not isinstance(link, str) or not link:
+            errors.append(f"{path}: link_bin_from must be a non-empty string")
+        elif link.startswith("/") or ".." in link.split("/"):
+            errors.append(f"{path}: link_bin_from must be a relative path without '..' segments")
     return errors
 
 

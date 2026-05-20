@@ -1,6 +1,6 @@
 {
   "version": "2",
-  "updated_at": "2026-05-18",
+  "updated_at": "2026-05-20",
   "languages": {
     "aarch64-none-elf-gcc": {
       "latest": "15.2.1-1.1",
@@ -13,8 +13,8 @@
       "file": "languages/arm-none-eabi-gcc.json"
     },
     "clang": {
-      "latest": "22.1.5",
-      "versions": 24,
+      "latest": "22.1.6",
+      "versions": 25,
       "file": "languages/clang.json"
     },
     "gcc": {
@@ -105,8 +105,8 @@
       "file": "tools/ruff.json"
     },
     "uv": {
-      "latest": "0.11.14",
-      "versions": 38,
+      "latest": "0.11.15",
+      "versions": 39,
       "file": "tools/uv.json"
     },
     "vcpkg": {

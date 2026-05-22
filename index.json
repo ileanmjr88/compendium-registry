@@ -1,6 +1,6 @@
 {
   "version": "2",
-  "updated_at": "2026-05-20",
+  "updated_at": "2026-05-22",
   "languages": {
     "aarch64-none-elf-gcc": {
       "latest": "15.2.1-1.1",
@@ -28,8 +28,8 @@
       "file": "languages/go.json"
     },
     "node": {
-      "latest": "24.15.0",
-      "versions": 97,
+      "latest": "24.16.0",
+      "versions": 99,
       "file": "languages/node.json"
     },
     "python": {
@@ -55,8 +55,8 @@
       "file": "tools/ccache.json"
     },
     "cmake": {
-      "latest": "4.3.2",
-      "versions": 24,
+      "latest": "4.3.3",
+      "versions": 26,
       "file": "tools/cmake.json"
     },
     "golangci-lint": {
@@ -100,13 +100,13 @@
       "file": "tools/realpath.json"
     },
     "ruff": {
-      "latest": "0.15.13",
-      "versions": 33,
+      "latest": "0.15.14",
+      "versions": 34,
       "file": "tools/ruff.json"
     },
     "uv": {
-      "latest": "0.11.15",
-      "versions": 39,
+      "latest": "0.11.16",
+      "versions": 40,
       "file": "tools/uv.json"
     },
     "vcpkg": {

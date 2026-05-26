@@ -718,5 +718,35 @@
         "strip": 0
       }
     }
+  },
+  "2.16.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/goreleaser/goreleaser/releases/download/v2.16.0/goreleaser_Linux_x86_64.tar.gz",
+        "checksum": "sha256:eaae05b5eba07533bd0f06846b68c808399504784df00c62eb219541fc04e5e2",
+        "size": 26196931,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/goreleaser/goreleaser/releases/download/v2.16.0/goreleaser_Linux_arm64.tar.gz",
+        "checksum": "sha256:0102d974373fcdeb77042d1f5897caffa193be36620fdc6c1da43a01ef8e10d3",
+        "size": 23639969,
+        "strip": 0
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/goreleaser/goreleaser/releases/download/v2.16.0/goreleaser_Darwin_x86_64.tar.gz",
+        "checksum": "sha256:2b82d8319ee517d4242b48a858114b267c621f1dd1fe51a14680902b18a5dac8",
+        "size": 27601170,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/goreleaser/goreleaser/releases/download/v2.16.0/goreleaser_Darwin_arm64.tar.gz",
+        "checksum": "sha256:8f6898256f35531165d90f2db581c5ee0d32bda83ebc25ac231ff5bdb9d2071a",
+        "size": 25006956,
+        "strip": 0
+      }
+    }
   }
 }

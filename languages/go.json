@@ -7108,5 +7108,65 @@
         "strip": 1
       }
     }
+  },
+  "1.26.4": {
+    "darwin": {
+      "amd64": {
+        "url": "https://go.dev/dl/go1.26.4.darwin-amd64.tar.gz",
+        "checksum": "sha256:05dc9b5f9997744520aaebb3d5deaa7c755371aebbfb7f97c2511a9f3367538d",
+        "size": 67816160,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://go.dev/dl/go1.26.4.darwin-arm64.tar.gz",
+        "checksum": "sha256:b62ad2b6d7d2464f12a5bcad7ff47f19d08325773b5efd21610e445a05a9bf53",
+        "size": 64723756,
+        "strip": 1
+      }
+    },
+    "linux": {
+      "amd64": {
+        "url": "https://go.dev/dl/go1.26.4.linux-amd64.tar.gz",
+        "checksum": "sha256:1153d3d50e0ac764b447adfe05c2bcf08e889d42a02e0fe0259bd47f6733ad7f",
+        "size": 66861266,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://go.dev/dl/go1.26.4.linux-arm64.tar.gz",
+        "checksum": "sha256:ef758ae7c6cf9267c9c0ef080b8965f453d89ab2d25d9eb22de4405925238768",
+        "size": 63740285,
+        "strip": 1
+      }
+    }
+  },
+  "1.25.11": {
+    "darwin": {
+      "amd64": {
+        "url": "https://go.dev/dl/go1.25.11.darwin-amd64.tar.gz",
+        "checksum": "sha256:26d0ee4071de42b5c332337db9fdd234072877697c547e46e85efb0f59507c66",
+        "size": 60578889,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://go.dev/dl/go1.25.11.darwin-arm64.tar.gz",
+        "checksum": "sha256:cd8d4920e7930d55da1a5a57ba43a64b1305f71cdf2ca3c76cd8c549272b1680",
+        "size": 58110545,
+        "strip": 1
+      }
+    },
+    "linux": {
+      "amd64": {
+        "url": "https://go.dev/dl/go1.25.11.linux-amd64.tar.gz",
+        "checksum": "sha256:34f14304e856893f4ba30c2cacfe93906e9de7915c5f6aaaf3a81cdccd7ba30b",
+        "size": 59843601,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://go.dev/dl/go1.25.11.linux-arm64.tar.gz",
+        "checksum": "sha256:c30bf9e156a54ea4e31fbbbf31a712b32734b58cc9a22426fa5ee632d0885124",
+        "size": 57339435,
+        "strip": 1
+      }
+    }
   }
 }

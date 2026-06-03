@@ -592,5 +592,29 @@
         "strip": 1
       }
     }
+  },
+  "22.1.7": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-22.1.7/LLVM-22.1.7-Linux-X64.tar.xz",
+        "checksum": "sha256:edb0522b41e261819c06ea437d249f9b8acfa413d3805bc9920eec6fb76ff830",
+        "size": 1938496864,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-22.1.7/LLVM-22.1.7-Linux-ARM64.tar.xz",
+        "checksum": "sha256:118ca2d3ad9da34367e05735317854e7977db45dc4c02a32af58da64c23b8789",
+        "size": 1770309908,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-22.1.7/LLVM-22.1.7-macOS-ARM64.tar.xz",
+        "checksum": "sha256:4177245188b0a30a6539c96b361dea56f253485756bfd8927a6a59e7301e7806",
+        "size": 1479825388,
+        "strip": 1
+      }
+    }
   }
 }

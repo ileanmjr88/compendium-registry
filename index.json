@@ -1,6 +1,6 @@
 {
   "version": "2",
-  "updated_at": "2026-06-01",
+  "updated_at": "2026-06-03",
   "languages": {
     "aarch64-none-elf-gcc": {
       "latest": "15.2.1-1.1",
@@ -13,8 +13,8 @@
       "file": "languages/arm-none-eabi-gcc.json"
     },
     "clang": {
-      "latest": "22.1.6",
-      "versions": 25,
+      "latest": "22.1.7",
+      "versions": 26,
       "file": "languages/clang.json"
     },
     "gcc": {
@@ -23,8 +23,8 @@
       "file": "languages/gcc.json"
     },
     "go": {
-      "latest": "1.26.3",
-      "versions": 269,
+      "latest": "1.26.4",
+      "versions": 271,
       "file": "languages/go.json"
     },
     "node": {
@@ -105,13 +105,13 @@
       "file": "tools/ruff.json"
     },
     "uv": {
-      "latest": "0.11.17",
-      "versions": 41,
+      "latest": "0.11.18",
+      "versions": 42,
       "file": "tools/uv.json"
     },
     "vcpkg": {
-      "latest": "2026-04-08",
-      "versions": 25,
+      "latest": "2026-05-27",
+      "versions": 26,
       "file": "tools/vcpkg.json"
     }
   }

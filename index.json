@@ -1,6 +1,6 @@
 {
   "version": "2",
-  "updated_at": "2026-06-03",
+  "updated_at": "2026-06-08",
   "languages": {
     "aarch64-none-elf-gcc": {
       "latest": "15.2.1-1.1",
@@ -100,13 +100,13 @@
       "file": "tools/realpath.json"
     },
     "ruff": {
-      "latest": "0.15.15",
-      "versions": 35,
+      "latest": "0.15.16",
+      "versions": 36,
       "file": "tools/ruff.json"
     },
     "uv": {
-      "latest": "0.11.18",
-      "versions": 42,
+      "latest": "0.11.19",
+      "versions": 43,
       "file": "tools/uv.json"
     },
     "vcpkg": {

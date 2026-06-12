@@ -1,6 +1,6 @@
 {
   "version": "2",
-  "updated_at": "2026-06-10",
+  "updated_at": "2026-06-12",
   "languages": {
     "aarch64-none-elf-gcc": {
       "latest": "15.2.1-1.1",
@@ -33,8 +33,8 @@
       "file": "languages/node.json"
     },
     "python": {
-      "latest": "3.14.5",
-      "versions": 11,
+      "latest": "3.14.6",
+      "versions": 13,
       "file": "languages/python.json"
     },
     "riscv-none-elf-gcc": {
@@ -90,8 +90,8 @@
       "file": "tools/pkg-config.json"
     },
     "pnpm": {
-      "latest": "10.34.1",
-      "versions": 17,
+      "latest": "10.34.3",
+      "versions": 19,
       "file": "tools/pnpm.json"
     },
     "realpath": {
@@ -100,13 +100,13 @@
       "file": "tools/realpath.json"
     },
     "ruff": {
-      "latest": "0.15.16",
-      "versions": 36,
+      "latest": "0.15.17",
+      "versions": 37,
       "file": "tools/ruff.json"
     },
     "uv": {
-      "latest": "0.11.19",
-      "versions": 43,
+      "latest": "0.11.21",
+      "versions": 45,
       "file": "tools/uv.json"
     },
     "vcpkg": {

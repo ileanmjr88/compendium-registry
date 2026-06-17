@@ -1,6 +1,6 @@
 {
   "version": "2",
-  "updated_at": "2026-06-12",
+  "updated_at": "2026-06-17",
   "languages": {
     "aarch64-none-elf-gcc": {
       "latest": "15.2.1-1.1",
@@ -13,8 +13,8 @@
       "file": "languages/arm-none-eabi-gcc.json"
     },
     "clang": {
-      "latest": "22.1.7",
-      "versions": 26,
+      "latest": "22.1.8",
+      "versions": 27,
       "file": "languages/clang.json"
     },
     "gcc": {

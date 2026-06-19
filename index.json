@@ -1,6 +1,6 @@
 {
   "version": "2",
-  "updated_at": "2026-06-17",
+  "updated_at": "2026-06-19",
   "languages": {
     "aarch64-none-elf-gcc": {
       "latest": "15.2.1-1.1",
@@ -28,8 +28,8 @@
       "file": "languages/go.json"
     },
     "node": {
-      "latest": "24.16.0",
-      "versions": 99,
+      "latest": "24.17.0",
+      "versions": 101,
       "file": "languages/node.json"
     },
     "python": {
@@ -90,8 +90,8 @@
       "file": "tools/pkg-config.json"
     },
     "pnpm": {
-      "latest": "10.34.3",
-      "versions": 19,
+      "latest": "10.34.4",
+      "versions": 20,
       "file": "tools/pnpm.json"
     },
     "realpath": {
@@ -100,13 +100,13 @@
       "file": "tools/realpath.json"
     },
     "ruff": {
-      "latest": "0.15.17",
-      "versions": 37,
+      "latest": "0.15.18",
+      "versions": 38,
       "file": "tools/ruff.json"
     },
     "uv": {
-      "latest": "0.11.21",
-      "versions": 45,
+      "latest": "0.11.22",
+      "versions": 46,
       "file": "tools/uv.json"
     },
     "vcpkg": {

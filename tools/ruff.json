@@ -1138,5 +1138,65 @@
         "strip": 1
       }
     }
+  },
+  "0.15.20": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/astral-sh/ruff/releases/download/0.15.20/ruff-x86_64-unknown-linux-gnu.tar.gz",
+        "checksum": "sha256:df8e74862d4cd4fdac11faf3048789896ff9898a0cacb98497df20d0a1cc7bb4",
+        "size": 11133313,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/astral-sh/ruff/releases/download/0.15.20/ruff-aarch64-unknown-linux-gnu.tar.gz",
+        "checksum": "sha256:f915de3ab6d31a49f4c57b1f97129f359f9348c162ea03acfa07011ba79e1197",
+        "size": 10454538,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/astral-sh/ruff/releases/download/0.15.20/ruff-x86_64-apple-darwin.tar.gz",
+        "checksum": "sha256:36b91219b3aae00464e2a4fa361766abd47d0402ac88fbe6da5de44285738386",
+        "size": 10810565,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/astral-sh/ruff/releases/download/0.15.20/ruff-aarch64-apple-darwin.tar.gz",
+        "checksum": "sha256:cb41c48690c113dc08470e64103ce65ca15249c6ce3495d3ac792b329a83e8c1",
+        "size": 10100205,
+        "strip": 1
+      }
+    }
+  },
+  "0.15.19": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/astral-sh/ruff/releases/download/0.15.19/ruff-x86_64-unknown-linux-gnu.tar.gz",
+        "checksum": "sha256:0bfabff71f317e0e3b8c363043b888f045eff092073d5d9bd0ac7f8ede465711",
+        "size": 11227106,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/astral-sh/ruff/releases/download/0.15.19/ruff-aarch64-unknown-linux-gnu.tar.gz",
+        "checksum": "sha256:b00f8c17424c0abea8f87ca52880b864d10ae8e5c5d09ee61730a80ee3874a97",
+        "size": 10481322,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/astral-sh/ruff/releases/download/0.15.19/ruff-x86_64-apple-darwin.tar.gz",
+        "checksum": "sha256:aaf50afd2a76be2674b8dd24b305e42a33a99269c2c43e334f6a940b29ca291c",
+        "size": 10891100,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/astral-sh/ruff/releases/download/0.15.19/ruff-aarch64-apple-darwin.tar.gz",
+        "checksum": "sha256:c7253342f2ffbe2a0eaadaacd3424c3a24331b0307e57cc54031bc7ccd35d83a",
+        "size": 10114540,
+        "strip": 1
+      }
+    }
   }
 }

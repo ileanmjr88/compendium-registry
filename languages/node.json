@@ -3028,5 +3028,65 @@
         "strip": 1
       }
     }
+  },
+  "24.18.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v24.18.0/node-v24.18.0-linux-x64.tar.gz",
+        "checksum": "sha256:783130984963db7ba9cbd01089eaf2c2efb055c7c1693c943174b967b3050cb8",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v24.18.0/node-v24.18.0-linux-arm64.tar.gz",
+        "checksum": "sha256:6b4484c2190274175df9aa8f28e2d758a819cb1c1fe6ab481e2f95b463ab8508",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v24.18.0/node-v24.18.0-darwin-x64.tar.gz",
+        "checksum": "sha256:dfd0dbd3e721503434df7b7205e719f61b3a3a31b2bcf9729b8b91fea240f080",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v24.18.0/node-v24.18.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:e1a97e14c99c803e96c7339403282ea05a499c32f8d83defe9ef5ec66f979ed1",
+        "size": 0,
+        "strip": 1
+      }
+    }
+  },
+  "22.23.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.23.1/node-v22.23.1-linux-x64.tar.gz",
+        "checksum": "sha256:7a8cb04b4a1df4eaf432125324b81b29a088e73570a23259a8de1c65d07fc129",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.23.1/node-v22.23.1-linux-arm64.tar.gz",
+        "checksum": "sha256:543fa39e57d4c07855939459a323f4deb9a79dd1bb45e6e99458b0f2de10db8d",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v22.23.1/node-v22.23.1-darwin-x64.tar.gz",
+        "checksum": "sha256:b8da981b8a0b1241b70249204916da76c63573ddf5814dbd2d1e41069105cb81",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v22.23.1/node-v22.23.1-darwin-arm64.tar.gz",
+        "checksum": "sha256:ef28d8fab2c0e4314522d4bb1b7173270aa3937e93b92cb7de79c112ac1fa953",
+        "size": 0,
+        "strip": 1
+      }
+    }
   }
 }

@@ -7168,5 +7168,65 @@
         "strip": 1
       }
     }
+  },
+  "1.26.5": {
+    "darwin": {
+      "amd64": {
+        "url": "https://go.dev/dl/go1.26.5.darwin-amd64.tar.gz",
+        "checksum": "sha256:6231d8d3b8f5552ec6cbf6d685bdd5482e1e703214b120e89b3bf0d7bf1ef725",
+        "size": 67836304,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://go.dev/dl/go1.26.5.darwin-arm64.tar.gz",
+        "checksum": "sha256:efb87ff28af9a188d0536ef5d42e63dd52ba8263cd7344a993cc48dd11dedb6a",
+        "size": 64738542,
+        "strip": 1
+      }
+    },
+    "linux": {
+      "amd64": {
+        "url": "https://go.dev/dl/go1.26.5.linux-amd64.tar.gz",
+        "checksum": "sha256:5c2c3b16caefa1d968a94c1daca04a7ca301a496d9b086e17ad77bb81393f053",
+        "size": 66879095,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://go.dev/dl/go1.26.5.linux-arm64.tar.gz",
+        "checksum": "sha256:fe4789e92b1f33358680864bbe8704289e7bb5fc207d80623c308935bd696d49",
+        "size": 63759990,
+        "strip": 1
+      }
+    }
+  },
+  "1.25.12": {
+    "darwin": {
+      "amd64": {
+        "url": "https://go.dev/dl/go1.25.12.darwin-amd64.tar.gz",
+        "checksum": "sha256:00a2e743b82bccec03c51c4b0f7e46d5fec52184075fd6c5183c3bb39ae9fb00",
+        "size": 60594502,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://go.dev/dl/go1.25.12.darwin-arm64.tar.gz",
+        "checksum": "sha256:fa2c88bbcf64bd3b2aef355f026cfec6d3a4a01c132f999c8f8c964eb767164f",
+        "size": 58121109,
+        "strip": 1
+      }
+    },
+    "linux": {
+      "amd64": {
+        "url": "https://go.dev/dl/go1.25.12.linux-amd64.tar.gz",
+        "checksum": "sha256:234828b7a89e0e303d2556310ee549fbcf253d28de937bac3da13d6294262ac1",
+        "size": 59856753,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://go.dev/dl/go1.25.12.linux-arm64.tar.gz",
+        "checksum": "sha256:8b5884aef89600aef5b0b051fb971f11f49bb996521e911f30f02a66884f7bd2",
+        "size": 57351753,
+        "strip": 1
+      }
+    }
   }
 }

@@ -598,5 +598,35 @@
         "strip": 0
       }
     }
+  },
+  "10.34.5": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/pnpm/pnpm/releases/download/v10.34.5/pnpm-linux-x64",
+        "checksum": "sha256:69a535476f407fb0f64427913c2b592ca2ed6bf93f92e2cb82a32349e31f36eb",
+        "size": 67428959,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/pnpm/pnpm/releases/download/v10.34.5/pnpm-linux-arm64",
+        "checksum": "sha256:22391362c31edf522fd698d0b43d38fe9228e28d5b5e32124ffd0038fb60f9f0",
+        "size": 63454271,
+        "strip": 0
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/pnpm/pnpm/releases/download/v10.34.5/pnpm-macos-x64",
+        "checksum": "sha256:4deaaaf1c0246fc4230f6450959f932dbc2abfd2686f8515dabf97b0717cb9b1",
+        "size": 71506880,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/pnpm/pnpm/releases/download/v10.34.5/pnpm-macos-arm64",
+        "checksum": "sha256:888389e8dd5ed45279043c1d3383c0942a8248b3d29ce614b302f468191f7659",
+        "size": 64149376,
+        "strip": 0
+      }
+    }
   }
 }

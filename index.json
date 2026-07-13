@@ -1,6 +1,6 @@
 {
   "version": "2",
-  "updated_at": "2026-06-26",
+  "updated_at": "2026-07-13",
   "languages": {
     "aarch64-none-elf-gcc": {
       "latest": "15.2.1-1.1",
@@ -23,8 +23,8 @@
       "file": "languages/gcc.json"
     },
     "go": {
-      "latest": "1.26.4",
-      "versions": 271,
+      "latest": "1.26.5",
+      "versions": 273,
       "file": "languages/go.json"
     },
     "node": {
@@ -65,8 +65,8 @@
       "file": "tools/golangci-lint.json"
     },
     "goreleaser": {
-      "latest": "2.16.0",
-      "versions": 25,
+      "latest": "2.17.0",
+      "versions": 26,
       "file": "tools/goreleaser.json"
     },
     "m4": {
@@ -90,8 +90,8 @@
       "file": "tools/pkg-config.json"
     },
     "pnpm": {
-      "latest": "10.34.4",
-      "versions": 20,
+      "latest": "10.34.5",
+      "versions": 21,
       "file": "tools/pnpm.json"
     },
     "realpath": {
@@ -100,13 +100,13 @@
       "file": "tools/realpath.json"
     },
     "ruff": {
-      "latest": "0.15.20",
-      "versions": 40,
+      "latest": "0.15.21",
+      "versions": 41,
       "file": "tools/ruff.json"
     },
     "uv": {
-      "latest": "0.11.24",
-      "versions": 48,
+      "latest": "0.11.28",
+      "versions": 52,
       "file": "tools/uv.json"
     },
     "vcpkg": {

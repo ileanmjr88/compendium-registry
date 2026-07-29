@@ -830,5 +830,133 @@
         "link_bin_from": "CMake.app/Contents/bin"
       }
     }
+  },
+  "4.4.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/Kitware/CMake/releases/download/v4.4.1/cmake-4.4.1-linux-x86_64.tar.gz",
+        "checksum": "sha256:c2e2994ee4a5573899e6a774d2c16cb878a47e97a562854bb72159b21b9347ea",
+        "size": 64863413,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/Kitware/CMake/releases/download/v4.4.1/cmake-4.4.1-linux-aarch64.tar.gz",
+        "checksum": "sha256:91442e0e97cdf2531eac4ddcaac1fdf7b20dd8ebf0bebd89bf12f82b2818071e",
+        "size": 52038783,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/Kitware/CMake/releases/download/v4.4.1/cmake-4.4.1-macos-universal.tar.gz",
+        "checksum": "sha256:2425c063fefd6869366e77ae0ac0333233eee00eb05581bac89e204b357e939c",
+        "size": 89446703,
+        "strip": 1,
+        "link_bin_from": "CMake.app/Contents/bin"
+      },
+      "arm64": {
+        "url": "https://github.com/Kitware/CMake/releases/download/v4.4.1/cmake-4.4.1-macos-universal.tar.gz",
+        "checksum": "sha256:2425c063fefd6869366e77ae0ac0333233eee00eb05581bac89e204b357e939c",
+        "size": 89446703,
+        "strip": 1,
+        "link_bin_from": "CMake.app/Contents/bin"
+      }
+    }
+  },
+  "4.4.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/Kitware/CMake/releases/download/v4.4.0/cmake-4.4.0-linux-x86_64.tar.gz",
+        "checksum": "sha256:3864eb649b4466ae126a64bbde1657adad78efbbaa068bf38201de5cf1b5349f",
+        "size": 64838835,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/Kitware/CMake/releases/download/v4.4.0/cmake-4.4.0-linux-aarch64.tar.gz",
+        "checksum": "sha256:e98bb53e0b00a8f672424517d34c05bb9b94fd1c888c89e0b81bc8df51d1a94b",
+        "size": 52027046,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/Kitware/CMake/releases/download/v4.4.0/cmake-4.4.0-macos-universal.tar.gz",
+        "checksum": "sha256:09d6382059aa1b986b25fd1809459f5eb3da6a1ab342d44d6084265f38541397",
+        "size": 89415388,
+        "strip": 1,
+        "link_bin_from": "CMake.app/Contents/bin"
+      },
+      "arm64": {
+        "url": "https://github.com/Kitware/CMake/releases/download/v4.4.0/cmake-4.4.0-macos-universal.tar.gz",
+        "checksum": "sha256:09d6382059aa1b986b25fd1809459f5eb3da6a1ab342d44d6084265f38541397",
+        "size": 89415388,
+        "strip": 1,
+        "link_bin_from": "CMake.app/Contents/bin"
+      }
+    }
+  },
+  "4.3.4": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/Kitware/CMake/releases/download/v4.3.4/cmake-4.3.4-linux-x86_64.tar.gz",
+        "checksum": "sha256:ca6f08ccbd5e6b0a9068d33317d0d1aff7278d08cccaed4529b8fbead7942a68",
+        "size": 64038828,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/Kitware/CMake/releases/download/v4.3.4/cmake-4.3.4-linux-aarch64.tar.gz",
+        "checksum": "sha256:56a8014a8f28b8ff9cbe2c6fa8beebc028ac5b1987195d122b847fb486dc5282",
+        "size": 51278005,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/Kitware/CMake/releases/download/v4.3.4/cmake-4.3.4-macos-universal.tar.gz",
+        "checksum": "sha256:bf6647c78ac295c54dbe0a094d4428f495be93c1f810fd8bde57374e8b548523",
+        "size": 87477171,
+        "strip": 1,
+        "link_bin_from": "CMake.app/Contents/bin"
+      },
+      "arm64": {
+        "url": "https://github.com/Kitware/CMake/releases/download/v4.3.4/cmake-4.3.4-macos-universal.tar.gz",
+        "checksum": "sha256:bf6647c78ac295c54dbe0a094d4428f495be93c1f810fd8bde57374e8b548523",
+        "size": 87477171,
+        "strip": 1,
+        "link_bin_from": "CMake.app/Contents/bin"
+      }
+    }
+  },
+  "4.2.7": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/Kitware/CMake/releases/download/v4.2.7/cmake-4.2.7-linux-x86_64.tar.gz",
+        "checksum": "sha256:5562b49f992187a2b3824239875fff21fa583c05be7f1f3bc7f182a19ce42924",
+        "size": 58176713,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/Kitware/CMake/releases/download/v4.2.7/cmake-4.2.7-linux-aarch64.tar.gz",
+        "checksum": "sha256:5106774660b4ad9cd90aa46ff9b784b3d9c43214eaacdeb90630ffb9af13f469",
+        "size": 59516343,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/Kitware/CMake/releases/download/v4.2.7/cmake-4.2.7-macos-universal.tar.gz",
+        "checksum": "sha256:148a34a8ca64f2a5d37bf76fdc573a30df8baa76b6f555e0e8c72611d57b3610",
+        "size": 84745652,
+        "strip": 1,
+        "link_bin_from": "CMake.app/Contents/bin"
+      },
+      "arm64": {
+        "url": "https://github.com/Kitware/CMake/releases/download/v4.2.7/cmake-4.2.7-macos-universal.tar.gz",
+        "checksum": "sha256:148a34a8ca64f2a5d37bf76fdc573a30df8baa76b6f555e0e8c72611d57b3610",
+        "size": 84745652,
+        "strip": 1,
+        "link_bin_from": "CMake.app/Contents/bin"
+      }
+    }
   }
 }

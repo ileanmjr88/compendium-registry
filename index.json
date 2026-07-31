@@ -1,6 +1,6 @@
 {
   "version": "2",
-  "updated_at": "2026-07-29",
+  "updated_at": "2026-07-31",
   "languages": {
     "aarch64-none-elf-gcc": {
       "latest": "15.2.1-1.1",
@@ -28,8 +28,8 @@
       "file": "languages/go.json"
     },
     "node": {
-      "latest": "24.18.0",
-      "versions": 103,
+      "latest": "24.18.1",
+      "versions": 105,
       "file": "languages/node.json"
     },
     "python": {
@@ -100,8 +100,8 @@
       "file": "tools/realpath.json"
     },
     "ruff": {
-      "latest": "0.16.0",
-      "versions": 43,
+      "latest": "0.16.1",
+      "versions": 44,
       "file": "tools/ruff.json"
     },
     "uv": {

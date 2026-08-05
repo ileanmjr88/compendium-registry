@@ -772,5 +772,35 @@
         "strip": 0
       }
     }
+  },
+  "2026-07-27": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2026-07-27/vcpkg-glibc",
+        "checksum": "sha256:7e97ef6bcd58f74d079f40d086b801a0222c5d15e4ea0d8d507a538033493d04",
+        "size": 8548168,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2026-07-27/vcpkg-glibc-arm64",
+        "checksum": "sha256:d7a07b1df2ba45841669effa9890870fa96e74665f12409bb9b0436cc5408ed2",
+        "size": 8292248,
+        "strip": 0
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2026-07-27/vcpkg-macos",
+        "checksum": "sha256:352a52151f57e51b0298bdd6f6a825cd4413d3b88d258f456193daf783b3ceec",
+        "size": 12664928,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/microsoft/vcpkg-tool/releases/download/2026-07-27/vcpkg-macos",
+        "checksum": "sha256:352a52151f57e51b0298bdd6f6a825cd4413d3b88d258f456193daf783b3ceec",
+        "size": 12664928,
+        "strip": 0
+      }
+    }
   }
 }

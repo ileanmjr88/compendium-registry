@@ -3148,5 +3148,35 @@
         "strip": 1
       }
     }
+  },
+  "24.19.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v24.19.0/node-v24.19.0-linux-x64.tar.gz",
+        "checksum": "sha256:f625d97cd707df4ff96254916fbc5ff014f09c09effe5a1e0ca8f6d41a8789d4",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v24.19.0/node-v24.19.0-linux-arm64.tar.gz",
+        "checksum": "sha256:d28c8a5bf0a808f0ed434a1dce8c54ae98f0371c0bd86ac58abc613f73e6643f",
+        "size": 0,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://nodejs.org/dist/v24.19.0/node-v24.19.0-darwin-x64.tar.gz",
+        "checksum": "sha256:d1b5e999db158c62fe8f7267a4476b035d8bd93b1a605bac24a3f0dd166e3316",
+        "size": 0,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v24.19.0/node-v24.19.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:8294b7aa9b03997481c06babf1e8b270c859358f27da57a11509afe537ac381d",
+        "size": 0,
+        "strip": 1
+      }
+    }
   }
 }

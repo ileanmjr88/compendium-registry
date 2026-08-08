@@ -1,6 +1,6 @@
 {
   "version": "2",
-  "updated_at": "2026-08-05",
+  "updated_at": "2026-08-07",
   "languages": {
     "aarch64-none-elf-gcc": {
       "latest": "15.2.1-1.1",
@@ -33,8 +33,8 @@
       "file": "languages/node.json"
     },
     "python": {
-      "latest": "3.14.6",
-      "versions": 13,
+      "latest": "3.14.7",
+      "versions": 14,
       "file": "languages/python.json"
     },
     "riscv-none-elf-gcc": {
@@ -105,8 +105,8 @@
       "file": "tools/ruff.json"
     },
     "uv": {
-      "latest": "0.12.1",
-      "versions": 59,
+      "latest": "0.12.2",
+      "versions": 60,
       "file": "tools/uv.json"
     },
     "vcpkg": {

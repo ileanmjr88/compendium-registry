@@ -988,5 +988,65 @@
         "strip": 1
       }
     }
+  },
+  "2.13.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/golangci/golangci-lint/releases/download/v2.13.1/golangci-lint-2.13.1-linux-amd64.tar.gz",
+        "checksum": "sha256:b17bfbc9d4aaa48be7f4f1ce3240bc3d8200c870c072bacf15c26219e2cfb9cc",
+        "size": 15512485,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/golangci/golangci-lint/releases/download/v2.13.1/golangci-lint-2.13.1-linux-arm64.tar.gz",
+        "checksum": "sha256:908317c23db18448f924e853b3d8a659fd919614cd438f224810a4053daa2607",
+        "size": 14114408,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/golangci/golangci-lint/releases/download/v2.13.1/golangci-lint-2.13.1-darwin-amd64.tar.gz",
+        "checksum": "sha256:2c373363953e4e0bee2a03b7fe864a5eb6a3822927cb077d9ca33f2ae3cb2da2",
+        "size": 15900463,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/golangci/golangci-lint/releases/download/v2.13.1/golangci-lint-2.13.1-darwin-arm64.tar.gz",
+        "checksum": "sha256:0c9818baf6fb8ad26c6d2ef51b68d5a1e260ef07727036b1431647cc44637c7c",
+        "size": 14815004,
+        "strip": 1
+      }
+    }
+  },
+  "2.13.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/golangci/golangci-lint/releases/download/v2.13.0/golangci-lint-2.13.0-linux-amd64.tar.gz",
+        "checksum": "sha256:a10e8d8359d76b9e2b41da60f9d98bb26fd53c7a453caa82e0a172d6f72fd2ca",
+        "size": 15505418,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/golangci/golangci-lint/releases/download/v2.13.0/golangci-lint-2.13.0-linux-arm64.tar.gz",
+        "checksum": "sha256:3a91c7bb9c135099a97858bea431d6dd2f54e4bf68d479c776c2350428d60e41",
+        "size": 14111277,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/golangci/golangci-lint/releases/download/v2.13.0/golangci-lint-2.13.0-darwin-amd64.tar.gz",
+        "checksum": "sha256:2c09329445036db5f80fa60c74be2bfe2fee5e3f92d9b2d596dfad787f4be05d",
+        "size": 15894978,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/golangci/golangci-lint/releases/download/v2.13.0/golangci-lint-2.13.0-darwin-arm64.tar.gz",
+        "checksum": "sha256:72eae670097978e61b78a773a25c27439e35d54094fd986cee5eeeb25d7144fd",
+        "size": 14814382,
+        "strip": 1
+      }
+    }
   }
 }

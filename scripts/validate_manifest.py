@@ -6,6 +6,7 @@ Checks, for every per-tool file referenced by index.json:
   - every entry is a {version: {os: {arch: artifact}}} map
   - every artifact has url, checksum, size, strip
   - checksum is "sha256:" + 64 hex chars (no FILL_IN, no empty)
+  - tools in REQUIRED_DEPENDS declare that dependency on every version
   - index.json's `versions` count matches the per-tool file
   - index.json's `latest` exists in the per-tool file
 
@@ -20,6 +21,11 @@ from pathlib import Path
 
 CHECKSUM_RE = re.compile(r"^sha256:[0-9a-f]{64}$")
 REQUIRED_ARTIFACT_KEYS = {"url", "checksum", "size", "strip"}
+
+# Tools whose every version must declare a runtime dependency. Clang ships an
+# lldb linked against a specific libpython, so an entry without depends.python
+# installs a broken lldb — see LLVM_PYTHON_DEPENDS in build_manifest_split.py.
+REQUIRED_DEPENDS = {"clang": "python"}
 
 
 def validate_artifact(artifact: dict, path: str) -> list[str]:
@@ -62,10 +68,23 @@ def validate_tool_file(file_path: Path) -> tuple[list[str], dict]:
         return [f"{file_path}: top level is not an object"], {}
 
     errors = []
+    required_dep = REQUIRED_DEPENDS.get(file_path.stem)
     for version, platforms in data.items():
         if not isinstance(platforms, dict):
             errors.append(f"{file_path}:{version}: platforms not an object")
             continue
+        if required_dep:
+            depends = platforms.get("depends")
+            value = depends.get(required_dep) if isinstance(depends, dict) else None
+            if value is None:
+                errors.append(
+                    f"{file_path}:{version}: missing depends.{required_dep}"
+                )
+            elif value == "FILL_IN":
+                errors.append(
+                    f"{file_path}:{version}: depends.{required_dep} is FILL_IN "
+                    f"(add the major to LLVM_PYTHON_DEPENDS in build_manifest_split.py)"
+                )
         for key, value in platforms.items():
             if key == "depends":
                 if not isinstance(value, dict):

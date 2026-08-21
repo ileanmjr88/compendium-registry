@@ -54,6 +54,25 @@ PLATFORMS = {
     "darwin": ["amd64", "arm64"],
 }
 
+# CPython minor that each LLVM major's prebuilt liblldb links against. LLVM pins
+# this in the build-release-package job of .github/workflows/release-binaries.yml,
+# so it is stable across a major's patch releases but can move between majors.
+# Clients need this to install a working lldb, so a version without it is broken.
+#
+# To confirm a new major, extract liblldb from the Linux-X64 tarball and read its
+# DT_NEEDED entries (the file must be on disk; readelf cannot seek a pipe):
+#
+#   curl -sL "<Linux-X64 tarball url>" \
+#     | tar -xJ --wildcards -O '*/lib/liblldb.so.*' > /tmp/liblldb.so
+#   readelf -d /tmp/liblldb.so | grep -i python
+#
+# Do not pass --occurrence to tar; it stops the stream before the match.
+LLVM_PYTHON_DEPENDS = {
+    "20": "3.10",
+    "21": "3.10",
+    "22": "3.11",
+}
+
 # ---------------------------------------------------------------------------
 # HTTP helpers
 # ---------------------------------------------------------------------------
@@ -374,8 +393,16 @@ def fetch_llvm() -> dict:
                     break
 
         if platforms:
-            result[version] = platforms
-            print(f"  ✓ LLVM/Clang {version}")
+            major = version.split(".")[0]
+            python_dep = LLVM_PYTHON_DEPENDS.get(major, "FILL_IN")
+            entry = {"depends": {"python": python_dep}}
+            entry.update(platforms)
+            result[version] = entry
+            if python_dep == "FILL_IN":
+                print(f"  ! LLVM/Clang {version}: unknown libpython for major {major} "
+                      f"— add it to LLVM_PYTHON_DEPENDS")
+            else:
+                print(f"  ✓ LLVM/Clang {version}")
 
     return result
 

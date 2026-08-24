@@ -1,6 +1,6 @@
 {
   "version": "2",
-  "updated_at": "2026-08-21",
+  "updated_at": "2026-08-24",
   "languages": {
     "aarch64-none-elf-gcc": {
       "latest": "15.2.1-1.1",
@@ -50,8 +50,8 @@
       "file": "tools/bison.json"
     },
     "ccache": {
-      "latest": "4.13.6",
-      "versions": 33,
+      "latest": "4.14",
+      "versions": 34,
       "file": "tools/ccache.json"
     },
     "cmake": {
@@ -65,8 +65,8 @@
       "file": "tools/golangci-lint.json"
     },
     "goreleaser": {
-      "latest": "2.17.1",
-      "versions": 27,
+      "latest": "2.18.0",
+      "versions": 28,
       "file": "tools/goreleaser.json"
     },
     "m4": {

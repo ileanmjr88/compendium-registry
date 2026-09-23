@@ -7378,5 +7378,65 @@
         "strip": 1
       }
     }
+  },
+  "1.27.1": {
+    "darwin": {
+      "amd64": {
+        "url": "https://go.dev/dl/go1.27.1.darwin-amd64.tar.gz",
+        "checksum": "sha256:8f8f52c6649542cf027bbc9b9c68d1ec042f9f34808a40413f0b8b3f66f3caa4",
+        "size": 71621873,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://go.dev/dl/go1.27.1.darwin-arm64.tar.gz",
+        "checksum": "sha256:ee215d57e0ec269c60cc9ceca68e6bda321ba9ee5afe24f4b0988703c2d87d12",
+        "size": 68100347,
+        "strip": 1
+      }
+    },
+    "linux": {
+      "amd64": {
+        "url": "https://go.dev/dl/go1.27.1.linux-amd64.tar.gz",
+        "checksum": "sha256:63d339f0da5ab53635a56f2490a7984dfe12dfcff22ad749f63edaf590168445",
+        "size": 70553950,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://go.dev/dl/go1.27.1.linux-arm64.tar.gz",
+        "checksum": "sha256:3450b45a3f9ee8568792736a5c5e70a1f2e9b36c35a8f74958c03e51d7d92bec",
+        "size": 67009954,
+        "strip": 1
+      }
+    }
+  },
+  "1.26.8": {
+    "darwin": {
+      "amd64": {
+        "url": "https://go.dev/dl/go1.26.8.darwin-amd64.tar.gz",
+        "checksum": "sha256:186be014105aa6542b767d2c6ed5cca10a0214bdff809ef1724022a8c7894150",
+        "size": 67759394,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://go.dev/dl/go1.26.8.darwin-arm64.tar.gz",
+        "checksum": "sha256:a012b25b571bd0138a03dcd25375ceba866fe5ca822f426d2c66a4de56fd3f4b",
+        "size": 64626620,
+        "strip": 1
+      }
+    },
+    "linux": {
+      "amd64": {
+        "url": "https://go.dev/dl/go1.26.8.linux-amd64.tar.gz",
+        "checksum": "sha256:d0f743b33e8d8945e6b1f432edd15785c70507121d6e2a723b21285eddf8b57b",
+        "size": 66897291,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://go.dev/dl/go1.26.8.linux-arm64.tar.gz",
+        "checksum": "sha256:211ffced9dcb9633a55eac6364816ec0ddd951389a740e88fa8b3337971bdda0",
+        "size": 63811405,
+        "strip": 1
+      }
+    }
   }
 }

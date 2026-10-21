@@ -2458,5 +2458,155 @@
         "strip": 1
       }
     }
+  },
+  "0.13.4": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/astral-sh/uv/releases/download/0.13.4/uv-x86_64-unknown-linux-gnu.tar.gz",
+        "checksum": "sha256:2b428396f12572d4429cf210ca234dd599a33b3af0958a4d5ed569d63e3f344f",
+        "size": 16653835,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/astral-sh/uv/releases/download/0.13.4/uv-aarch64-unknown-linux-gnu.tar.gz",
+        "checksum": "sha256:1ae72b4718729e2ccc4f1ae2c6d1e531ca8467800e0546e9130b3886023a60ab",
+        "size": 15769557,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/astral-sh/uv/releases/download/0.13.4/uv-x86_64-apple-darwin.tar.gz",
+        "checksum": "sha256:7be2dcd316122f4b3e5a0a7889f6248266c14425374e105ff7dc9779184603a6",
+        "size": 17217446,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/astral-sh/uv/releases/download/0.13.4/uv-aarch64-apple-darwin.tar.gz",
+        "checksum": "sha256:e0b1d4743ce64c55d9f0f4a444afa6b81125680070ee04e853fcd0f6c1ebf8f1",
+        "size": 14326193,
+        "strip": 1
+      }
+    }
+  },
+  "0.13.3": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/astral-sh/uv/releases/download/0.13.3/uv-x86_64-unknown-linux-gnu.tar.gz",
+        "checksum": "sha256:e4f169ec380f1793b898a6f1fcbacd22db25cf7ca0349a6e96ffb85b69998d04",
+        "size": 16767662,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/astral-sh/uv/releases/download/0.13.3/uv-aarch64-unknown-linux-gnu.tar.gz",
+        "checksum": "sha256:611ff684f193a84d2fdad29c5f12505d02ece94984c7c982cdde950eba5c95b9",
+        "size": 15857962,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/astral-sh/uv/releases/download/0.13.3/uv-x86_64-apple-darwin.tar.gz",
+        "checksum": "sha256:5c35634957db7ebd9c2e4cc6c66b8979fb2c26a6b0dbd1d214d6acbac4033a89",
+        "size": 17182824,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/astral-sh/uv/releases/download/0.13.3/uv-aarch64-apple-darwin.tar.gz",
+        "checksum": "sha256:bf1e4fb6f5f5079a2902ad3f3a9e2d337575b226a1378f2449d8404353650608",
+        "size": 14309841,
+        "strip": 1
+      }
+    }
+  },
+  "0.13.2": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/astral-sh/uv/releases/download/0.13.2/uv-x86_64-unknown-linux-gnu.tar.gz",
+        "checksum": "sha256:e14d48c117ec33601d6f860dda47aa5ea490d77a5a9ef770529c448fa6747d9f",
+        "size": 16654381,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/astral-sh/uv/releases/download/0.13.2/uv-aarch64-unknown-linux-gnu.tar.gz",
+        "checksum": "sha256:3143e25fccac6f81b3b400792caa2ec431a5e8824d855cde9550a25f0fac8ea0",
+        "size": 15862025,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/astral-sh/uv/releases/download/0.13.2/uv-x86_64-apple-darwin.tar.gz",
+        "checksum": "sha256:08f0cb0d63a012ffa07659d1872030c1110fccdd665d49bc3683b0ca262b4a62",
+        "size": 17055733,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/astral-sh/uv/releases/download/0.13.2/uv-aarch64-apple-darwin.tar.gz",
+        "checksum": "sha256:4a5d878cd0db3a57d79eec638c275e71c394e10533ae54c77b33d940866f53b7",
+        "size": 14195937,
+        "strip": 1
+      }
+    }
+  },
+  "0.13.1": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/astral-sh/uv/releases/download/0.13.1/uv-x86_64-unknown-linux-gnu.tar.gz",
+        "checksum": "sha256:eadd9d27c134ab5ac1ffd4473b97a741407f3ea238288f03121fc4deddf90220",
+        "size": 16738706,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/astral-sh/uv/releases/download/0.13.1/uv-aarch64-unknown-linux-gnu.tar.gz",
+        "checksum": "sha256:9041c73c99fdc5892cf128140beb354eca9231d502068cc36e6cb53a8e59ad14",
+        "size": 15838367,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/astral-sh/uv/releases/download/0.13.1/uv-x86_64-apple-darwin.tar.gz",
+        "checksum": "sha256:bb7b805bdcf3d0bc8c74ceb94569e6b3e8aa35bd492acdbb9d46bf46d9d4ff6b",
+        "size": 17491796,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/astral-sh/uv/releases/download/0.13.1/uv-aarch64-apple-darwin.tar.gz",
+        "checksum": "sha256:cfe454573412ff7380d15fc7dae5997ab53ffce72fce0a78e91ddbc84001acd2",
+        "size": 14280170,
+        "strip": 1
+      }
+    }
+  },
+  "0.13.0": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/astral-sh/uv/releases/download/0.13.0/uv-x86_64-unknown-linux-gnu.tar.gz",
+        "checksum": "sha256:1468ebd5a5541121837c5a2817b9972ba6090fa6caa3d142620850a47fb75154",
+        "size": 17380567,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/astral-sh/uv/releases/download/0.13.0/uv-aarch64-unknown-linux-gnu.tar.gz",
+        "checksum": "sha256:3ccfb6af6e242433eb552f7d9676abd5412c6595c497e990d9c8cb7b5bd4d2c3",
+        "size": 16501347,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/astral-sh/uv/releases/download/0.13.0/uv-x86_64-apple-darwin.tar.gz",
+        "checksum": "sha256:5f44dcbde809b632f47c36fadb241cb4d6f9af71d0c8f172b5d2026d3dde742c",
+        "size": 18138509,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/astral-sh/uv/releases/download/0.13.0/uv-aarch64-apple-darwin.tar.gz",
+        "checksum": "sha256:a9c1b29002cf3c83f07fa9cd8a887a3be0107d90e23189721221e7257db8e3d6",
+        "size": 14692549,
+        "strip": 1
+      }
+    }
   }
 }

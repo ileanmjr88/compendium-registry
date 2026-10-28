@@ -688,5 +688,65 @@
         "strip": 0
       }
     }
+  },
+  "10.34.9": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/pnpm/pnpm/releases/download/v10.34.9/pnpm-linux-x64",
+        "checksum": "sha256:3ec79240658f0ee4e8977f21ee2c598c7a8b8d06b86dc564f2ec6cb099fd8ac2",
+        "size": 97450134,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/pnpm/pnpm/releases/download/v10.34.9/pnpm-linux-arm64",
+        "checksum": "sha256:85abd31b96964e6510cecb3b366ba024287191e0ee5978e5a9e2d3beb4a377d1",
+        "size": 92038982,
+        "strip": 0
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/pnpm/pnpm/releases/download/v10.34.9/pnpm-macos-x64",
+        "checksum": "sha256:58b35a997d2d5167ef60e24b6ac0d71b76a5e1a4b3346cb1075b1dface50bd32",
+        "size": 94415104,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/pnpm/pnpm/releases/download/v10.34.9/pnpm-macos-arm64",
+        "checksum": "sha256:984b2f4316de371dc314243649e5f9ea392195d541dedbfdb990dc24d6c6e1a2",
+        "size": 91219744,
+        "strip": 0
+      }
+    }
+  },
+  "10.34.8": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/pnpm/pnpm/releases/download/v10.34.8/pnpm-linux-x64",
+        "checksum": "sha256:587a68d65c08a44d3d043afe3fb13b0d60fe7f6c81fe399901786ec51420660e",
+        "size": 97450221,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/pnpm/pnpm/releases/download/v10.34.8/pnpm-linux-arm64",
+        "checksum": "sha256:9c31ac17ed85e29f35ca1e5f2ba7b3e6215402977dfd65c21859d3f6ff0546d7",
+        "size": 92039029,
+        "strip": 0
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/pnpm/pnpm/releases/download/v10.34.8/pnpm-macos-x64",
+        "checksum": "sha256:5dba55ba058d592aabe00c2261762bf895f0ca79aed5a81497e79ba1a16977d4",
+        "size": 94415104,
+        "strip": 0
+      },
+      "arm64": {
+        "url": "https://github.com/pnpm/pnpm/releases/download/v10.34.8/pnpm-macos-arm64",
+        "checksum": "sha256:b755b44ca6439a74e2a4b4a965adc5148b318634554b0e5fac9d78f4d00e7722",
+        "size": 91219840,
+        "strip": 0
+      }
+    }
   }
 }

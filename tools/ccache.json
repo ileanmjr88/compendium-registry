@@ -792,5 +792,35 @@
         "strip": 1
       }
     }
+  },
+  "4.14.3": {
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.14.3/ccache-4.14.3-linux-x86_64-glibc.tar.gz",
+        "checksum": "sha256:9ac91421d7372565118cb421e4dc2d03f273a11ab81ab9e051fd1cb4577222d7",
+        "size": 1813556,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.14.3/ccache-4.14.3-linux-aarch64-glibc.tar.gz",
+        "checksum": "sha256:5af4c73f9a2c2ed27c17e48cf06868202738fecf8036cfbcdd7eb679930670cb",
+        "size": 1762133,
+        "strip": 1
+      }
+    },
+    "darwin": {
+      "amd64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.14.3/ccache-4.14.3-darwin.tar.gz",
+        "checksum": "sha256:764dd2a8100ff83e6bbd7b9a1e2016cc401be34bee8a70ea99698186622c34d5",
+        "size": 2233488,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/ccache/ccache/releases/download/v4.14.3/ccache-4.14.3-darwin.tar.gz",
+        "checksum": "sha256:764dd2a8100ff83e6bbd7b9a1e2016cc401be34bee8a70ea99698186622c34d5",
+        "size": 2233488,
+        "strip": 1
+      }
+    }
   }
 }

@@ -809,5 +809,24 @@
         "strip": 1
       }
     }
+  },
+  "23.1.6": {
+    "depends": {
+      "python": "3.14"
+    },
+    "linux": {
+      "amd64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-23.1.6/LLVM-23.1.6-Linux-X64.tar.xz",
+        "checksum": "sha256:bd4d1c434ff69ef06d19e7934c04708da677e5f2eb51f5bcf052ab91818f0094",
+        "size": 2014723508,
+        "strip": 1
+      },
+      "arm64": {
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-23.1.6/LLVM-23.1.6-Linux-ARM64.tar.xz",
+        "checksum": "sha256:e9daa167da28b9e31d30046f05f98e3e7da3647cdbe1c1863e8b223c07ccf291",
+        "size": 1828682280,
+        "strip": 1
+      }
+    }
   }
 }

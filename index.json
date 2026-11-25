@@ -1,6 +1,6 @@
 {
   "version": "2",
-  "updated_at": "2026-11-20",
+  "updated_at": "2026-11-25",
   "languages": {
     "aarch64-none-elf-gcc": {
       "latest": "15.2.1-1.1",
@@ -105,8 +105,8 @@
       "file": "tools/ruff.json"
     },
     "uv": {
-      "latest": "0.13.9",
-      "versions": 92,
+      "latest": "0.13.10",
+      "versions": 93,
       "file": "tools/uv.json"
     },
     "vcpkg": {
